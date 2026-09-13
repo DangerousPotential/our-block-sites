@@ -34,7 +34,7 @@ The earlier [forest prop record](../public/assets/party/FOREST-ART.md) shows ano
 
 ## From world references to Blender scenes
 
-During development, Astra and the Product Design skill helped iterate on generated 2D world references before constructing and refining Blender scenes. Generated surface artwork and sprite residents were then integrated with native geometry and scripted neighbourhood activity. The intended result was recognisable daily life, rather than a collection of buildings alone.
+During development, Astra and the Product Design skill helped iterate on generated 2D world references before constructing and refining Blender scenes. Generated surface artwork and sprite residents were then integrated with native geometry and scripted neighbourhood activity. The scenes centre on recognisable daily life: residents gathering, playing and working.
 
 The public snapshot contains the playable [1950s world](../public/assets/trip/pastimes.glb), [1987 world](../public/assets/trip/estate.glb), layout data and scene code. Historical reference images, research notes and editable Blender authoring files are outside this public snapshot. The [lobby art notes](../public/assets/lobby/ART.md) distinguish illustrative backdrops from the researched 3D worlds. These scenes are stylised composites, not geographically exact reconstructions.
 
@@ -48,4 +48,4 @@ The [download manifest](../lib/storage/download-assets.json) records asset sizes
 
 Astra helped turn broad product direction into world exploration, minigame integration, QR phone joining, shared room state, controls and feedback. Development included visual revisions, gameplay checks, browser testing and subsequent fixes to phone behaviour and delivery. The project was iterative; the public repository and hosted release can represent different checkpoints.
 
-The contribution is a complete creative-to-code workflow: the team steered the experience, Astra coordinated and implemented it, GPT Image 2.5 supplied the image work, and Blender provided the 3D scene assets. Audio and external media remain separately credited.
+The team steered the experience through references and feedback. Astra helped implement it, GPT Image 2.5 supplied the image work, and Blender provided the 3D scene assets. Audio and external media remain separately credited.
