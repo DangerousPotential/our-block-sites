@@ -1,0 +1,362 @@
+[
+  {
+    "source": "assets/activities/coaster.glb",
+    "output": "assets/activities/coaster.glb",
+    "before": 663056,
+    "after": 642616,
+    "originalSha256": "5cb7670d04d63d52c6d40cda61ef756cab484316a362c0d60547fb8c541c89b4",
+    "sha256": "0eb2dc6d31f601afb1183b3746103993c38eb39bdd1785fc0425be8c69890def",
+    "profile": "lossless"
+  },
+  {
+    "source": "assets/activities/coaster.png",
+    "output": "assets/activities/coaster.webp",
+    "before": 1095442,
+    "after": 473782,
+    "originalSha256": "07de1a5c2e0f84d93c1dc9cd95ec1b44da194b038cdce1f8fd7a9e11085ab78b",
+    "sha256": "ad8e979c417263019d3dc76aec9d1822388b94f5fcebb1acde8719d47bc3f4f0",
+    "profile": "lossless"
+  },
+  {
+    "source": "assets/activities/garden.glb",
+    "output": "assets/activities/garden.glb",
+    "before": 217148,
+    "after": 146272,
+    "originalSha256": "b30551a3ea055545cfc92478a49af13f5e531175a6fa28f77361292747e3545d",
+    "sha256": "97cd36b23217376f19ad207ec381e735a9a60574e8650b5daa7df82807eeca04",
+    "profile": "lossless"
+  },
+  {
+    "source": "assets/activities/garden.png",
+    "output": "assets/activities/garden.webp",
+    "before": 1090771,
+    "after": 472332,
+    "originalSha256": "c8292aaa156bac13b35b2e5f1e36d91f5b81697bf3626e6c2176b8b2c8912818",
+    "sha256": "4faf5bd4848707b13a35f6fc5232f5d165b19412ebf61d176eb6f596bcba2e93",
+    "profile": "lossless"
+  },
+  {
+    "source": "assets/activities/kopi.glb",
+    "output": "assets/activities/kopi.glb",
+    "before": 327844,
+    "after": 219412,
+    "originalSha256": "dc1ddb5f647a6ba0fcd09bd42129ffc0670d57d87f1addf3b3733edf8cea20c3",
+    "sha256": "bd3449fd3a7941257e81eb62bd0e351ebc56ca62f742063e004cfeb0d6a9c00a",
+    "profile": "lossless"
+  },
+  {
+    "source": "assets/activities/kopi.png",
+    "output": "assets/activities/kopi.webp",
+    "before": 1091356,
+    "after": 470070,
+    "originalSha256": "fad2dcdcf1c432b1af34a522c0c5cbfe9f1792f963661de11c18bae47e2d2318",
+    "sha256": "faf2f0bcbfc21cbe387f42b531dca9e5883ffffb03ddbe6fe318a1bb008dbd7c",
+    "profile": "lossless"
+  },
+  {
+    "source": "assets/activities/market.glb",
+    "output": "assets/activities/market.glb",
+    "before": 265456,
+    "after": 166292,
+    "originalSha256": "c025b21b64d5ca348f91031cc97463e4877e5ccdd160996e6c1360fb1cd4203a",
+    "sha256": "790220872be6c89988aa1d3562599d481c6b6271323be982ad1ee3842d6991f6",
+    "profile": "lossless"
+  },
+  {
+    "source": "assets/activities/market.png",
+    "output": "assets/activities/market.webp",
+    "before": 1077189,
+    "after": 464454,
+    "originalSha256": "89d2431028e4194675b4754364f76b01b150bf6fc54961abd197e66708caed9f",
+    "sha256": "6c68f14f96d6a6b7335dcc6c8704680a832d264f9e792216aa3afa540e70dc81",
+    "profile": "lossless"
+  },
+  {
+    "source": "assets/activities/playground.glb",
+    "output": "assets/activities/playground.glb",
+    "before": 105580,
+    "after": 101668,
+    "originalSha256": "7b1403038cbe2210c30f857b4fc28c47128280a757f0364bc881fb176e826ef5",
+    "sha256": "133973166779d0508bb9b34f5ebbfa9cdfd1e3513fac94826cd019dfe95d2d41",
+    "profile": "lossless"
+  },
+  {
+    "source": "assets/activities/playground.png",
+    "output": "assets/activities/playground.webp",
+    "before": 1050708,
+    "after": 447712,
+    "originalSha256": "27c135b7d69e17ef06d9cf4f737bf7d43b4871ee8e8bba1d93e46cb07209d91d",
+    "sha256": "c16bd93b1d76191215ee73d20777d6d49e3fe49a09713208c268b0f55c97d375",
+    "profile": "lossless"
+  },
+  {
+    "source": "assets/activities/stage.glb",
+    "output": "assets/activities/stage.glb",
+    "before": 208336,
+    "after": 119684,
+    "originalSha256": "e5707de43d262272057a4a56ef37e0b727e71260d94bc1bbb943503aa044b24c",
+    "sha256": "18c5f2532911a96e53dc043678439db057d1067d4b5ef5223db34fd7b0464c19",
+    "profile": "lossless"
+  },
+  {
+    "source": "assets/activities/stage.png",
+    "output": "assets/activities/stage.webp",
+    "before": 1102312,
+    "after": 480962,
+    "originalSha256": "0f0c635b5ec2992946f3c30e7bd95e0b0ae05dc8be1b7ef8d3f35b33b7565ed3",
+    "sha256": "280728841e97d8e723a291d895b1dd03555230cb488268768b463768f550fe8f",
+    "profile": "lossless"
+  },
+  {
+    "source": "assets/courtyard.png",
+    "output": "assets/courtyard.webp",
+    "before": 2146387,
+    "after": 207640,
+    "originalSha256": "7ef9ab1418b2333775c40d6b68248668a020791179db0fff2140cac7b97ca956",
+    "sha256": "95caad44bdb2071ee2b204f0b64b2aee1e15cd5194148b4031a67ea7f7d8a0c6",
+    "profile": "webp85"
+  },
+  {
+    "source": "assets/eraser/classroom-blue-desk.png",
+    "output": "assets/eraser/classroom-blue-desk.webp",
+    "before": 2059931,
+    "after": 1505566,
+    "originalSha256": "61855d96bdd75a98d6096ea12e5fff5f9a036aba1cb109b7828814d9eea74a94",
+    "sha256": "f33fe92b0149eaf32146877c20fb849113cff3768d38bbe6e9ed9786b6194d80",
+    "profile": "lossless"
+  },
+  {
+    "source": "assets/eraser/opponent-poses.png",
+    "output": "assets/eraser/opponent-poses.webp",
+    "before": 1431643,
+    "after": 952274,
+    "originalSha256": "75a60911275084f7ac6ae1e98481a6ccd814b578787cbace466b321f155729cc",
+    "sha256": "bb6539a4533aed1999b4206d8e96e394afe40917a1b4a7c7cb6f4adc2dc94e76",
+    "profile": "lossless"
+  },
+  {
+    "source": "assets/eraser/showdown-scene.png",
+    "output": "assets/eraser/showdown-scene.webp",
+    "before": 1527202,
+    "after": 1159236,
+    "originalSha256": "d464c5c2f83bb19cc2adf54c9027dbbd86c006aad98b1d78283582999956c419",
+    "sha256": "d3f0a06dab1bcea7f58a9b9bfb4ccddfd16aa49f4ea4aed05320c629b3fda144",
+    "profile": "lossless"
+  },
+  {
+    "source": "assets/lobby/1950.webp",
+    "output": "assets/lobby/1950.webp",
+    "before": 386914,
+    "after": 323282,
+    "originalSha256": "64fdc106760e07931867e2f866ec9af3943d1d7f2f625ab0fcecd01cf69cdd63",
+    "sha256": "dc9a351354a498a0403359fca3870f3d375e25ac95b4c25294b9c6a80eec2e8f",
+    "profile": "webp85"
+  },
+  {
+    "source": "assets/lobby/1987.webp",
+    "output": "assets/lobby/1987.webp",
+    "before": 443768,
+    "after": 381734,
+    "originalSha256": "c28860c079c45e241a819dee5d13b671cb8aaf7cb5a65f425f4290c2158a1082",
+    "sha256": "84c23acd19395ca883328d8213fa35ae4369a6d2eff54b291cfd4d02608b5852",
+    "profile": "webp85"
+  },
+  {
+    "source": "assets/neighbourhood/estate.glb",
+    "output": "assets/neighbourhood/estate.glb",
+    "before": 7956772,
+    "after": 4880796,
+    "originalSha256": "03103edccf60e04c212192a1aafcbfc41d9f238aa46def50f8d5524d135adf97",
+    "sha256": "b7877909965990433bb8812d01239ed35d303d5c7d60bb31f47a6b5164808a37",
+    "profile": "lossless"
+  },
+  {
+    "source": "assets/neighbourhood/estate.png",
+    "output": "assets/neighbourhood/estate.webp",
+    "before": 2183966,
+    "after": 1123156,
+    "originalSha256": "e6ef4c457246cb34eea4e26621887503f436c8f26582cc1520133df26f1c848c",
+    "sha256": "a0c070df80ae5f07e472134771808fe73aa887921d6ba8e069290f9fd669f3b5",
+    "profile": "lossless"
+  },
+  {
+    "source": "assets/neighbours.png",
+    "output": "assets/neighbours.webp",
+    "before": 1172972,
+    "after": 881158,
+    "originalSha256": "46354f6514bfeeb24274966aa41eb01f8ffa81857f1357131ae30f6bb31ae6fb",
+    "sha256": "a68b7b1cf18aa9f7efe32852736f6c3e0ca845e3a110fcc43c34e3a40bff3c1e",
+    "profile": "lossless"
+  },
+  {
+    "source": "assets/party/ellinia-background.png",
+    "output": "assets/party/ellinia-background.webp",
+    "before": 2633441,
+    "after": 289250,
+    "originalSha256": "0d65a6cdc87cb6a91834bca809feef852e5fb290261a75334489e10f7ed6f092",
+    "sha256": "610b122e6e3505c032990d4f35c60e7e8ab1975017f64d43211d9800dd70dae4",
+    "profile": "webp85"
+  },
+  {
+    "source": "assets/party/forest-props-key.png",
+    "output": "assets/party/forest-props-key.webp",
+    "before": 2142086,
+    "after": 1552980,
+    "originalSha256": "b250e75cf2e44494325198ee564f319c5927b373bf7c23f79b2da28a4af255ed",
+    "sha256": "ba4411dc8297e8393a89a8c686128106a97dbc96a92bc8bed37e633066004053",
+    "profile": "lossless"
+  },
+  {
+    "source": "assets/party/game-worlds.png",
+    "output": "assets/party/game-worlds.webp",
+    "before": 2942646,
+    "after": 404616,
+    "originalSha256": "53ec16e2d00a2fca29db7560cd58a37025cd34cf9a90fac4e34fd19e73f69d8b",
+    "sha256": "bf9babe5fabd1c5411a95a90b602059762e0944fd1858ea624f39d7249185023",
+    "profile": "webp85"
+  },
+  {
+    "source": "assets/party/getai-reactions.png",
+    "output": "assets/party/getai-reactions.webp",
+    "before": 2002554,
+    "after": 1556938,
+    "originalSha256": "384d16bbe0455e61f1795b3bb4a29f6745347974e36a3652d71e3d99c319c723",
+    "sha256": "5461e542f8524f2293c584bec3fb81c4faacffbde946301ddd0b088e4e062a0d",
+    "profile": "lossless"
+  },
+  {
+    "source": "assets/party/getai-singapore.png",
+    "output": "assets/party/getai-singapore.webp",
+    "before": 2328223,
+    "after": 236664,
+    "originalSha256": "5b750e09b29c24825dbe9f43620a3e3fac1339caded876e8a10c26246eaa7deb",
+    "sha256": "1301fa220c99ea219ce98e13879012affc12d857eeff9b11ebeedd3a93f40af0",
+    "profile": "webp85"
+  },
+  {
+    "source": "assets/party/hawker-dishes.png",
+    "output": "assets/party/hawker-dishes.webp",
+    "before": 2063885,
+    "after": 1449550,
+    "originalSha256": "15b4241732285452bdbf927f7d225a4f2a7939c832f571718ac0add3828fe490",
+    "sha256": "f526bb033eef94a4b226484f6bc680b47d74cf72b6f67d6424d31be91bf53987",
+    "profile": "lossless"
+  },
+  {
+    "source": "assets/party/kopi-props-key.png",
+    "output": "assets/party/kopi-props-key.webp",
+    "before": 2263322,
+    "after": 1631916,
+    "originalSha256": "e1ae4442375cdaf3e59ef1f612ec23ffca677b44d44d659498045d0c2f04a0a3",
+    "sha256": "c7fc135f24208af745e33ae9ab8e8e93aff1d0b37823076a1757905338ad282e",
+    "profile": "lossless"
+  },
+  {
+    "source": "assets/party/lantern-props-key.png",
+    "output": "assets/party/lantern-props-key.webp",
+    "before": 1752883,
+    "after": 1247662,
+    "originalSha256": "36eec0da1014b9f897ff25c02df80b0a4cd4e16b81799f9b45dcfa6d83b300b2",
+    "sha256": "cd4698206dca78d296bf2872c5926b94fc94b35033128ff067195df863a72f23",
+    "profile": "lossless"
+  },
+  {
+    "source": "assets/party/singapore-skyways.png",
+    "output": "assets/party/singapore-skyways.webp",
+    "before": 3057037,
+    "after": 417690,
+    "originalSha256": "c5ebe32b7a92811001d8158a06f16bd67c224c6d3ef058c802a8e45960e838c1",
+    "sha256": "90d4d3df46b61dbb0af406d15bdc295474c9175c72589eb8f5ec26e5f7df67d1",
+    "profile": "webp85"
+  },
+  {
+    "source": "assets/party/teh-tarik-close-pourer.png",
+    "output": "assets/party/teh-tarik-close-pourer.webp",
+    "before": 1771205,
+    "after": 1331754,
+    "originalSha256": "a328c09bbeb81218676bda80255d5d805437ad93dbef53abb50d7075a77d1506",
+    "sha256": "d9b6f8df8604371b583531c891678f3502d20adeb3b93e2d87de75e87b280b61",
+    "profile": "lossless"
+  },
+  {
+    "source": "assets/party/teh-tarik-empty-stall.png",
+    "output": "assets/party/teh-tarik-empty-stall.webp",
+    "before": 1919326,
+    "after": 190838,
+    "originalSha256": "ab96bd469a0425e7f725d14fce74daca5cecc82fbc1213fc8970d9e2a4758b69",
+    "sha256": "d99eaebbaeef2bf651e2be0624ac0d10ec1e3e2fae4ff988f52d2e3b0b5b6334",
+    "profile": "webp85"
+  },
+  {
+    "source": "assets/party/teh-tarik-stallholder-sprite.png",
+    "output": "assets/party/teh-tarik-stallholder-sprite.webp",
+    "before": 1855381,
+    "after": 1445008,
+    "originalSha256": "202486d99fe41b0554729d0a5d426532d92e35ca24c752d53b055f93dc038e59",
+    "sha256": "7ca00d878eae3a9562d0d44bfe0ca5cd0dd30a12704ebccf8bdda32196905bc5",
+    "profile": "lossless"
+  },
+  {
+    "source": "assets/pets.png",
+    "output": "assets/pets.webp",
+    "before": 940404,
+    "after": 711260,
+    "originalSha256": "00b228d0d3f4542f6fa28fc04c0c9f7829382d668cabd6eeec7f2628835e3a0b",
+    "sha256": "04d17099e439914a7b1047daabc8b3644a3038eb24e925fe66fa467133a592c2",
+    "profile": "lossless"
+  },
+  {
+    "source": "assets/trip/estate.glb",
+    "output": "assets/trip/estate.glb",
+    "before": 9377416,
+    "after": 2980684,
+    "originalSha256": "a1d6432f40ceb62d34bbf1c70f9c9b4fab90c9990964417d80835045efb8c0b7",
+    "sha256": "7b958874b62402e21d6e0145866dcf1ebb60b2b048e8c6dd8ad06a3238ecafd4",
+    "profile": "draco20"
+  },
+  {
+    "source": "assets/trip/micro-props.glb",
+    "output": "assets/trip/micro-props.glb",
+    "before": 593108,
+    "after": 421976,
+    "originalSha256": "757dbfef6574fe4d24425533164eed190c6484590e88c42ac61362e1ea09f822",
+    "sha256": "aea1f6352905e7a2f8717444819a2fc5f2cd4ae024fbd366b507fcec21d885ea",
+    "profile": "lossless"
+  },
+  {
+    "source": "assets/trip/pastimes.glb",
+    "output": "assets/trip/pastimes.glb",
+    "before": 19279908,
+    "after": 1913368,
+    "originalSha256": "734e500d523de28442c86869028f25a6f63923e66a4cb36e5a7ac5b070edea70",
+    "sha256": "2d225f77af0a807d3b5b5e9c2aecb4e55afb2fcfbbc65f8e62a839f1940b3c4e",
+    "profile": "draco20"
+  },
+  {
+    "source": "assets/trip/period-visitors.glb",
+    "output": "assets/trip/period-visitors.glb",
+    "before": 265876,
+    "after": 164380,
+    "originalSha256": "8c9dc17ef38f66b48697af814a633df57dc260dad24cf54731f6975e5adf6162",
+    "sha256": "080da17432e4b81e9ca0109565eac1fc254001cc496e2445cc914ba13812ef39",
+    "profile": "lossless"
+  },
+  {
+    "source": "assets/worlds/estate.glb",
+    "output": "assets/worlds/estate.glb",
+    "before": 914136,
+    "after": 511748,
+    "originalSha256": "68acb66b13455ecc88615659d5d285193b1ee0eb4f67e4d7e58aee0a626554cb",
+    "sha256": "313160207659e5f98142c5dfabdd07942423397193dfaab3aeccfb1766a52cce",
+    "profile": "lossless"
+  },
+  {
+    "source": "assets/worlds/estate.png",
+    "output": "assets/worlds/estate.webp",
+    "before": 1367337,
+    "after": 622022,
+    "originalSha256": "7356720a6070d5ebb56aecd2581786a486dcc5a23325b6fd39317882d96c46af",
+    "sha256": "a52b083d355d09a55b29f41ca27459151ae0f38471831fce0d0aa2710d767f2b",
+    "profile": "lossless"
+  }
+]

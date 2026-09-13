@@ -1,0 +1,14 @@
+Our Block — original instrumental era sketches
+
+Morning under the palms (kampong): plucked melody, soft shaker and bird-like accents.
+Kopi at golden hour (estate): playful keyboard motif, rounded bass and syncopated percussion.
+The last train home (town): electric-keyboard-like tones and a laid-back beat.
+Lights over the heartland (garden): spacious bell accents, warm chords and a soft pulse.
+
+Synthesised specifically for this project by scripts/build-era-audio.mjs.
+No third-party samples, copyrighted melodies, historical recordings or Singapore-song mashups are bundled in these four files.
+These are stylised game scores, not claims of authentic historical music.
+
+Optional external listening reference (not bundled):
+The TENG Ensemble — Singapore National Day Parade Theme Song Medley (1984–2025)
+https://en.mapletree.com.sg/newsroom/the-teng-company-with-support-from-mapletree-releases-first-ever-ndp-medley-music-video-featuring-32-theme-songs/

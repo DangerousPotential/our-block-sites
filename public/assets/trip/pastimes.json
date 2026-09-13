@@ -1,0 +1,398 @@
+{
+  "id": "pastimes",
+  "bounds": {
+    "x": 20,
+    "z": 16
+  },
+  "groundSize": {
+    "x": 42,
+    "z": 35
+  },
+  "spawn": {
+    "x": 0,
+    "z": 5
+  },
+  "board": [
+    {
+      "x": 4.0,
+      "z": 5.0
+    },
+    {
+      "x": 3.8379718944579895,
+      "z": 5.5634651136828595
+    },
+    {
+      "x": 3.365014131324725,
+      "z": 6.081281634911195
+    },
+    {
+      "x": 2.6194429357811404,
+      "z": 6.511499148708516
+    },
+    {
+      "x": 1.6616600520075457,
+      "z": 6.819263990709037
+    },
+    {
+      "x": 0.5692593530931405,
+      "z": 6.979642883761866
+    },
+    {
+      "x": -0.56925935309314,
+      "z": 6.979642883761866
+    },
+    {
+      "x": -1.6616600520075453,
+      "z": 6.819263990709037
+    },
+    {
+      "x": -2.6194429357811404,
+      "z": 6.511499148708516
+    },
+    {
+      "x": -3.365014131324724,
+      "z": 6.081281634911195
+    },
+    {
+      "x": -3.8379718944579895,
+      "z": 5.5634651136828595
+    },
+    {
+      "x": -4.0,
+      "z": 5.000000000000001
+    },
+    {
+      "x": -3.83797189445799,
+      "z": 4.436534886317141
+    },
+    {
+      "x": -3.365014131324725,
+      "z": 3.9187183650888047
+    },
+    {
+      "x": -2.619442935781141,
+      "z": 3.4885008512914837
+    },
+    {
+      "x": -1.6616600520075486,
+      "z": 3.180736009290964
+    },
+    {
+      "x": -0.5692593530931409,
+      "z": 3.0203571162381344
+    },
+    {
+      "x": 0.5692593530931395,
+      "z": 3.0203571162381344
+    },
+    {
+      "x": 1.6616600520075442,
+      "z": 3.180736009290963
+    },
+    {
+      "x": 2.6194429357811386,
+      "z": 3.488500851291483
+    },
+    {
+      "x": 3.365014131324725,
+      "z": 3.9187183650888047
+    },
+    {
+      "x": 3.8379718944579895,
+      "z": 4.4365348863171405
+    }
+  ],
+  "npcs": [
+    {
+      "x": -12,
+      "z": -5.5
+    },
+    {
+      "x": -4,
+      "z": 3
+    },
+    {
+      "x": 12,
+      "z": -5
+    },
+    {
+      "x": 0,
+      "z": 14
+    }
+  ],
+  "solids": [
+    {
+      "x": -9,
+      "z": -3.55,
+      "w": 3.4,
+      "d": 1.5,
+      "padding": 0.12
+    },
+    {
+      "x": 10,
+      "z": -3.55,
+      "w": 3.4,
+      "d": 1.5,
+      "padding": 0.12
+    },
+    {
+      "x": -17.4,
+      "z": -0.8,
+      "w": 2,
+      "d": 1.5,
+      "padding": 0.1
+    },
+    {
+      "x": -14.8,
+      "z": 0.9,
+      "w": 2.3,
+      "d": 1.8,
+      "padding": 0.1
+    },
+    {
+      "x": -10,
+      "z": 0.9,
+      "w": 2.4,
+      "d": 0.6,
+      "padding": 0.1
+    },
+    {
+      "x": -5.4,
+      "z": 14,
+      "w": 2.1,
+      "d": 1.4,
+      "padding": 0.15
+    },
+    {
+      "x": -18.6,
+      "z": 11.9,
+      "w": 3.4,
+      "d": 8.2,
+      "padding": 0
+    },
+    {
+      "x": -8.55,
+      "z": 11.9,
+      "w": 1.1,
+      "d": 8.2,
+      "padding": 0
+    },
+    {
+      "x": -13,
+      "z": 9.75,
+      "w": 6.2,
+      "d": 3.9,
+      "padding": 0
+    },
+    {
+      "x": -13,
+      "z": 14.35,
+      "w": 7.8,
+      "d": 3.7,
+      "padding": 0
+    },
+    {
+      "x": -12,
+      "z": -10,
+      "w": 8.6,
+      "d": 7,
+      "padding": 0.15
+    },
+    {
+      "x": 0,
+      "z": -10,
+      "w": 7,
+      "d": 7,
+      "padding": 0.15
+    },
+    {
+      "x": -4.5,
+      "z": 0,
+      "w": 7,
+      "d": 5,
+      "padding": 0.15
+    },
+    {
+      "x": 12,
+      "z": -10,
+      "w": 9,
+      "d": 7,
+      "padding": 0.15
+    },
+    {
+      "x": -13,
+      "z": 5.95,
+      "w": 8.6,
+      "d": 1.8,
+      "padding": 0.15
+    },
+    {
+      "x": 12,
+      "z": 4,
+      "w": 7,
+      "d": 6,
+      "padding": 0.15
+    },
+    {
+      "x": 0,
+      "z": 11,
+      "w": 6,
+      "d": 4,
+      "padding": 0.15
+    }
+  ],
+  "animated": [
+    "anim_pastime_motorcycle"
+  ],
+  "districts": [
+    {
+      "x": -12,
+      "z": -5.5,
+      "name": "Cathay",
+      "role": "pastime"
+    },
+    {
+      "x": 0,
+      "z": -5.5,
+      "name": "Wall Of Death",
+      "role": "pastime"
+    },
+    {
+      "x": -4.5,
+      "z": 3.5,
+      "name": "Bunga Tanjong",
+      "role": "pastime"
+    },
+    {
+      "x": 12,
+      "z": -5.5,
+      "name": "Badminton",
+      "role": "pastime"
+    },
+    {
+      "x": -9.5,
+      "z": 8,
+      "name": "Katong",
+      "role": "pastime"
+    },
+    {
+      "x": 12,
+      "z": 8.0,
+      "name": "Tiger Balm",
+      "role": "pastime"
+    },
+    {
+      "x": 0,
+      "z": 14.0,
+      "name": "Rediffusion",
+      "role": "pastime"
+    }
+  ],
+  "activities": [
+    {
+      "kind": "district_queue",
+      "x": -12,
+      "z": -5.5,
+      "count": 4,
+      "name": "Cathay",
+      "dialogue": [
+        "Pontianak is showing at Cathay in 1957.",
+        "The high-rise stands behind the cinema frontage."
+      ],
+      "center": {
+        "x": -12,
+        "z": -10
+      }
+    },
+    {
+      "kind": "district_stroll",
+      "x": 0,
+      "z": -5.5,
+      "count": 4,
+      "name": "Wall Of Death",
+      "dialogue": [
+        "Look up at the rider inside the drum!",
+        "Great World had this extraordinary motorcycle attraction."
+      ],
+      "center": {
+        "x": 0,
+        "z": -10
+      }
+    },
+    {
+      "kind": "district_dance",
+      "x": -4.5,
+      "z": 3.5,
+      "count": 4,
+      "name": "Bunga Tanjong",
+      "dialogue": [
+        "The band plays at Bunga Tanjong in New World.",
+        "Dance partners take the floor for joget."
+      ],
+      "center": {
+        "x": -4.5,
+        "z": 0
+      }
+    },
+    {
+      "kind": "district_exercise",
+      "x": 12,
+      "z": -5.5,
+      "count": 4,
+      "name": "Badminton",
+      "dialogue": [
+        "The Thomas Cup is here in 1955.",
+        "The 1952 tournament was at Happy World."
+      ],
+      "center": {
+        "x": 12,
+        "z": -10
+      }
+    },
+    {
+      "kind": "district_stroll",
+      "x": -9.5,
+      "z": 8,
+      "count": 4,
+      "name": "Katong",
+      "dialogue": [
+        "The pagar extends into the sea.",
+        "Forty dressing rooms served the public bathing enclosure."
+      ],
+      "center": {
+        "x": -13,
+        "z": 9
+      }
+    },
+    {
+      "kind": "district_browse",
+      "x": 12,
+      "z": 8.0,
+      "count": 4,
+      "name": "Tiger Balm",
+      "dialogue": [
+        "These painted figures tell stories.",
+        "A 1950s postcard shows this farmer-and-wife scene."
+      ],
+      "center": {
+        "x": 12,
+        "z": 4
+      }
+    },
+    {
+      "kind": "district_chat",
+      "x": 0,
+      "z": 14.0,
+      "count": 4,
+      "name": "Rediffusion",
+      "dialogue": [
+        "The coffee shop shares a wired Rediffusion set.",
+        "Neighbours listen to songs and dialect stories over coffee."
+      ],
+      "center": {
+        "x": 0,
+        "z": 11
+      }
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+import { registerHooks } from 'node:module';
+import { readFileSync, existsSync } from 'node:fs';
+import { fileURLToPath } from 'node:url';
+registerHooks({
+  resolve(specifier, context, next) {
+    if (specifier.startsWith('.') && !/\.(ts|mjs|js|json)$/.test(specifier)) {
+      const url = new URL(specifier + '.ts', context.parentURL);
+      if (existsSync(url)) return next(url.href, context);
+    }
+    return next(specifier, context);
+  },
+  load(url, context, next) {
+    if (url.endsWith('.json'))
+      return {
+        format: 'module',
+        source: 'export default ' + readFileSync(fileURLToPath(url), 'utf8'),
+        shortCircuit: true,
+      };
+    return next(url, context);
+  },
+});

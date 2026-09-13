@@ -1,0 +1,42 @@
+[
+  {
+    "file": "trip/estate.glb",
+    "contentType": "model/gltf-binary"
+  },
+  {
+    "file": "trip/estate.json",
+    "contentType": "application/json"
+  },
+  {
+    "file": "party/game-worlds.png",
+    "contentType": "image/png"
+  },
+  {
+    "file": "party/forest-props-key.png",
+    "contentType": "image/png"
+  },
+  {
+    "file": "party/lantern-props-key.png",
+    "contentType": "image/png"
+  },
+  {
+    "file": "party/kopi-props-key.png",
+    "contentType": "image/png"
+  },
+  {
+    "file": "party/hawker-dishes.png",
+    "contentType": "image/png"
+  },
+  {
+    "file": "trip/pastimes.glb",
+    "contentType": "model/gltf-binary"
+  },
+  {
+    "file": "trip/pastimes.json",
+    "contentType": "application/json"
+  },
+  {
+    "file": "trip/period-visitors.glb",
+    "contentType": "model/gltf-binary"
+  }
+]

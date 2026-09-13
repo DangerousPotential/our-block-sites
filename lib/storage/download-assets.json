@@ -1,0 +1,282 @@
+{
+  "revision": "3fa2974f332f0b36d22a75966f5ae0490740d41374b08a126685ed28847895f0",
+  "entries": [
+    {
+      "path": "assets/activities/coaster.glb",
+      "size": 642616,
+      "sha256": "0eb2dc6d31f601afb1183b3746103993c38eb39bdd1785fc0425be8c69890def"
+    },
+    {
+      "path": "assets/activities/coaster.webp",
+      "size": 473782,
+      "sha256": "ad8e979c417263019d3dc76aec9d1822388b94f5fcebb1acde8719d47bc3f4f0"
+    },
+    {
+      "path": "assets/activities/garden.glb",
+      "size": 146272,
+      "sha256": "97cd36b23217376f19ad207ec381e735a9a60574e8650b5daa7df82807eeca04"
+    },
+    {
+      "path": "assets/activities/garden.webp",
+      "size": 472332,
+      "sha256": "4faf5bd4848707b13a35f6fc5232f5d165b19412ebf61d176eb6f596bcba2e93"
+    },
+    {
+      "path": "assets/activities/kopi.glb",
+      "size": 219412,
+      "sha256": "bd3449fd3a7941257e81eb62bd0e351ebc56ca62f742063e004cfeb0d6a9c00a"
+    },
+    {
+      "path": "assets/activities/kopi.webp",
+      "size": 470070,
+      "sha256": "faf2f0bcbfc21cbe387f42b531dca9e5883ffffb03ddbe6fe318a1bb008dbd7c"
+    },
+    {
+      "path": "assets/activities/market.glb",
+      "size": 166292,
+      "sha256": "790220872be6c89988aa1d3562599d481c6b6271323be982ad1ee3842d6991f6"
+    },
+    {
+      "path": "assets/activities/market.webp",
+      "size": 464454,
+      "sha256": "6c68f14f96d6a6b7335dcc6c8704680a832d264f9e792216aa3afa540e70dc81"
+    },
+    {
+      "path": "assets/activities/playground.glb",
+      "size": 101668,
+      "sha256": "133973166779d0508bb9b34f5ebbfa9cdfd1e3513fac94826cd019dfe95d2d41"
+    },
+    {
+      "path": "assets/activities/playground.webp",
+      "size": 447712,
+      "sha256": "c16bd93b1d76191215ee73d20777d6d49e3fe49a09713208c268b0f55c97d375"
+    },
+    {
+      "path": "assets/activities/stage.glb",
+      "size": 119684,
+      "sha256": "18c5f2532911a96e53dc043678439db057d1067d4b5ef5223db34fd7b0464c19"
+    },
+    {
+      "path": "assets/activities/stage.webp",
+      "size": 480962,
+      "sha256": "280728841e97d8e723a291d895b1dd03555230cb488268768b463768f550fe8f"
+    },
+    {
+      "path": "assets/courtyard.webp",
+      "size": 207640,
+      "sha256": "95caad44bdb2071ee2b204f0b64b2aee1e15cd5194148b4031a67ea7f7d8a0c6"
+    },
+    {
+      "path": "assets/eraser/classroom-blue-desk.webp",
+      "size": 1505566,
+      "sha256": "f33fe92b0149eaf32146877c20fb849113cff3768d38bbe6e9ed9786b6194d80"
+    },
+    {
+      "path": "assets/eraser/opponent-poses.webp",
+      "size": 952274,
+      "sha256": "bb6539a4533aed1999b4206d8e96e394afe40917a1b4a7c7cb6f4adc2dc94e76"
+    },
+    {
+      "path": "assets/eraser/showdown-scene.webp",
+      "size": 1159236,
+      "sha256": "d3f0a06dab1bcea7f58a9b9bfb4ccddfd16aa49f4ea4aed05320c629b3fda144"
+    },
+    {
+      "path": "assets/lobby/1950.webp",
+      "size": 323282,
+      "sha256": "dc9a351354a498a0403359fca3870f3d375e25ac95b4c25294b9c6a80eec2e8f"
+    },
+    {
+      "path": "assets/lobby/1987.webp",
+      "size": 381734,
+      "sha256": "84c23acd19395ca883328d8213fa35ae4369a6d2eff54b291cfd4d02608b5852"
+    },
+    {
+      "path": "assets/lobby/podium.webp",
+      "size": 24510,
+      "sha256": "3f166506cba3852877d0442eef7f5520a9de267eaddfc364d640abe255209a2c"
+    },
+    {
+      "path": "assets/manifest.json",
+      "size": 4692,
+      "sha256": "2beeda848c16604d644bdcf658d47553b9235c2994e32c51cb3bd167ae200882"
+    },
+    {
+      "path": "assets/neighbourhood/estate.glb",
+      "size": 4880796,
+      "sha256": "b7877909965990433bb8812d01239ed35d303d5c7d60bb31f47a6b5164808a37"
+    },
+    {
+      "path": "assets/neighbourhood/estate.webp",
+      "size": 1123156,
+      "sha256": "a0c070df80ae5f07e472134771808fe73aa887921d6ba8e069290f9fd669f3b5"
+    },
+    {
+      "path": "assets/neighbours.webp",
+      "size": 881158,
+      "sha256": "a68b7b1cf18aa9f7efe32852736f6c3e0ca845e3a110fcc43c34e3a40bff3c1e"
+    },
+    {
+      "path": "assets/party/ellinia-background.webp",
+      "size": 289250,
+      "sha256": "610b122e6e3505c032990d4f35c60e7e8ab1975017f64d43211d9800dd70dae4"
+    },
+    {
+      "path": "assets/party/forest-props-key.webp",
+      "size": 1552980,
+      "sha256": "ba4411dc8297e8393a89a8c686128106a97dbc96a92bc8bed37e633066004053"
+    },
+    {
+      "path": "assets/party/game-worlds.webp",
+      "size": 404616,
+      "sha256": "bf9babe5fabd1c5411a95a90b602059762e0944fd1858ea624f39d7249185023"
+    },
+    {
+      "path": "assets/party/getai-reactions.webp",
+      "size": 1556938,
+      "sha256": "5461e542f8524f2293c584bec3fb81c4faacffbde946301ddd0b088e4e062a0d"
+    },
+    {
+      "path": "assets/party/getai-singapore.webp",
+      "size": 236664,
+      "sha256": "1301fa220c99ea219ce98e13879012affc12d857eeff9b11ebeedd3a93f40af0"
+    },
+    {
+      "path": "assets/party/hawker-dishes.webp",
+      "size": 1449550,
+      "sha256": "f526bb033eef94a4b226484f6bc680b47d74cf72b6f67d6424d31be91bf53987"
+    },
+    {
+      "path": "assets/party/kopi-props-key.webp",
+      "size": 1631916,
+      "sha256": "c7fc135f24208af745e33ae9ab8e8e93aff1d0b37823076a1757905338ad282e"
+    },
+    {
+      "path": "assets/party/lantern-props-key.webp",
+      "size": 1247662,
+      "sha256": "cd4698206dca78d296bf2872c5926b94fc94b35033128ff067195df863a72f23"
+    },
+    {
+      "path": "assets/party/singapore-skyways.webp",
+      "size": 417690,
+      "sha256": "90d4d3df46b61dbb0af406d15bdc295474c9175c72589eb8f5ec26e5f7df67d1"
+    },
+    {
+      "path": "assets/party/teh-tarik-close-pourer.webp",
+      "size": 1331754,
+      "sha256": "d9b6f8df8604371b583531c891678f3502d20adeb3b93e2d87de75e87b280b61"
+    },
+    {
+      "path": "assets/party/teh-tarik-empty-stall.webp",
+      "size": 190838,
+      "sha256": "d99eaebbaeef2bf651e2be0624ac0d10ec1e3e2fae4ff988f52d2e3b0b5b6334"
+    },
+    {
+      "path": "assets/party/teh-tarik-stallholder-sprite.webp",
+      "size": 1445008,
+      "sha256": "7ca00d878eae3a9562d0d44bfe0ca5cd0dd30a12704ebccf8bdda32196905bc5"
+    },
+    {
+      "path": "assets/pets.webp",
+      "size": 711260,
+      "sha256": "04d17099e439914a7b1047daabc8b3644a3038eb24e925fe66fa467133a592c2"
+    },
+    {
+      "path": "assets/prompts.json",
+      "size": 4202,
+      "sha256": "b551ef5379af7a30f62d233a74e49faf71ece1bd0443a2a641719e9897f1bf32"
+    },
+    {
+      "path": "assets/trip/estate.glb",
+      "size": 2980684,
+      "sha256": "7b958874b62402e21d6e0145866dcf1ebb60b2b048e8c6dd8ad06a3238ecafd4"
+    },
+    {
+      "path": "assets/trip/estate.json",
+      "size": 12239,
+      "sha256": "974afe0847852c908b2fc9c6118bd72ee4574eae84f895fb244e82c38e9481eb"
+    },
+    {
+      "path": "assets/trip/micro-props.glb",
+      "size": 421976,
+      "sha256": "aea1f6352905e7a2f8717444819a2fc5f2cd4ae024fbd366b507fcec21d885ea"
+    },
+    {
+      "path": "assets/trip/pastimes.glb",
+      "size": 1913368,
+      "sha256": "2d225f77af0a807d3b5b5e9c2aecb4e55afb2fcfbbc65f8e62a839f1940b3c4e"
+    },
+    {
+      "path": "assets/trip/pastimes.json",
+      "size": 6623,
+      "sha256": "94b38e6098dd5755249b7968fb4ae69eaf195741771003dab08e59c56e3945d5"
+    },
+    {
+      "path": "assets/trip/period-visitors.glb",
+      "size": 164380,
+      "sha256": "080da17432e4b81e9ca0109565eac1fc254001cc496e2445cc914ba13812ef39"
+    },
+    {
+      "path": "assets/worlds/estate.glb",
+      "size": 511748,
+      "sha256": "313160207659e5f98142c5dfabdd07942423397193dfaab3aeccfb1766a52cce"
+    },
+    {
+      "path": "assets/worlds/estate.webp",
+      "size": 622022,
+      "sha256": "a52b083d355d09a55b29f41ca27459151ae0f38471831fce0d0aa2710d767f2b"
+    },
+    {
+      "path": "draco/draco_decoder.wasm",
+      "size": 192420,
+      "sha256": "a680d927bed9cb864ddbd63521868891af2bfbe755092761b4837487618df8ac"
+    },
+    {
+      "path": "draco/draco_wasm_wrapper.js",
+      "size": 58456,
+      "sha256": "8bb2952d2ba7d67e1414f8df819410cb0434a666be53f671fff75f68843d76f6"
+    }
+  ],
+  "aliases": {
+    "assets/activities/coaster.glb": "assets/activities/coaster.glb",
+    "assets/activities/coaster.png": "assets/activities/coaster.webp",
+    "assets/activities/garden.glb": "assets/activities/garden.glb",
+    "assets/activities/garden.png": "assets/activities/garden.webp",
+    "assets/activities/kopi.glb": "assets/activities/kopi.glb",
+    "assets/activities/kopi.png": "assets/activities/kopi.webp",
+    "assets/activities/market.glb": "assets/activities/market.glb",
+    "assets/activities/market.png": "assets/activities/market.webp",
+    "assets/activities/playground.glb": "assets/activities/playground.glb",
+    "assets/activities/playground.png": "assets/activities/playground.webp",
+    "assets/activities/stage.glb": "assets/activities/stage.glb",
+    "assets/activities/stage.png": "assets/activities/stage.webp",
+    "assets/courtyard.png": "assets/courtyard.webp",
+    "assets/eraser/classroom-blue-desk.png": "assets/eraser/classroom-blue-desk.webp",
+    "assets/eraser/opponent-poses.png": "assets/eraser/opponent-poses.webp",
+    "assets/eraser/showdown-scene.png": "assets/eraser/showdown-scene.webp",
+    "assets/lobby/1950.webp": "assets/lobby/1950.webp",
+    "assets/lobby/1987.webp": "assets/lobby/1987.webp",
+    "assets/neighbourhood/estate.glb": "assets/neighbourhood/estate.glb",
+    "assets/neighbourhood/estate.png": "assets/neighbourhood/estate.webp",
+    "assets/neighbours.png": "assets/neighbours.webp",
+    "assets/party/ellinia-background.png": "assets/party/ellinia-background.webp",
+    "assets/party/forest-props-key.png": "assets/party/forest-props-key.webp",
+    "assets/party/game-worlds.png": "assets/party/game-worlds.webp",
+    "assets/party/getai-reactions.png": "assets/party/getai-reactions.webp",
+    "assets/party/getai-singapore.png": "assets/party/getai-singapore.webp",
+    "assets/party/hawker-dishes.png": "assets/party/hawker-dishes.webp",
+    "assets/party/kopi-props-key.png": "assets/party/kopi-props-key.webp",
+    "assets/party/lantern-props-key.png": "assets/party/lantern-props-key.webp",
+    "assets/party/singapore-skyways.png": "assets/party/singapore-skyways.webp",
+    "assets/party/teh-tarik-close-pourer.png": "assets/party/teh-tarik-close-pourer.webp",
+    "assets/party/teh-tarik-empty-stall.png": "assets/party/teh-tarik-empty-stall.webp",
+    "assets/party/teh-tarik-stallholder-sprite.png": "assets/party/teh-tarik-stallholder-sprite.webp",
+    "assets/pets.png": "assets/pets.webp",
+    "assets/trip/estate.glb": "assets/trip/estate.glb",
+    "assets/trip/micro-props.glb": "assets/trip/micro-props.glb",
+    "assets/trip/pastimes.glb": "assets/trip/pastimes.glb",
+    "assets/trip/period-visitors.glb": "assets/trip/period-visitors.glb",
+    "assets/worlds/estate.glb": "assets/worlds/estate.glb",
+    "assets/worlds/estate.png": "assets/worlds/estate.webp"
+  }
+}

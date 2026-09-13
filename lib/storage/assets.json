@@ -1,0 +1,191 @@
+{
+  "revision": "73a2eeb95725bd5aad2ca48afaf16f249d32cdbc20f27ea3058b83b7c00fef2c",
+  "entries": [
+    {
+      "path": "assets/activities/coaster.glb",
+      "size": 642616,
+      "sha256": "0eb2dc6d31f601afb1183b3746103993c38eb39bdd1785fc0425be8c69890def",
+      "contentType": "model/gltf-binary"
+    },
+    {
+      "path": "assets/activities/coaster.webp",
+      "size": 473782,
+      "sha256": "ad8e979c417263019d3dc76aec9d1822388b94f5fcebb1acde8719d47bc3f4f0",
+      "contentType": "image/webp"
+    },
+    {
+      "path": "assets/activities/garden.webp",
+      "size": 472332,
+      "sha256": "4faf5bd4848707b13a35f6fc5232f5d165b19412ebf61d176eb6f596bcba2e93",
+      "contentType": "image/webp"
+    },
+    {
+      "path": "assets/activities/kopi.webp",
+      "size": 470070,
+      "sha256": "faf2f0bcbfc21cbe387f42b531dca9e5883ffffb03ddbe6fe318a1bb008dbd7c",
+      "contentType": "image/webp"
+    },
+    {
+      "path": "assets/activities/market.webp",
+      "size": 464454,
+      "sha256": "6c68f14f96d6a6b7335dcc6c8704680a832d264f9e792216aa3afa540e70dc81",
+      "contentType": "image/webp"
+    },
+    {
+      "path": "assets/activities/playground.webp",
+      "size": 447712,
+      "sha256": "c16bd93b1d76191215ee73d20777d6d49e3fe49a09713208c268b0f55c97d375",
+      "contentType": "image/webp"
+    },
+    {
+      "path": "assets/activities/stage.webp",
+      "size": 480962,
+      "sha256": "280728841e97d8e723a291d895b1dd03555230cb488268768b463768f550fe8f",
+      "contentType": "image/webp"
+    },
+    {
+      "path": "assets/eraser/classroom-blue-desk.webp",
+      "size": 1505566,
+      "sha256": "f33fe92b0149eaf32146877c20fb849113cff3768d38bbe6e9ed9786b6194d80",
+      "contentType": "image/webp"
+    },
+    {
+      "path": "assets/eraser/opponent-poses.webp",
+      "size": 952274,
+      "sha256": "bb6539a4533aed1999b4206d8e96e394afe40917a1b4a7c7cb6f4adc2dc94e76",
+      "contentType": "image/webp"
+    },
+    {
+      "path": "assets/eraser/showdown-scene.webp",
+      "size": 1159236,
+      "sha256": "d3f0a06dab1bcea7f58a9b9bfb4ccddfd16aa49f4ea4aed05320c629b3fda144",
+      "contentType": "image/webp"
+    },
+    {
+      "path": "assets/lobby/1950.webp",
+      "size": 323282,
+      "sha256": "dc9a351354a498a0403359fca3870f3d375e25ac95b4c25294b9c6a80eec2e8f",
+      "contentType": "image/webp"
+    },
+    {
+      "path": "assets/lobby/1987.webp",
+      "size": 381734,
+      "sha256": "84c23acd19395ca883328d8213fa35ae4369a6d2eff54b291cfd4d02608b5852",
+      "contentType": "image/webp"
+    },
+    {
+      "path": "assets/neighbourhood/estate.glb",
+      "size": 4880796,
+      "sha256": "b7877909965990433bb8812d01239ed35d303d5c7d60bb31f47a6b5164808a37",
+      "contentType": "model/gltf-binary"
+    },
+    {
+      "path": "assets/neighbourhood/estate.webp",
+      "size": 1123156,
+      "sha256": "a0c070df80ae5f07e472134771808fe73aa887921d6ba8e069290f9fd669f3b5",
+      "contentType": "image/webp"
+    },
+    {
+      "path": "assets/neighbours.webp",
+      "size": 881158,
+      "sha256": "a68b7b1cf18aa9f7efe32852736f6c3e0ca845e3a110fcc43c34e3a40bff3c1e",
+      "contentType": "image/webp"
+    },
+    {
+      "path": "assets/party/ellinia-background.webp",
+      "size": 289250,
+      "sha256": "610b122e6e3505c032990d4f35c60e7e8ab1975017f64d43211d9800dd70dae4",
+      "contentType": "image/webp"
+    },
+    {
+      "path": "assets/party/forest-props-key.webp",
+      "size": 1552980,
+      "sha256": "ba4411dc8297e8393a89a8c686128106a97dbc96a92bc8bed37e633066004053",
+      "contentType": "image/webp"
+    },
+    {
+      "path": "assets/party/game-worlds.webp",
+      "size": 404616,
+      "sha256": "bf9babe5fabd1c5411a95a90b602059762e0944fd1858ea624f39d7249185023",
+      "contentType": "image/webp"
+    },
+    {
+      "path": "assets/party/getai-reactions.webp",
+      "size": 1556938,
+      "sha256": "5461e542f8524f2293c584bec3fb81c4faacffbde946301ddd0b088e4e062a0d",
+      "contentType": "image/webp"
+    },
+    {
+      "path": "assets/party/hawker-dishes.webp",
+      "size": 1449550,
+      "sha256": "f526bb033eef94a4b226484f6bc680b47d74cf72b6f67d6424d31be91bf53987",
+      "contentType": "image/webp"
+    },
+    {
+      "path": "assets/party/kopi-props-key.webp",
+      "size": 1631916,
+      "sha256": "c7fc135f24208af745e33ae9ab8e8e93aff1d0b37823076a1757905338ad282e",
+      "contentType": "image/webp"
+    },
+    {
+      "path": "assets/party/lantern-props-key.webp",
+      "size": 1247662,
+      "sha256": "cd4698206dca78d296bf2872c5926b94fc94b35033128ff067195df863a72f23",
+      "contentType": "image/webp"
+    },
+    {
+      "path": "assets/party/singapore-skyways.webp",
+      "size": 417690,
+      "sha256": "90d4d3df46b61dbb0af406d15bdc295474c9175c72589eb8f5ec26e5f7df67d1",
+      "contentType": "image/webp"
+    },
+    {
+      "path": "assets/party/teh-tarik-close-pourer.webp",
+      "size": 1331754,
+      "sha256": "d9b6f8df8604371b583531c891678f3502d20adeb3b93e2d87de75e87b280b61",
+      "contentType": "image/webp"
+    },
+    {
+      "path": "assets/party/teh-tarik-stallholder-sprite.webp",
+      "size": 1445008,
+      "sha256": "7ca00d878eae3a9562d0d44bfe0ca5cd0dd30a12704ebccf8bdda32196905bc5",
+      "contentType": "image/webp"
+    },
+    {
+      "path": "assets/pets.webp",
+      "size": 711260,
+      "sha256": "04d17099e439914a7b1047daabc8b3644a3038eb24e925fe66fa467133a592c2",
+      "contentType": "image/webp"
+    },
+    {
+      "path": "assets/trip/estate.glb",
+      "size": 2980684,
+      "sha256": "7b958874b62402e21d6e0145866dcf1ebb60b2b048e8c6dd8ad06a3238ecafd4",
+      "contentType": "model/gltf-binary"
+    },
+    {
+      "path": "assets/trip/micro-props.glb",
+      "size": 421976,
+      "sha256": "aea1f6352905e7a2f8717444819a2fc5f2cd4ae024fbd366b507fcec21d885ea",
+      "contentType": "model/gltf-binary"
+    },
+    {
+      "path": "assets/trip/pastimes.glb",
+      "size": 1913368,
+      "sha256": "2d225f77af0a807d3b5b5e9c2aecb4e55afb2fcfbbc65f8e62a839f1940b3c4e",
+      "contentType": "model/gltf-binary"
+    },
+    {
+      "path": "assets/worlds/estate.glb",
+      "size": 511748,
+      "sha256": "313160207659e5f98142c5dfabdd07942423397193dfaab3aeccfb1766a52cce",
+      "contentType": "model/gltf-binary"
+    },
+    {
+      "path": "assets/worlds/estate.webp",
+      "size": 622022,
+      "sha256": "a52b083d355d09a55b29f41ca27459151ae0f38471831fce0d0aa2710d767f2b",
+      "contentType": "image/webp"
+    }
+  ]
+}

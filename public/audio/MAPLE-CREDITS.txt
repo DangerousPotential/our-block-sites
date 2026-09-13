@@ -1,0 +1,30 @@
+MapleStory music — NEXON / Wizet
+
+Maple Opening Theme (Title / Start the Adventure, original version)
+Floral Life (Henesys)
+When the Morning Comes (Ellinia)
+SleepyWood (Sleepywood)
+Nightmare (Perion)
+CBD Town (Singapore)
+Above the Treetops (Lith Harbor)
+Bad Guys (Kerning City)
+
+Official game music page:
+https://maplestory.nexon.com/Media/Music
+
+Audio sources accessed 9 September 2026:
+Opening: https://downloads.khinsider.com/game-soundtracks/album/maplestory-music/123.%2520Title.mp3
+https://lambda.vgmtreasurechest.com/soundtracks/maplestory-music/lmdhyvha/123.%20Title.mp3
+Ellinia: https://ssl.nexon.com/s2/Game/Maplestory/maple2013/mp3/WhenTheMorningComes.mp3
+
+henesys: https://ssl.nexon.com/s2/Game/Maplestory/maple2013/mp3/FloralLife.mp3
+perion: https://ssl.nexon.com/s2/Game/Maplestory/maple2013/mp3/Nightmare.mp3
+lith-harbor: https://ssl.nexon.com/s2/Game/Maplestory/maple2013/mp3/AboveTheTreetops.mp3
+kerning-city: https://ssl.nexon.com/s2/Game/Maplestory/maple2013/mp3/BadGuys.mp3
+sleepywood: https://lambda.vgmtreasurechest.com/soundtracks/maplestory-music/xobqagdx/05.%20SleepyWood.mp3
+singapore: https://lambda.vgmtreasurechest.com/soundtracks/maplestory-music/asmhzdps/119.%20CBD%20Town.mp3
+
+Original files, no composition or encoding edits. Looped at reduced playback volume.
+Copyright remains with the respective owners. These tracks are not CC BY licensed.
+Included on the project owner's confirmation of permission for use in this game.
+No endorsement or affiliation is implied.

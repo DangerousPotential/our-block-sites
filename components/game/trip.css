@@ -1,0 +1,1087 @@
+.trip-shell {
+  max-width: 1500px;
+  margin: 0 auto 40px;
+  color: #213044;
+  position: relative;
+}
+.trip-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 24px 28px;
+  background: #fff9eb;
+  border-radius: 26px 26px 0 0;
+}
+.trip-heading small,
+.trip-hand small,
+.trip-dialog > small {
+  font-size: 10px;
+  letter-spacing: 0.16em;
+  font-weight: 800;
+  color: #727e78;
+}
+.trip-heading h1 {
+  font-size: clamp(25px, 4vw, 42px);
+  margin: 5px 0;
+  letter-spacing: -0.04em;
+}
+.trip-heading p {
+  margin: 0;
+  font-size: 13px;
+  color: #68777b;
+}
+.trip-phase {
+  white-space: nowrap;
+  background: #e7eee1;
+  border-radius: 24px;
+  padding: 13px 20px;
+  font-size: 13px;
+  font-weight: 700;
+}
+.trip-shell button,
+.trip-shell select {
+  border: 0;
+  border-radius: 13px;
+  background: #e97960;
+  color: #213044;
+  padding: 13px 19px;
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+}
+.trip-shell button:disabled {
+  opacity: 0.55;
+  cursor: default;
+}
+.trip-shell select {
+  background: #e6e8d8;
+  max-width: 270px;
+}
+.trip-world {
+  height: 620px;
+  position: relative;
+  overflow: hidden;
+  background: #213947;
+}
+.trip-canvas {
+  position: absolute;
+  inset: 0;
+  touch-action: none;
+}
+.trip-canvas canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.culture-heading {
+  position: absolute;
+  top: 83px;
+  left: 28px;
+  pointer-events: none;
+  color: #fff5df;
+  text-shadow: 0 2px 12px #18243b88;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.culture-heading span {
+  font-size: clamp(23px, 3vw, 36px);
+  font-weight: 750;
+  letter-spacing: -0.045em;
+}
+.culture-heading small {
+  font-size: 12px;
+}
+.culture-destinations {
+  position: absolute;
+  bottom: 22px;
+  left: 24px;
+  right: 24px;
+  display: flex;
+  gap: 7px;
+  overflow-x: auto;
+  padding: 4px 0 8px;
+  scrollbar-width: thin;
+}
+.trip-shell .culture-destinations button {
+  flex: 1 0 128px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 5px;
+  border: 1px solid #fff8eb77;
+  background: #fff6e8ed;
+  backdrop-filter: blur(12px);
+  border-radius: 7px;
+  padding: 13px 14px;
+  font-size: 12px;
+  text-align: left;
+  box-shadow: 0 4px 18px #1d263522;
+}
+.culture-destinations small {
+  font-size: 9px;
+  color: #a36750;
+  letter-spacing: 0.12em;
+}
+.culture-card {
+  position: absolute;
+  bottom: 24px;
+  left: 28px;
+  width: 290px;
+  max-width: calc(100% - 56px);
+  padding: 21px;
+  background: #fff8e9f5;
+  border: 1px solid #fff9e7;
+  border-radius: 10px;
+  box-shadow: 0 8px 30px #111d3233;
+  backdrop-filter: blur(15px);
+  color: #263b45;
+}
+.culture-card h2 {
+  font-size: 25px;
+  line-height: 1.1;
+  letter-spacing: -0.035em;
+  margin: 16px 0 10px;
+}
+.culture-card p {
+  font-size: 13px;
+  line-height: 1.6;
+  margin: 0 0 17px;
+  color: #59676a;
+}
+.trip-shell .culture-back {
+  background: none;
+  border: 0;
+  padding: 0;
+  font-size: 11px;
+  color: #6c756e;
+  border-radius: 0;
+  min-height: 28px;
+}
+.trip-shell .culture-action {
+  width: 100%;
+  padding: 13px 10px;
+  border-radius: 5px;
+  background: #365b61;
+  color: #fff8e9;
+  font-size: 12px;
+}
+.culture-duration {
+  display: block;
+  margin-top: 11px;
+  font-size: 10px;
+  color: #677675;
+}
+.culture-view-controls {
+  position: absolute;
+  right: 108px;
+  top: 19px;
+  display: flex;
+  gap: 6px;
+}
+.trip-shell .culture-view-controls button {
+  border: 1px solid #fff8e966;
+  background: #fff6e8e8;
+  border-radius: 5px;
+  font-size: 11px;
+  padding: 10px 12px;
+}
+.trip-shell .culture-destinations button:hover,
+.trip-shell .culture-view-controls button:hover {
+  background: #fffbed;
+  transform: translateY(-2px);
+}
+.trip-shell .culture-action:hover {
+  background: #23474e;
+}
+.trip-shell
+  :is(
+    .culture-action,
+    .culture-back,
+    .culture-destinations button,
+    .culture-view-controls button
+  ):focus-visible {
+  outline: 3px solid #f3b752;
+  outline-offset: 3px;
+}
+@media (max-width: 600px) {
+  .culture-heading {
+    top: 72px;
+    left: 17px;
+    max-width: 62%;
+  }
+  .culture-heading small {
+    font-size: 10px;
+    max-width: 190px;
+  }
+  .culture-view-controls {
+    top: 73px;
+    right: 13px;
+    flex-direction: column;
+  }
+  .trip-shell .culture-view-controls button {
+    font-size: 10px;
+    padding: 10px 8px;
+    min-height: 34px;
+  }
+  .culture-destinations {
+    left: 14px;
+    right: 14px;
+    bottom: 16px;
+  }
+  .trip-shell .culture-destinations button {
+    flex-basis: 130px;
+  }
+  .culture-card {
+    left: 14px;
+    bottom: 16px;
+    max-width: calc(100% - 28px);
+    width: 260px;
+    padding: 15px;
+  }
+  .culture-card h2 {
+    font-size: 21px;
+    margin-top: 10px;
+  }
+  .culture-card p {
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .trip-shell .culture-destinations button:hover,
+  .trip-shell .culture-view-controls button:hover {
+    transform: none;
+  }
+}
+.trip-shell .trip-pin {
+  position: absolute;
+  transform: translate(-50%, -100%);
+  font-size: 11px;
+  padding: 7px 12px;
+  background: #fff6dfec;
+  box-shadow: 0 4px 15px #10293825;
+  white-space: nowrap;
+}
+.trip-pin span {
+  display: block;
+  font-size: 9px;
+  color: #747a6f;
+}
+.trip-world-hint {
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #132b37cb;
+  color: #faf0d8;
+  border-radius: 20px;
+  padding: 8px 16px;
+  font-size: 11px;
+  pointer-events: none;
+  max-width: 90%;
+  text-align: center;
+}
+.trip-toolbar {
+  padding: 18px 24px;
+  background: #fff9eb;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+  flex-wrap: wrap;
+}
+.trip-toolbar p {
+  font-size: 12px;
+  max-width: 350px;
+}
+.trip-scores {
+  display: flex;
+  gap: 20px;
+}
+.trip-scores > div {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.trip-scores .sprite {
+  width: 38px;
+  height: 46px;
+}
+.trip-scores span {
+  font-size: 11px;
+}
+.trip-scores strong {
+  display: block;
+  font-size: 10px;
+  color: #728078;
+  margin-top: 3px;
+}
+.trip-hand {
+  background: #eae8d9;
+  padding: 20px 24px;
+  border-radius: 0 0 26px 26px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.trip-hand > div {
+  margin-right: auto;
+}
+.trip-hand p {
+  font-size: 11px;
+  margin: 5px 0;
+}
+.trip-shell .trip-card {
+  width: 150px;
+  min-height: 108px;
+  text-align: left;
+  background: #fff8e6;
+  box-shadow: 0 3px 0 #cec8af;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 12px;
+}
+.trip-card > span {
+  font-size: 24px;
+}
+.trip-card strong {
+  font-size: 12px;
+}
+.trip-card small {
+  font-size: 9px;
+  letter-spacing: 0;
+  line-height: 1.4;
+}
+.trip-dialog {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: min(90vw, 450px);
+  max-height: 85vh;
+  overflow: auto;
+  background: #fff9ed;
+  padding: 32px;
+  border-radius: 24px;
+  box-shadow:
+    0 0 0 100vmax #152c3b80,
+    0 30px 90px #10213360;
+  z-index: 100;
+}
+.trip-dialog h2 {
+  font-size: 30px;
+  margin: 10px 0 20px;
+  letter-spacing: -0.035em;
+}
+.trip-dialog > .sprite {
+  width: 74px;
+  height: 90px;
+}
+.trip-dialog p {
+  font-size: 15px;
+  line-height: 1.65;
+}
+.trip-dialog button {
+  margin: 5px 5px 5px 0;
+}
+.trip-dialog .trip-close {
+  position: absolute;
+  right: 14px;
+  top: 8px;
+  background: none;
+  font-size: 24px;
+}
+.trip-dialog .trip-secondary {
+  background: transparent;
+  font-size: 12px;
+}
+.trip-reward {
+  background: #e9ebd9;
+  padding: 12px;
+  border-radius: 14px;
+}
+.trip-summary p {
+  display: flex;
+  justify-content: space-between;
+  gap: 14px;
+  border-bottom: 1px solid #e4dfcc;
+  padding-bottom: 10px;
+}
+.trip-disclaimer {
+  text-align: center;
+  font-size: 10px;
+  color: #64736f;
+  padding: 12px;
+}
+.trip-notice {
+  text-align: center;
+  font-size: 12px;
+}
+.quest-stage {
+  height: 650px;
+  position: relative;
+  background: #173142;
+  overflow: hidden;
+  touch-action: none;
+}
+.quest-stage canvas {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.quest-title {
+  position: absolute;
+  left: 25px;
+  top: 22px;
+  color: #fff1ce;
+  pointer-events: none;
+}
+.quest-title small {
+  font-size: 9px;
+  letter-spacing: 0.16em;
+}
+.quest-title h2 {
+  font-size: 32px;
+  margin: 5px 0;
+}
+.quest-title p {
+  font-size: 11px;
+}
+.quest-clock {
+  position: absolute;
+  right: 25px;
+  top: 25px;
+  color: #fff2d1;
+  font-size: 25px;
+}
+.quest-countdown {
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff1c7;
+  font-size: 64px;
+  font-weight: 800;
+  text-shadow: 0 4px 20px #172c3d;
+}
+.quest-countdown small {
+  display: block;
+  font-size: 15px;
+  white-space: nowrap;
+}
+.quest-progress {
+  position: absolute;
+  top: 110px;
+  left: 25px;
+  display: flex;
+  gap: 10px;
+  color: #fff0d0;
+  font-size: 10px;
+  flex-wrap: wrap;
+}
+.quest-controls {
+  position: absolute;
+  bottom: 18px;
+  left: 20px;
+  right: 20px;
+  display: flex;
+  gap: 12px;
+}
+.quest-controls button {
+  min-width: 65px;
+  min-height: 58px;
+  touch-action: none;
+  user-select: none;
+  background: #fff0d6df;
+}
+.quest-controls button:last-child {
+  margin-left: auto;
+  background: #e9ac75;
+  min-width: 120px;
+}
+.free-explore-entry {
+  display: block;
+  margin: 16px auto;
+  background: #fff7e5;
+  padding: 14px 24px;
+  border-radius: 15px;
+}
+.trip-shell button:focus-visible,
+.trip-shell select:focus-visible {
+  outline: 3px solid #31958e;
+  outline-offset: 3px;
+}
+@media (max-width: 650px) {
+  .trip-heading {
+    padding: 18px;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  .trip-heading p {
+    font-size: 11px;
+  }
+  .trip-heading small {
+    font-size: 8px;
+  }
+  .trip-phase {
+    font-size: 11px;
+    padding: 8px 12px;
+  }
+  .trip-world {
+    height: 540px;
+  }
+  .trip-toolbar {
+    padding: 14px;
+    gap: 10px;
+  }
+  .trip-scores {
+    gap: 8px;
+    width: 100%;
+    justify-content: space-between;
+  }
+  .trip-scores .sprite {
+    width: 27px;
+    height: 34px;
+  }
+  .trip-scores span {
+    font-size: 9px;
+  }
+  .trip-scores strong {
+    font-size: 8px;
+  }
+  .trip-hand {
+    padding: 14px;
+    gap: 8px;
+  }
+  .trip-shell .trip-card {
+    width: calc(33.33% - 6px);
+    padding: 9px;
+  }
+  .trip-card strong {
+    font-size: 10px;
+  }
+  .trip-card small {
+    font-size: 8px;
+  }
+  .trip-hand > div {
+    width: 100%;
+  }
+  .quest-stage {
+    height: 620px;
+  }
+  .quest-title {
+    left: 16px;
+    top: 16px;
+  }
+  .quest-title h2 {
+    font-size: 26px;
+  }
+  .quest-clock {
+    right: 16px;
+    top: 20px;
+  }
+  .quest-progress {
+    left: 16px;
+    top: 105px;
+  }
+  .trip-dialog {
+    padding: 24px;
+  }
+  .trip-pin {
+    max-width: 125px;
+  }
+  .trip-shell .trip-pin {
+    font-size: 9px;
+    padding: 6px 9px;
+  }
+}
+.trip-page {
+  background: #e8eadf;
+}
+.trip-page .world-background {
+  display: none;
+}
+.trip-page .trip-shell {
+  width: 100%;
+}
+.trip-page .topbar {
+  position: relative;
+}
+.trip-page.board-shell {
+  padding: 0 4vw 32px;
+}
+.trip-page.board-shell .topbar {
+  height: auto;
+  min-height: 70px;
+}
+.trip-page .trip-world {
+  height: min(68vh, 700px);
+  min-height: 480px;
+}
+.trip-ambience {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+  background: #fff9eb;
+  padding: 8px 24px;
+  font-size: 10px;
+}
+.trip-ambience input {
+  width: 90px;
+  accent-color: #3e8d82;
+}
+.trip-map-controls {
+  position: absolute;
+  right: 12px;
+  bottom: 12px;
+  display: flex;
+  gap: 6px;
+}
+.trip-shell .trip-map-controls button,
+.trip-shell .trip-map-controls select {
+  padding: 8px 12px;
+  background: #fff3dc;
+  font-size: 12px;
+}
+.trip-reveal {
+  text-align: center;
+}
+.trip-reveal h2 {
+  font-size: 70px;
+  color: #db755d;
+}
+.trip-reveal h3 {
+  font-size: 25px;
+}
+@media (max-width: 650px) {
+  .trip-world-hint {
+    bottom: 58px;
+    font-size: 9px;
+  }
+  .trip-map-controls {
+    left: 12px;
+    justify-content: flex-end;
+  }
+}
+.trip-shell:has(.trip-dialog)::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background: #14263455;
+  z-index: 99;
+}
+.trip-shell .trip-dialog {
+  box-shadow: 0 30px 90px #10213360;
+}
+/* The neighbourhood is the interface. Game utilities are disclosure pockets. */
+.game-shell:has(.trip-shell) {
+  padding: 0;
+  height: 100dvh;
+  overflow: hidden;
+}
+.game-shell:has(.trip-shell) > .topbar {
+  display: none;
+}
+.trip-page .trip-shell {
+  position: fixed;
+  inset: 0;
+  max-width: none;
+  margin: 0;
+}
+.trip-page .trip-world {
+  position: absolute;
+  inset: 0;
+  height: 100dvh;
+  min-height: 0;
+}
+.trip-heading {
+  position: absolute;
+  top: max(16px, env(safe-area-inset-top));
+  left: 16px;
+  right: 16px;
+  z-index: 5;
+  padding: 0;
+  background: none;
+  border-radius: 0;
+  justify-content: flex-start;
+  gap: 8px;
+  pointer-events: none;
+}
+.trip-heading > * {
+  pointer-events: auto;
+}
+.trip-heading > div:first-child {
+  display: none;
+}
+.trip-heading button,
+.trip-heading select,
+.trip-phase,
+.trip-pocket > summary,
+.trip-map-controls > summary {
+  background: #132c39d9;
+  color: #fff4dc;
+  border: 1px solid #ffffff24;
+  backdrop-filter: blur(12px);
+  border-radius: 12px;
+  padding: 10px 14px;
+  font-size: 14px;
+  box-shadow: 0 4px 20px #071d3320;
+}
+.trip-heading select {
+  max-width: min(65vw, 300px);
+}
+.trip-heading option {
+  background: #132c39;
+  color: #fff4dc;
+}
+.trip-toolbar {
+  position: absolute;
+  z-index: 5;
+  left: 0;
+  right: 0;
+  bottom: max(18px, env(safe-area-inset-bottom));
+  margin: 0 auto;
+  background: none;
+  padding: 0;
+  width: max-content;
+  max-width: 70vw;
+  justify-content: center;
+  gap: 6px;
+}
+.trip-toolbar > p {
+  display: none;
+}
+.trip-toolbar > button {
+  box-shadow: 0 4px 20px #091e3440;
+  font-size: 14px;
+}
+.trip-pocket,
+.trip-map-controls {
+  position: fixed;
+  z-index: 7;
+}
+.trip-pocket summary,
+.trip-map-controls summary {
+  cursor: pointer;
+  list-style: none;
+  width: max-content;
+  user-select: none;
+}
+.trip-pocket summary::-webkit-details-marker,
+.trip-map-controls summary::-webkit-details-marker {
+  display: none;
+}
+.trip-pocket summary:focus-visible,
+.trip-map-controls summary:focus-visible {
+  outline: 3px solid #ffd892;
+  outline-offset: 3px;
+}
+.trip-audio-pocket {
+  top: max(16px, env(safe-area-inset-top));
+  right: 16px;
+}
+.trip-audio-pocket > summary {
+  margin-left: auto;
+}
+.trip-audio-pocket[open] .trip-ambience {
+  margin-top: 8px;
+  border-radius: 12px;
+  padding: 14px;
+  font-size: 14px;
+}
+.trip-hand-pocket {
+  right: 16px;
+  bottom: max(18px, env(safe-area-inset-bottom));
+}
+.trip-hand-pocket > summary {
+  margin-left: auto;
+}
+.trip-hand {
+  position: absolute;
+  right: 0;
+  bottom: 52px;
+  width: min(480px, calc(100vw - 32px));
+  max-height: 65dvh;
+  overflow: auto;
+  border-radius: 18px;
+  padding: 16px;
+  box-shadow: 0 10px 50px #10213355;
+}
+.trip-hand p,
+.trip-card small {
+  font-size: 13px;
+}
+.trip-score-pocket {
+  left: 16px;
+  bottom: 72px;
+}
+.trip-scores {
+  position: absolute;
+  bottom: 50px;
+  width: 240px;
+  background: #fff6df;
+  border-radius: 14px;
+  padding: 16px;
+  flex-direction: column;
+}
+.trip-scores span,
+.trip-scores strong {
+  font-size: 14px;
+}
+.trip-map-controls {
+  left: 16px;
+  right: auto;
+  bottom: max(18px, env(safe-area-inset-bottom));
+  display: block;
+}
+.trip-map-controls[open] {
+  padding: 8px;
+  background: #132c39d9;
+  border-radius: 14px;
+  width: min(320px, calc(100vw - 32px));
+  max-height: 70dvh;
+  overflow: auto;
+}
+.trip-map-controls[open] > select {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  margin-top: 8px;
+}
+.resident-conversation .sprite {
+  width: 66px;
+  height: 80px;
+  margin-bottom: 12px;
+}
+.resident-conversation p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+.resident-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 20px;
+}
+.trip-map-controls[open] summary {
+  margin-bottom: 8px;
+}
+.trip-map-controls select {
+  max-width: 190px;
+}
+.trip-world-hint {
+  display: none;
+}
+.trip-world-hint.trip-important {
+  display: block;
+  bottom: 80px;
+  font-size: 14px;
+  z-index: 4;
+}
+.trip-shell .trip-pin {
+  border-radius: 50%;
+  width: 36px;
+  height: 30px;
+  padding: 0;
+  background: #fff4dcdd;
+}
+.trip-pin span {
+  font-size: 16px;
+  color: #213044;
+}
+.trip-disclaimer {
+  display: none;
+}
+.trip-shell .quest-stage {
+  height: 100dvh;
+  border-radius: 0;
+}
+.trip-shell:has(.quest-stage) .trip-heading {
+  right: 80px;
+}
+.trip-shell:has(.quest-stage) .quest-title {
+  top: 76px;
+}
+.trip-shell:has(.quest-stage) .quest-title small,
+.trip-shell:has(.quest-stage) .quest-title p {
+  display: none;
+}
+.trip-shell:has(.quest-stage) .quest-title h2 {
+  font-size: 22px;
+}
+.trip-shell:has(.quest-stage) .quest-progress {
+  top: 124px;
+}
+.trip-shell:has(.quest-stage) .quest-controls {
+  bottom: 80px;
+}
+.trip-shell:has(.quest-stage) .trip-audio-pocket {
+  top: 70px;
+}
+.trip-audio-pocket[open] {
+  background: #132c39e8;
+  border-radius: 14px;
+  padding: 8px;
+}
+@media (max-width: 650px) {
+  .trip-heading {
+    right: 82px;
+    left: 10px;
+    top: 10px;
+    gap: 4px;
+  }
+  .trip-heading select {
+    max-width: 56vw;
+    font-size: 12px;
+    padding: 10px;
+  }
+  .trip-heading button,
+  .trip-pocket > summary,
+  .trip-map-controls > summary,
+  .trip-phase {
+    font-size: 12px;
+    padding: 11px;
+  }
+  .trip-audio-pocket {
+    right: 10px;
+    top: 10px;
+  }
+  .trip-toolbar {
+    bottom: 72px;
+    max-width: 90vw;
+  }
+  .trip-score-pocket {
+    bottom: 18px;
+    left: 80px;
+  }
+}
+.city-speech {
+  position: absolute;
+  transform: translate(-50%, -100%);
+  max-width: 180px;
+  padding: 9px 12px;
+  border: 1px solid #254f5660;
+  border-radius: 15px 15px 15px 3px;
+  background: #fff9e9f2;
+  color: #233f45;
+  font-size: 13px;
+  font-weight: 650;
+  line-height: 1.3;
+  box-shadow: 0 4px 14px #132f3826;
+  pointer-events: none;
+  z-index: 2;
+}
+.city-speech[hidden] {
+  display: none;
+}
+.trip-canvas {
+  touch-action: none;
+  outline: none;
+}
+.trip-map-controls > small {
+  display: block;
+  max-width: 210px;
+  font-size: 12px;
+  padding: 5px;
+}
+
+.trip-world:has(.culture-destinations) .trip-map-controls {
+  bottom: 115px;
+}
+.trip-world:has(.culture-card) .trip-map-controls {
+  left: auto;
+  right: 18px;
+  bottom: 24px;
+}
+
+.trip-world[data-era='estate'] .culture-heading,
+.trip-world[data-era='river'] .culture-heading {
+  color: #263f45;
+  text-shadow: 0 1px 8px #ffeac066;
+}
+
+.trip-shell:has(.trip-toolbar) .culture-destinations {
+  bottom: 90px;
+  left: 85px;
+  right: 85px;
+}
+.trip-shell:has(.trip-toolbar) .culture-card {
+  bottom: 90px;
+}
+.culture-destinations {
+  scrollbar-width: none;
+}
+.culture-destinations::-webkit-scrollbar {
+  display: none;
+}
+
+.pastimes-picker {
+  position: absolute;
+  top: 76px;
+  left: auto;
+  right: 16px;
+  z-index: 4;
+  display: flex;
+  gap: 8px;
+  max-width: calc(100% - 24px);
+}
+.pastimes-picker button,
+.pastimes-picker select {
+  background: #fff4dc;
+  color: #453b42;
+  border: 1px solid #bfa98c;
+  border-radius: 10px;
+  padding: 10px 12px;
+  min-height: 44px;
+}
+.pastimes-picker select {
+  min-width: 0;
+}
+.pastime-encounter {
+  margin: auto;
+  inset: 0;
+  transform: none;
+  max-height: 85dvh;
+  overflow-y: auto;
+  border: 1px solid #bfa98c;
+}
+.pastime-encounter::backdrop {
+  background: #241d3655;
+}
+.pastime-choices {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 12px;
+}
+.pastime-choices button[aria-pressed='true'] {
+  outline: 3px solid #9b6c46;
+}
+@media (max-width: 560px) {
+  .pastimes-picker {
+    left: 12px;
+    right: 12px;
+  }
+  .pastimes-picker button {
+    max-width: 110px;
+  }
+}
+
+.pastime-feedback {
+  display: block;
+  margin: 12px 0;
+  line-height: 1.6;
+}
+
+.pastimes-world .trip-world-hint {
+  display: block;
+  max-width: min(70vw, 540px);
+  pointer-events: none;
+}

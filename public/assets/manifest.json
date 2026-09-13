@@ -1,0 +1,208 @@
+{
+  "version": 1,
+  "title": "Our Block \u2014 first build asset pack",
+  "generation": "Built-in image_gen",
+  "rendering": "2D pixel sprite atlases over an illustrated 2.5D courtyard. Images have no animation frames; prototype motion uses CSS transforms.",
+  "atlases": {
+    "pets": {
+      "file": "pets.png",
+      "width": 1774,
+      "height": 887,
+      "columns": 4,
+      "rows": 2,
+      "transparent": true
+    },
+    "neighbours": {
+      "file": "neighbours.png",
+      "width": 1448,
+      "height": 1086,
+      "columns": 4,
+      "rows": 3,
+      "transparent": true
+    }
+  },
+  "characters": [
+    {
+      "id": "merly",
+      "kind": "mascot",
+      "atlas": "pets",
+      "column": 0,
+      "row": 0
+    },
+    {
+      "id": "kopi",
+      "kind": "mascot",
+      "atlas": "pets",
+      "column": 1,
+      "row": 0
+    },
+    {
+      "id": "pandan",
+      "kind": "mascot",
+      "atlas": "pets",
+      "column": 2,
+      "row": 0
+    },
+    {
+      "id": "kueh",
+      "kind": "mascot",
+      "atlas": "pets",
+      "column": 3,
+      "row": 0
+    },
+    {
+      "id": "otto",
+      "kind": "mascot",
+      "atlas": "pets",
+      "column": 0,
+      "row": 1
+    },
+    {
+      "id": "duri",
+      "kind": "mascot",
+      "atlas": "pets",
+      "column": 1,
+      "row": 1
+    },
+    {
+      "id": "chope",
+      "kind": "mascot",
+      "atlas": "pets",
+      "column": 2,
+      "row": 1
+    },
+    {
+      "id": "long",
+      "kind": "mascot",
+      "atlas": "pets",
+      "column": 3,
+      "row": 1
+    },
+    {
+      "id": "mei-20s",
+      "character": "mei",
+      "background": "Chinese Singaporean",
+      "ageBand": "20s",
+      "kind": "fictional neighbour",
+      "atlas": "neighbours",
+      "column": 0,
+      "row": 0
+    },
+    {
+      "id": "aisyah-20s",
+      "character": "aisyah",
+      "background": "Malay Singaporean",
+      "ageBand": "20s",
+      "kind": "fictional neighbour",
+      "atlas": "neighbours",
+      "column": 1,
+      "row": 0
+    },
+    {
+      "id": "arun-20s",
+      "character": "arun",
+      "background": "Indian Singaporean",
+      "ageBand": "20s",
+      "kind": "fictional neighbour",
+      "atlas": "neighbours",
+      "column": 2,
+      "row": 0
+    },
+    {
+      "id": "daniel-20s",
+      "character": "daniel",
+      "background": "Eurasian Singaporean",
+      "ageBand": "20s",
+      "kind": "fictional neighbour",
+      "atlas": "neighbours",
+      "column": 3,
+      "row": 0
+    },
+    {
+      "id": "mei-40s",
+      "character": "mei",
+      "background": "Chinese Singaporean",
+      "ageBand": "40s",
+      "kind": "fictional neighbour",
+      "atlas": "neighbours",
+      "column": 0,
+      "row": 1
+    },
+    {
+      "id": "aisyah-40s",
+      "character": "aisyah",
+      "background": "Malay Singaporean",
+      "ageBand": "40s",
+      "kind": "fictional neighbour",
+      "atlas": "neighbours",
+      "column": 1,
+      "row": 1
+    },
+    {
+      "id": "arun-40s",
+      "character": "arun",
+      "background": "Indian Singaporean",
+      "ageBand": "40s",
+      "kind": "fictional neighbour",
+      "atlas": "neighbours",
+      "column": 2,
+      "row": 1
+    },
+    {
+      "id": "daniel-40s",
+      "character": "daniel",
+      "background": "Eurasian Singaporean",
+      "ageBand": "40s",
+      "kind": "fictional neighbour",
+      "atlas": "neighbours",
+      "column": 3,
+      "row": 1
+    },
+    {
+      "id": "mei-60s",
+      "character": "mei",
+      "background": "Chinese Singaporean",
+      "ageBand": "60s",
+      "kind": "fictional neighbour",
+      "atlas": "neighbours",
+      "column": 0,
+      "row": 2
+    },
+    {
+      "id": "aisyah-60s",
+      "character": "aisyah",
+      "background": "Malay Singaporean",
+      "ageBand": "60s",
+      "kind": "fictional neighbour",
+      "atlas": "neighbours",
+      "column": 1,
+      "row": 2
+    },
+    {
+      "id": "arun-60s",
+      "character": "arun",
+      "background": "Indian Singaporean",
+      "ageBand": "60s",
+      "kind": "fictional neighbour",
+      "atlas": "neighbours",
+      "column": 2,
+      "row": 2
+    },
+    {
+      "id": "daniel-60s",
+      "character": "daniel",
+      "background": "Eurasian Singaporean",
+      "ageBand": "60s",
+      "kind": "fictional neighbour",
+      "atlas": "neighbours",
+      "column": 3,
+      "row": 2
+    }
+  ],
+  "notes": [
+    "Backgrounds belong to fictional individuals; appearance is not a reliable way to infer identity.",
+    "Age and ethnic background do not confer skill or score modifiers.",
+    "This starter roster is not an exhaustive representation of Singapore.",
+    "Further art pass: consistent pose frames, directional walking, more characters and life stages."
+  ]
+}

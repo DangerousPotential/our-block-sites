@@ -1,0 +1,12 @@
+{
+  "publishedCommit": "a234102ff824ba33d29181aa461a038cebbe5482",
+  "pastimesCommit": "67c550d91b1a0984eefca2982b9fe2a1d20595d6",
+  "files": {
+    "public/assets/trip/river.glb": "9fe0cfeaa377ae9da95b0adc155396dd2edf818a9c68f60e38d91c3999542086",
+    "public/assets/trip/river.json": "ee878fc16e62beafa6b82d430c8c407c0711005b3731ba8a95633c68094a803f",
+    "art/trip/river.blend": "9ba6e182ba09714fbf610a349a1e68e9b14258a03f77d7ac31e05429b3f8ef1f",
+    "public/assets/trip/pastimes.glb": "734e500d523de28442c86869028f25a6f63923e66a4cb36e5a7ac5b070edea70",
+    "public/assets/trip/pastimes.json": "94b38e6098dd5755249b7968fb4ae69eaf195741771003dab08e59c56e3945d5",
+    "art/pastimes1950s/singapore-at-play.blend": "87a4ef507b36ac601672af629b3073d13b7ca577b7c5206fa4ee8e614043288b"
+  }
+}

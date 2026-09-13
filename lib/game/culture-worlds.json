@@ -1,0 +1,3082 @@
+{
+  "fair": {
+    "stations": [
+      {
+        "id": "cinema",
+        "title": "Picture palace",
+        "description": "A ticket, a red seat, and the lights going down.",
+        "action": "Watch the matinee",
+        "kind": "cinema",
+        "x": -11,
+        "z": -15,
+        "scale": 0.6,
+        "elevation": 0.1,
+        "entrance": {
+          "x": -11,
+          "z": -11.4
+        },
+        "focus": {
+          "x": -11,
+          "z": -14.7
+        },
+        "duration": 7
+      },
+      {
+        "id": "song",
+        "title": "Song stage",
+        "description": "Live songs beneath the lights of the amusement worlds.",
+        "action": "Catch the chorus",
+        "kind": "song",
+        "x": -14,
+        "z": 10,
+        "scale": 0.6,
+        "elevation": 0.46,
+        "entrance": {
+          "x": -14,
+          "z": 13.6
+        },
+        "focus": {
+          "x": -14,
+          "z": 10.3
+        },
+        "duration": 7
+      },
+      {
+        "id": "rides",
+        "title": "Wonderland rides",
+        "description": "Spinning cups beside a small, swooping coaster.",
+        "action": "Take a spin",
+        "kind": "rides",
+        "x": 11,
+        "z": -16,
+        "scale": 0.6,
+        "elevation": 0.1,
+        "entrance": {
+          "x": 11,
+          "z": -12.4
+        },
+        "focus": {
+          "x": 11,
+          "z": -15.7
+        },
+        "duration": 10
+      },
+      {
+        "id": "badminton",
+        "title": "Badminton hall",
+        "description": "One more rally under the open roof trusses.",
+        "action": "Serve the shuttle",
+        "kind": "badminton",
+        "x": 14,
+        "z": 14,
+        "scale": 0.6,
+        "elevation": 0.1,
+        "entrance": {
+          "x": 14,
+          "z": 17.6
+        },
+        "focus": {
+          "x": 14,
+          "z": 14.3
+        },
+        "duration": 7
+      },
+      {
+        "id": "carnival",
+        "title": "Carnival booths",
+        "description": "Bottle targets, small prizes and a hopeful throw.",
+        "action": "Toss a ring",
+        "kind": "carnival",
+        "x": -1,
+        "z": 17,
+        "scale": 0.6,
+        "elevation": 0.1,
+        "entrance": {
+          "x": 3.5,
+          "z": 20
+        },
+        "focus": {
+          "x": -1,
+          "z": 17.3
+        },
+        "duration": 7
+      },
+      {
+        "id": "wayang",
+        "title": "Wayang stage",
+        "description": "A bright backdrop, a small stage, an evening performance.",
+        "action": "Watch the performance",
+        "kind": "wayang",
+        "x": -1,
+        "z": -17,
+        "scale": 0.6,
+        "elevation": 0.1,
+        "entrance": {
+          "x": -1,
+          "z": -13.4
+        },
+        "focus": {
+          "x": -1,
+          "z": -16.7
+        },
+        "duration": 7
+      },
+      {
+        "id": "satay",
+        "title": "Satay & kopi",
+        "description": "Charcoal skewers and a long coffee pour after the show.",
+        "action": "Order supper",
+        "kind": "satay",
+        "x": -8,
+        "z": 17,
+        "scale": 0.6,
+        "elevation": 0.1,
+        "entrance": {
+          "x": -8,
+          "z": 20.6
+        },
+        "focus": {
+          "x": -8,
+          "z": 17.3
+        },
+        "duration": 7
+      }
+    ],
+    "solids": [
+      {
+        "x": -14,
+        "z": -10,
+        "w": 1.9,
+        "d": 2,
+        "padding": 0.28
+      },
+      {
+        "x": -6,
+        "z": -10,
+        "w": 1.9,
+        "d": 2,
+        "padding": 0.28
+      },
+      {
+        "x": 10,
+        "z": -10,
+        "w": 1.9,
+        "d": 2,
+        "padding": 0.28
+      },
+      {
+        "x": -13,
+        "z": 0,
+        "w": 6,
+        "d": 6,
+        "padding": 0.28
+      },
+      {
+        "x": -5,
+        "z": 13,
+        "w": 1,
+        "d": 1,
+        "padding": 0.28
+      },
+      {
+        "x": 5,
+        "z": 13,
+        "w": 1,
+        "d": 1,
+        "padding": 0.28
+      },
+      {
+        "x": 12,
+        "z": 2,
+        "w": 9,
+        "d": 13,
+        "padding": 0.28
+      },
+      {
+        "x": -8,
+        "z": 10,
+        "w": 5,
+        "d": 2.5,
+        "padding": 0.28
+      },
+      {
+        "x": -1,
+        "z": -9,
+        "w": 4.5,
+        "d": 4.5,
+        "padding": 0.28
+      },
+      {
+        "x": -14,
+        "z": 10,
+        "w": 5,
+        "d": 3,
+        "padding": 0.28
+      },
+      {
+        "x": -23,
+        "z": -16,
+        "w": 5,
+        "d": 3.3,
+        "padding": 0.28
+      },
+      {
+        "x": -23,
+        "z": 15,
+        "w": 5,
+        "d": 3.3,
+        "padding": 0.28
+      },
+      {
+        "x": 23,
+        "z": -17.5,
+        "w": 5.8,
+        "d": 0.2,
+        "padding": 0.28
+      },
+      {
+        "x": 20.2,
+        "z": -16,
+        "w": 0.16,
+        "d": 3,
+        "padding": 0.28
+      },
+      {
+        "x": 25.8,
+        "z": -16,
+        "w": 0.16,
+        "d": 3,
+        "padding": 0.28
+      },
+      {
+        "x": 23,
+        "z": -15.35,
+        "w": 3.7,
+        "d": 0.65,
+        "padding": 0.28
+      },
+      {
+        "x": 23,
+        "z": -1,
+        "w": 7.5,
+        "d": 1.5,
+        "padding": 0.28
+      },
+      {
+        "x": 22,
+        "z": 15,
+        "w": 6,
+        "d": 4,
+        "padding": 0.28
+      },
+      {
+        "x": -2.65,
+        "z": -22,
+        "w": 0.18,
+        "d": 2.8,
+        "padding": 0.28
+      },
+      {
+        "x": 2.65,
+        "z": -22,
+        "w": 0.18,
+        "d": 2.8,
+        "padding": 0.28
+      },
+      {
+        "x": 0,
+        "z": -23.4,
+        "w": 5.4,
+        "d": 0.18,
+        "padding": 0.28
+      },
+      {
+        "x": -1.5,
+        "z": -22.5,
+        "w": 0.9,
+        "d": 0.55,
+        "padding": 0.04
+      },
+      {
+        "x": -1.5,
+        "z": -21.3,
+        "w": 0.9,
+        "d": 0.55,
+        "padding": 0.04
+      },
+      {
+        "x": 0,
+        "z": -22.5,
+        "w": 0.9,
+        "d": 0.55,
+        "padding": 0.04
+      },
+      {
+        "x": 0,
+        "z": -21.3,
+        "w": 0.9,
+        "d": 0.55,
+        "padding": 0.04
+      },
+      {
+        "x": 1.5,
+        "z": -22.5,
+        "w": 0.9,
+        "d": 0.55,
+        "padding": 0.04
+      },
+      {
+        "x": 1.5,
+        "z": -21.3,
+        "w": 0.9,
+        "d": 0.55,
+        "padding": 0.04
+      },
+      {
+        "x": 0,
+        "z": 22,
+        "w": 4.8,
+        "d": 2.9,
+        "padding": 0.28
+      },
+      {
+        "x": 4,
+        "z": -11,
+        "w": 4,
+        "d": 2,
+        "padding": 0.28
+      },
+      {
+        "x": -11.0,
+        "z": -17.4,
+        "w": 6.6,
+        "d": 0.15,
+        "padding": 0.12
+      },
+      {
+        "x": -14.3,
+        "z": -15.3,
+        "w": 0.132,
+        "d": 4.2,
+        "padding": 0.12
+      },
+      {
+        "x": -14.3,
+        "z": -12.6,
+        "w": 0.108,
+        "d": 0.108,
+        "padding": 0.12
+      },
+      {
+        "x": -7.7,
+        "z": -12.6,
+        "w": 0.108,
+        "d": 0.108,
+        "padding": 0.12
+      },
+      {
+        "x": -14.120000000000001,
+        "z": -13.379999999999999,
+        "w": 0.48,
+        "d": 0.36,
+        "padding": 0.12
+      },
+      {
+        "x": -11.24,
+        "z": -13.379999999999999,
+        "w": 0.48,
+        "d": 0.36,
+        "padding": 0.12
+      },
+      {
+        "x": -13.7,
+        "z": -13.02,
+        "w": 0.8999999999999999,
+        "d": 0.66,
+        "padding": 0.12
+      },
+      {
+        "x": -14.0,
+        "z": 7.9,
+        "w": 6.6,
+        "d": 0.15,
+        "padding": 0.12
+      },
+      {
+        "x": -17.3,
+        "z": 9.7,
+        "w": 0.132,
+        "d": 3.5999999999999996,
+        "padding": 0.12
+      },
+      {
+        "x": -17.3,
+        "z": 12.1,
+        "w": 0.108,
+        "d": 0.108,
+        "padding": 0.12
+      },
+      {
+        "x": -10.7,
+        "z": 12.1,
+        "w": 0.108,
+        "d": 0.108,
+        "padding": 0.12
+      },
+      {
+        "x": -14.0,
+        "z": 9.4,
+        "w": 5.3999999999999995,
+        "d": 2.1,
+        "padding": 0.12
+      },
+      {
+        "x": 9.8,
+        "z": -16.0,
+        "w": 3.84,
+        "d": 3.84,
+        "padding": 0.12
+      },
+      {
+        "x": 13.4,
+        "z": -16.0,
+        "w": 2.82,
+        "d": 4.02,
+        "padding": 0.12
+      },
+      {
+        "x": -1.0,
+        "z": 15.2,
+        "w": 7.199999999999999,
+        "d": 0.15,
+        "padding": 0.12
+      },
+      {
+        "x": -4.6,
+        "z": 16.7,
+        "w": 0.132,
+        "d": 3.0,
+        "padding": 0.12
+      },
+      {
+        "x": -4.6,
+        "z": 18.8,
+        "w": 0.108,
+        "d": 0.108,
+        "padding": 0.12
+      },
+      {
+        "x": 2.5999999999999996,
+        "z": 18.8,
+        "w": 0.108,
+        "d": 0.108,
+        "padding": 0.12
+      },
+      {
+        "x": -2.8,
+        "z": 17.0,
+        "w": 3.0,
+        "d": 0.66,
+        "padding": 0.12
+      },
+      {
+        "x": 0.7999999999999998,
+        "z": 17.0,
+        "w": 3.0,
+        "d": 0.66,
+        "padding": 0.12
+      },
+      {
+        "x": -1.0,
+        "z": -19.1,
+        "w": 6.6,
+        "d": 0.15,
+        "padding": 0.12
+      },
+      {
+        "x": -4.3,
+        "z": -17.3,
+        "w": 0.132,
+        "d": 3.5999999999999996,
+        "padding": 0.12
+      },
+      {
+        "x": -4.3,
+        "z": -14.9,
+        "w": 0.108,
+        "d": 0.108,
+        "padding": 0.12
+      },
+      {
+        "x": 2.3,
+        "z": -14.9,
+        "w": 0.108,
+        "d": 0.108,
+        "padding": 0.12
+      },
+      {
+        "x": -1.0,
+        "z": -17.6,
+        "w": 5.3999999999999995,
+        "d": 2.1,
+        "padding": 0.12
+      },
+      {
+        "x": -8.0,
+        "z": 16.04,
+        "w": 4.8,
+        "d": 0.66,
+        "padding": 0.12
+      },
+      {
+        "x": -9.44,
+        "z": 17.78,
+        "w": 0.8999999999999999,
+        "d": 0.8999999999999999,
+        "padding": 0.12
+      },
+      {
+        "x": -6.5600000000000005,
+        "z": 17.78,
+        "w": 0.8999999999999999,
+        "d": 0.8999999999999999,
+        "padding": 0.12
+      }
+    ],
+    "spawn": {
+      "x": 0,
+      "z": 3
+    },
+    "center": {
+      "x": 0,
+      "z": 0
+    },
+    "bounds": {
+      "x": 27,
+      "z": 25
+    }
+  },
+  "estate": {
+    "stations": [
+      {
+        "id": "voiddeck",
+        "title": "Downstairs at the block",
+        "description": "Communal television, corridor laundry and a chess table.",
+        "action": "Watch together",
+        "kind": "voiddeck",
+        "x": -12,
+        "z": -3,
+        "scale": 0.6,
+        "elevation": 0.1,
+        "entrance": {
+          "x": -12,
+          "z": 0.5999999999999996
+        },
+        "focus": {
+          "x": -12,
+          "z": -2.7
+        },
+        "duration": 7
+      },
+      {
+        "id": "provisions",
+        "title": "Provision shop",
+        "description": "Sweet jars, biscuit tins and a familiar weighing scale.",
+        "action": "Pick a treat",
+        "kind": "provisions",
+        "x": 2,
+        "z": -12,
+        "scale": 0.6,
+        "elevation": 0.1,
+        "entrance": {
+          "x": 2,
+          "z": -8.4
+        },
+        "focus": {
+          "x": 2,
+          "z": -11.7
+        },
+        "duration": 7
+      },
+      {
+        "id": "mrt",
+        "title": "The first train rides",
+        "description": "A short platform and the red-striped trains of a new journey.",
+        "action": "Watch the train arrive",
+        "kind": "mrt",
+        "x": 12,
+        "z": -12,
+        "scale": 0.6,
+        "elevation": 0.1,
+        "entrance": {
+          "x": 12,
+          "z": -8.4
+        },
+        "focus": {
+          "x": 12,
+          "z": -11.7
+        },
+        "duration": 7
+      },
+      {
+        "id": "dragon",
+        "title": "Dragon playground",
+        "description": "Mosaic curves, climbing steps and the slide everyone races for.",
+        "action": "Take the slide",
+        "kind": "dragon",
+        "x": 0,
+        "z": 2,
+        "scale": 0.6,
+        "elevation": 0.1,
+        "entrance": {
+          "x": 0,
+          "z": 5.6
+        },
+        "focus": {
+          "x": 0,
+          "z": 2.3
+        },
+        "duration": 7
+      },
+      {
+        "id": "trades",
+        "title": "Barber & cobbler",
+        "description": "A trim on one side; a carefully repaired sole on the other.",
+        "action": "See the craft",
+        "kind": "trades",
+        "x": 13,
+        "z": 13,
+        "scale": 0.6,
+        "elevation": 0.1,
+        "entrance": {
+          "x": 13,
+          "z": 16.6
+        },
+        "focus": {
+          "x": 13,
+          "z": 13.3
+        },
+        "duration": 7
+      },
+      {
+        "id": "games",
+        "title": "Five more minutes",
+        "description": "Hopscotch, marbles and keeping the chapteh in the air.",
+        "action": "Keep it up",
+        "kind": "games",
+        "x": -11,
+        "z": 17,
+        "scale": 0.6,
+        "elevation": 0.1,
+        "entrance": {
+          "x": -11,
+          "z": 20.6
+        },
+        "focus": {
+          "x": -11,
+          "z": 17.3
+        },
+        "duration": 7
+      },
+      {
+        "id": "kopi",
+        "title": "Kopi downstairs",
+        "description": "Toast, soft eggs and a coffee pulled through the afternoon.",
+        "action": "Pour a kopi",
+        "kind": "kopi",
+        "x": 2,
+        "z": 16,
+        "scale": 0.6,
+        "elevation": 0.1,
+        "entrance": {
+          "x": 2,
+          "z": 19.6
+        },
+        "focus": {
+          "x": 2,
+          "z": 16.3
+        },
+        "duration": 7
+      }
+    ],
+    "solids": [
+      {
+        "x": -12,
+        "z": -9,
+        "w": 4,
+        "d": 2,
+        "padding": 0.28
+      },
+      {
+        "x": -6,
+        "z": -12,
+        "w": 4,
+        "d": 2,
+        "padding": 0.28
+      },
+      {
+        "x": -14,
+        "z": 5,
+        "w": 4,
+        "d": 2,
+        "padding": 0.28
+      },
+      {
+        "x": -16,
+        "z": -16,
+        "w": 0.6,
+        "d": 1,
+        "padding": 0.28
+      },
+      {
+        "x": -12,
+        "z": -16,
+        "w": 0.6,
+        "d": 1,
+        "padding": 0.28
+      },
+      {
+        "x": -8,
+        "z": -16,
+        "w": 0.6,
+        "d": 1,
+        "padding": 0.28
+      },
+      {
+        "x": -4,
+        "z": -16,
+        "w": 0.6,
+        "d": 1,
+        "padding": 0.28
+      },
+      {
+        "x": 0,
+        "z": -16,
+        "w": 0.6,
+        "d": 1,
+        "padding": 0.28
+      },
+      {
+        "x": 4,
+        "z": -16,
+        "w": 0.6,
+        "d": 1,
+        "padding": 0.28
+      },
+      {
+        "x": 8,
+        "z": -16,
+        "w": 0.6,
+        "d": 1,
+        "padding": 0.28
+      },
+      {
+        "x": 12,
+        "z": -16,
+        "w": 0.6,
+        "d": 1,
+        "padding": 0.28
+      },
+      {
+        "x": 16,
+        "z": -16,
+        "w": 0.6,
+        "d": 1,
+        "padding": 0.28
+      },
+      {
+        "x": 11,
+        "z": 6,
+        "w": 3,
+        "d": 2,
+        "padding": 0.28
+      },
+      {
+        "x": -3,
+        "z": 11,
+        "w": 5,
+        "d": 2.5,
+        "padding": 0.28
+      },
+      {
+        "x": -12,
+        "z": 11,
+        "w": 1.9,
+        "d": 2,
+        "padding": 0.28
+      },
+      {
+        "x": 10,
+        "z": -5,
+        "w": 2,
+        "d": 1,
+        "padding": 0.28
+      },
+      {
+        "x": -2.5,
+        "z": -7,
+        "w": 2,
+        "d": 1.1,
+        "padding": 0.28
+      },
+      {
+        "x": 0.0,
+        "z": -7,
+        "w": 2,
+        "d": 1.1,
+        "padding": 0.28
+      },
+      {
+        "x": 2.5,
+        "z": -7,
+        "w": 2,
+        "d": 1.1,
+        "padding": 0.28
+      },
+      {
+        "x": -25.65,
+        "z": -16,
+        "w": 0.18,
+        "d": 2.8,
+        "padding": 0.28
+      },
+      {
+        "x": -20.35,
+        "z": -16,
+        "w": 0.18,
+        "d": 2.8,
+        "padding": 0.28
+      },
+      {
+        "x": -23,
+        "z": -17.4,
+        "w": 5.4,
+        "d": 0.18,
+        "padding": 0.28
+      },
+      {
+        "x": -24.5,
+        "z": -16.5,
+        "w": 0.9,
+        "d": 0.55,
+        "padding": 0.04
+      },
+      {
+        "x": -24.5,
+        "z": -15.3,
+        "w": 0.9,
+        "d": 0.55,
+        "padding": 0.04
+      },
+      {
+        "x": -23,
+        "z": -16.5,
+        "w": 0.9,
+        "d": 0.55,
+        "padding": 0.04
+      },
+      {
+        "x": -23,
+        "z": -15.3,
+        "w": 0.9,
+        "d": 0.55,
+        "padding": 0.04
+      },
+      {
+        "x": -21.5,
+        "z": -16.5,
+        "w": 0.9,
+        "d": 0.55,
+        "padding": 0.04
+      },
+      {
+        "x": -21.5,
+        "z": -15.3,
+        "w": 0.9,
+        "d": 0.55,
+        "padding": 0.04
+      },
+      {
+        "x": -23,
+        "z": -2,
+        "w": 5,
+        "d": 3.3,
+        "padding": 0.28
+      },
+      {
+        "x": 23,
+        "z": -17.5,
+        "w": 5.8,
+        "d": 0.2,
+        "padding": 0.28
+      },
+      {
+        "x": 20.2,
+        "z": -16,
+        "w": 0.16,
+        "d": 3,
+        "padding": 0.28
+      },
+      {
+        "x": 25.8,
+        "z": -16,
+        "w": 0.16,
+        "d": 3,
+        "padding": 0.28
+      },
+      {
+        "x": 23,
+        "z": -15.35,
+        "w": 3.7,
+        "d": 0.65,
+        "padding": 0.28
+      },
+      {
+        "x": 23,
+        "z": 15,
+        "w": 5,
+        "d": 3.3,
+        "padding": 0.28
+      },
+      {
+        "x": 0,
+        "z": -22,
+        "w": 4.8,
+        "d": 2.9,
+        "padding": 0.28
+      },
+      {
+        "x": -15.0,
+        "z": -3.6,
+        "w": 0.24,
+        "d": 3.0,
+        "padding": 0.12
+      },
+      {
+        "x": -12.0,
+        "z": -3.6,
+        "w": 0.24,
+        "d": 3.0,
+        "padding": 0.12
+      },
+      {
+        "x": -9.0,
+        "z": -3.6,
+        "w": 0.24,
+        "d": 3.0,
+        "padding": 0.12
+      },
+      {
+        "x": -10.379999999999999,
+        "z": -3.0,
+        "w": 0.8999999999999999,
+        "d": 0.8999999999999999,
+        "padding": 0.12
+      },
+      {
+        "x": 2.0,
+        "z": -14.1,
+        "w": 6.0,
+        "d": 0.15,
+        "padding": 0.12
+      },
+      {
+        "x": -1.0,
+        "z": -12.3,
+        "w": 0.132,
+        "d": 3.5999999999999996,
+        "padding": 0.12
+      },
+      {
+        "x": -1.0,
+        "z": -9.9,
+        "w": 0.108,
+        "d": 0.108,
+        "padding": 0.12
+      },
+      {
+        "x": 5.0,
+        "z": -9.9,
+        "w": 0.108,
+        "d": 0.108,
+        "padding": 0.12
+      },
+      {
+        "x": 2.0,
+        "z": -11.64,
+        "w": 4.2,
+        "d": 0.6,
+        "padding": 0.12
+      },
+      {
+        "x": 12.0,
+        "z": -12.0,
+        "w": 7.199999999999999,
+        "d": 3.0,
+        "padding": 0.12
+      },
+      {
+        "x": 0.12,
+        "z": 1.82,
+        "w": 5.3999999999999995,
+        "d": 1.2,
+        "padding": 0.12
+      },
+      {
+        "x": 13.0,
+        "z": 10.9,
+        "w": 6.6,
+        "d": 0.15,
+        "padding": 0.12
+      },
+      {
+        "x": 9.7,
+        "z": 12.7,
+        "w": 0.132,
+        "d": 3.5999999999999996,
+        "padding": 0.12
+      },
+      {
+        "x": 9.7,
+        "z": 15.1,
+        "w": 0.108,
+        "d": 0.108,
+        "padding": 0.12
+      },
+      {
+        "x": 16.3,
+        "z": 15.1,
+        "w": 0.108,
+        "d": 0.108,
+        "padding": 0.12
+      },
+      {
+        "x": 14.5,
+        "z": 12.4,
+        "w": 1.7999999999999998,
+        "d": 0.8999999999999999,
+        "padding": 0.12
+      },
+      {
+        "x": 2.0,
+        "z": 13.9,
+        "w": 6.6,
+        "d": 0.15,
+        "padding": 0.12
+      },
+      {
+        "x": -1.2999999999999998,
+        "z": 15.7,
+        "w": 0.132,
+        "d": 3.5999999999999996,
+        "padding": 0.12
+      },
+      {
+        "x": -1.2999999999999998,
+        "z": 18.1,
+        "w": 0.108,
+        "d": 0.108,
+        "padding": 0.12
+      },
+      {
+        "x": 5.3,
+        "z": 18.1,
+        "w": 0.108,
+        "d": 0.108,
+        "padding": 0.12
+      },
+      {
+        "x": 2.0,
+        "z": 15.04,
+        "w": 4.8,
+        "d": 0.66,
+        "padding": 0.12
+      },
+      {
+        "x": 0.56,
+        "z": 16.78,
+        "w": 0.8999999999999999,
+        "d": 0.8999999999999999,
+        "padding": 0.12
+      },
+      {
+        "x": 3.44,
+        "z": 16.78,
+        "w": 0.8999999999999999,
+        "d": 0.8999999999999999,
+        "padding": 0.12
+      }
+    ],
+    "spawn": {
+      "x": 0,
+      "z": 0
+    },
+    "center": {
+      "x": 0,
+      "z": 0
+    },
+    "bounds": {
+      "x": 27,
+      "z": 25
+    }
+  },
+  "town": {
+    "stations": [
+      {
+        "id": "lan",
+        "title": "One more game",
+        "description": "Four CRTs, the keyboard clatter and the last round before supper.",
+        "action": "Start a round",
+        "kind": "lan",
+        "x": -12,
+        "z": 2,
+        "scale": 0.6,
+        "elevation": 0.1,
+        "entrance": {
+          "x": -12,
+          "z": 5.6
+        },
+        "focus": {
+          "x": -12,
+          "z": 2.3
+        },
+        "duration": 7
+      },
+      {
+        "id": "arcade",
+        "title": "Arcade after school",
+        "description": "Dance arrows and side-by-side racing cabinets.",
+        "action": "Hit the next beat",
+        "kind": "arcade",
+        "x": -12,
+        "z": 16,
+        "scale": 0.6,
+        "elevation": 0.1,
+        "entrance": {
+          "x": -12,
+          "z": 19.6
+        },
+        "focus": {
+          "x": -12,
+          "z": 16.3
+        },
+        "duration": 7
+      },
+      {
+        "id": "bowling",
+        "title": "At the lanes",
+        "description": "Polished boards, the rolling ball and a clatter of pins.",
+        "action": "Roll a ball",
+        "kind": "bowling",
+        "x": -11,
+        "z": -17,
+        "scale": 0.6,
+        "elevation": 0.1,
+        "entrance": {
+          "x": -11,
+          "z": -13.4
+        },
+        "focus": {
+          "x": -11,
+          "z": -16.7
+        },
+        "duration": 7
+      },
+      {
+        "id": "stadium",
+        "title": "Match day",
+        "description": "A fragment of the old stands, floodlights and a familiar cheer.",
+        "action": "Take a shot",
+        "kind": "stadium",
+        "x": 10,
+        "z": 5,
+        "scale": 0.6,
+        "elevation": 0.1,
+        "entrance": {
+          "x": 10,
+          "z": 8.6
+        },
+        "focus": {
+          "x": 10,
+          "z": 5.3
+        },
+        "duration": 7
+      },
+      {
+        "id": "photo",
+        "title": "Photo, music & comics",
+        "description": "A curtain booth, listening counter and shelves worth browsing.",
+        "action": "Take a photo",
+        "kind": "photo",
+        "x": 10,
+        "z": 17,
+        "scale": 0.6,
+        "elevation": 0.1,
+        "entrance": {
+          "x": 10,
+          "z": 20.6
+        },
+        "focus": {
+          "x": 10,
+          "z": 17.3
+        },
+        "duration": 7
+      },
+      {
+        "id": "steamboat",
+        "title": "Supper under the roof",
+        "description": "Simmering broth, shared bowls and a table that lingers.",
+        "action": "Share the hotpot",
+        "kind": "steamboat",
+        "x": 0,
+        "z": 17,
+        "scale": 0.6,
+        "elevation": 0.1,
+        "entrance": {
+          "x": 4,
+          "z": 18.5
+        },
+        "focus": {
+          "x": 0,
+          "z": 17.3
+        },
+        "duration": 7
+      }
+    ],
+    "solids": [
+      {
+        "x": -16,
+        "z": -12,
+        "w": 0.6,
+        "d": 1,
+        "padding": 0.28
+      },
+      {
+        "x": -12,
+        "z": -12,
+        "w": 0.6,
+        "d": 1,
+        "padding": 0.28
+      },
+      {
+        "x": -8,
+        "z": -12,
+        "w": 0.6,
+        "d": 1,
+        "padding": 0.28
+      },
+      {
+        "x": -4,
+        "z": -12,
+        "w": 0.6,
+        "d": 1,
+        "padding": 0.28
+      },
+      {
+        "x": 0,
+        "z": -12,
+        "w": 0.6,
+        "d": 1,
+        "padding": 0.28
+      },
+      {
+        "x": 4,
+        "z": -12,
+        "w": 0.6,
+        "d": 1,
+        "padding": 0.28
+      },
+      {
+        "x": 8,
+        "z": -12,
+        "w": 0.6,
+        "d": 1,
+        "padding": 0.28
+      },
+      {
+        "x": 12,
+        "z": -12,
+        "w": 0.6,
+        "d": 1,
+        "padding": 0.28
+      },
+      {
+        "x": 16,
+        "z": -12,
+        "w": 0.6,
+        "d": 1,
+        "padding": 0.28
+      },
+      {
+        "x": 11,
+        "z": -3,
+        "w": 9,
+        "d": 7,
+        "padding": 0.28
+      },
+      {
+        "x": -12,
+        "z": -5,
+        "w": 6,
+        "d": 6,
+        "padding": 0.28
+      },
+      {
+        "x": 5,
+        "z": 11,
+        "w": 4,
+        "d": 3,
+        "padding": 0.28
+      },
+      {
+        "x": 10,
+        "z": 11,
+        "w": 4,
+        "d": 3,
+        "padding": 0.28
+      },
+      {
+        "x": 15,
+        "z": 11,
+        "w": 4,
+        "d": 3,
+        "padding": 0.28
+      },
+      {
+        "x": -11,
+        "z": 10,
+        "w": 1.9,
+        "d": 2,
+        "padding": 0.28
+      },
+      {
+        "x": -7,
+        "z": 11,
+        "w": 1.9,
+        "d": 2,
+        "padding": 0.28
+      },
+      {
+        "x": 1,
+        "z": 6.7,
+        "w": 0.85,
+        "d": 0.8,
+        "padding": 0.28
+      },
+      {
+        "x": 2.2,
+        "z": 6.7,
+        "w": 0.85,
+        "d": 0.8,
+        "padding": 0.28
+      },
+      {
+        "x": 3.4,
+        "z": 6.7,
+        "w": 0.85,
+        "d": 0.8,
+        "padding": 0.28
+      },
+      {
+        "x": 4.6,
+        "z": 6.7,
+        "w": 0.85,
+        "d": 0.8,
+        "padding": 0.28
+      },
+      {
+        "x": -23,
+        "z": -16,
+        "w": 4.8,
+        "d": 2.9,
+        "padding": 0.28
+      },
+      {
+        "x": -23,
+        "z": -2,
+        "w": 5,
+        "d": 3.3,
+        "padding": 0.28
+      },
+      {
+        "x": -23,
+        "z": 15,
+        "w": 5,
+        "d": 3.3,
+        "padding": 0.28
+      },
+      {
+        "x": 23,
+        "z": -17.5,
+        "w": 5.8,
+        "d": 0.2,
+        "padding": 0.28
+      },
+      {
+        "x": 20.2,
+        "z": -16,
+        "w": 0.16,
+        "d": 3,
+        "padding": 0.28
+      },
+      {
+        "x": 25.8,
+        "z": -16,
+        "w": 0.16,
+        "d": 3,
+        "padding": 0.28
+      },
+      {
+        "x": 23,
+        "z": -15.35,
+        "w": 3.7,
+        "d": 0.65,
+        "padding": 0.28
+      },
+      {
+        "x": 23,
+        "z": -1,
+        "w": 5,
+        "d": 1.7,
+        "padding": 0.28
+      },
+      {
+        "x": -2.65,
+        "z": 22,
+        "w": 0.18,
+        "d": 2.8,
+        "padding": 0.28
+      },
+      {
+        "x": 2.65,
+        "z": 22,
+        "w": 0.18,
+        "d": 2.8,
+        "padding": 0.28
+      },
+      {
+        "x": 0,
+        "z": 20.6,
+        "w": 5.4,
+        "d": 0.18,
+        "padding": 0.28
+      },
+      {
+        "x": -1.5,
+        "z": 21.5,
+        "w": 0.9,
+        "d": 0.55,
+        "padding": 0.04
+      },
+      {
+        "x": -1.5,
+        "z": 22.7,
+        "w": 0.9,
+        "d": 0.55,
+        "padding": 0.04
+      },
+      {
+        "x": 0,
+        "z": 21.5,
+        "w": 0.9,
+        "d": 0.55,
+        "padding": 0.04
+      },
+      {
+        "x": 0,
+        "z": 22.7,
+        "w": 0.9,
+        "d": 0.55,
+        "padding": 0.04
+      },
+      {
+        "x": 1.5,
+        "z": 21.5,
+        "w": 0.9,
+        "d": 0.55,
+        "padding": 0.04
+      },
+      {
+        "x": 1.5,
+        "z": 22.7,
+        "w": 0.9,
+        "d": 0.55,
+        "padding": 0.04
+      },
+      {
+        "x": 8.5,
+        "z": -17,
+        "w": 4,
+        "d": 2,
+        "padding": 0.28
+      },
+      {
+        "x": 14.5,
+        "z": -17,
+        "w": 4,
+        "d": 2,
+        "padding": 0.28
+      },
+      {
+        "x": -12.0,
+        "z": -0.10000000000000009,
+        "w": 6.6,
+        "d": 0.15,
+        "padding": 0.12
+      },
+      {
+        "x": -15.3,
+        "z": 1.7,
+        "w": 0.132,
+        "d": 3.5999999999999996,
+        "padding": 0.12
+      },
+      {
+        "x": -15.3,
+        "z": 4.1,
+        "w": 0.108,
+        "d": 0.108,
+        "padding": 0.12
+      },
+      {
+        "x": -8.7,
+        "z": 4.1,
+        "w": 0.108,
+        "d": 0.108,
+        "padding": 0.12
+      },
+      {
+        "x": -13.8,
+        "z": 3.62,
+        "w": 1.7999999999999998,
+        "d": 0.6,
+        "padding": 0.12
+      },
+      {
+        "x": -12.0,
+        "z": 13.6,
+        "w": 7.199999999999999,
+        "d": 0.15,
+        "padding": 0.12
+      },
+      {
+        "x": -15.6,
+        "z": 15.7,
+        "w": 0.132,
+        "d": 4.2,
+        "padding": 0.12
+      },
+      {
+        "x": -15.6,
+        "z": 18.4,
+        "w": 0.108,
+        "d": 0.108,
+        "padding": 0.12
+      },
+      {
+        "x": -8.4,
+        "z": 18.4,
+        "w": 0.108,
+        "d": 0.108,
+        "padding": 0.12
+      },
+      {
+        "x": -13.8,
+        "z": 14.956,
+        "w": 1.926,
+        "d": 1.098,
+        "padding": 0.12
+      },
+      {
+        "x": -11.13,
+        "z": 14.956,
+        "w": 1.308,
+        "d": 1.098,
+        "padding": 0.12
+      },
+      {
+        "x": -11.13,
+        "z": 16.618,
+        "w": 0.648,
+        "d": 0.792,
+        "padding": 0.12
+      },
+      {
+        "x": -9.57,
+        "z": 14.956,
+        "w": 1.308,
+        "d": 1.098,
+        "padding": 0.12
+      },
+      {
+        "x": -9.57,
+        "z": 16.618,
+        "w": 0.648,
+        "d": 0.792,
+        "padding": 0.12
+      },
+      {
+        "x": -11.0,
+        "z": -20.3,
+        "w": 6.6,
+        "d": 0.15,
+        "padding": 0.12
+      },
+      {
+        "x": -14.3,
+        "z": -17.3,
+        "w": 0.132,
+        "d": 6.0,
+        "padding": 0.12
+      },
+      {
+        "x": -14.3,
+        "z": -13.7,
+        "w": 0.108,
+        "d": 0.108,
+        "padding": 0.12
+      },
+      {
+        "x": -7.7,
+        "z": -13.7,
+        "w": 0.108,
+        "d": 0.108,
+        "padding": 0.12
+      },
+      {
+        "x": -11.0,
+        "z": -14.9,
+        "w": 0.33,
+        "d": 1.2,
+        "padding": 0.12
+      },
+      {
+        "x": 10.0,
+        "z": 2.12,
+        "w": 6.6,
+        "d": 2.1,
+        "padding": 0.12
+      },
+      {
+        "x": 11.56,
+        "z": 14.96,
+        "w": 3.9,
+        "d": 0.12,
+        "padding": 0.12
+      },
+      {
+        "x": 8.2,
+        "z": 16.4,
+        "w": 1.7999999999999998,
+        "d": 1.7999999999999998,
+        "padding": 0.12
+      },
+      {
+        "x": 11.5,
+        "z": 17.3,
+        "w": 1.7999999999999998,
+        "d": 0.6,
+        "padding": 0.12
+      },
+      {
+        "x": 0.0,
+        "z": 14.9,
+        "w": 6.6,
+        "d": 0.15,
+        "padding": 0.12
+      },
+      {
+        "x": -3.3,
+        "z": 16.7,
+        "w": 0.132,
+        "d": 3.5999999999999996,
+        "padding": 0.12
+      },
+      {
+        "x": -3.3,
+        "z": 19.1,
+        "w": 0.108,
+        "d": 0.108,
+        "padding": 0.12
+      },
+      {
+        "x": 3.3,
+        "z": 19.1,
+        "w": 0.108,
+        "d": 0.108,
+        "padding": 0.12
+      },
+      {
+        "x": 0.0,
+        "z": 16.04,
+        "w": 4.8,
+        "d": 0.66,
+        "padding": 0.12
+      },
+      {
+        "x": -1.44,
+        "z": 17.78,
+        "w": 0.8999999999999999,
+        "d": 0.8999999999999999,
+        "padding": 0.12
+      },
+      {
+        "x": 1.44,
+        "z": 17.78,
+        "w": 0.8999999999999999,
+        "d": 0.8999999999999999,
+        "padding": 0.12
+      }
+    ],
+    "spawn": {
+      "x": -3,
+      "z": 2
+    },
+    "center": {
+      "x": 0,
+      "z": 0
+    },
+    "bounds": {
+      "x": 27,
+      "z": 25
+    }
+  },
+  "river": {
+    "stations": [
+      {
+        "id": "jetty",
+        "title": "River landing",
+        "description": "Cargo crates and a working bumboat at the timber jetty.",
+        "action": "Watch the boat unload",
+        "kind": "jetty",
+        "x": -10,
+        "z": -17,
+        "scale": 0.6,
+        "elevation": 0.1,
+        "entrance": {
+          "x": -4.5,
+          "z": -17
+        },
+        "focus": {
+          "x": -10,
+          "z": -16.7
+        },
+        "duration": 7
+      },
+      {
+        "id": "provisions",
+        "title": "Five-foot-way trade",
+        "description": "Provision jars and daily necessities at the counter.",
+        "action": "Visit the counter",
+        "kind": "provisions",
+        "x": 2,
+        "z": 13,
+        "scale": 0.6,
+        "elevation": 0.1,
+        "entrance": {
+          "x": 2,
+          "z": 16.6
+        },
+        "focus": {
+          "x": 2,
+          "z": 13.3
+        },
+        "duration": 7
+      },
+      {
+        "id": "wayang",
+        "title": "Street performance",
+        "description": "Neighbours gather around a small opera stage.",
+        "action": "Stay for the show",
+        "kind": "wayang",
+        "x": 15,
+        "z": 3,
+        "scale": 0.6,
+        "elevation": 0.1,
+        "entrance": {
+          "x": 15,
+          "z": 6.6
+        },
+        "focus": {
+          "x": 15,
+          "z": 3.3
+        },
+        "duration": 7
+      },
+      {
+        "id": "wash",
+        "title": "Kampong washing yard",
+        "description": "A standpipe, basins and bright laundry in the breeze.",
+        "action": "Pause in the yard",
+        "kind": "wash",
+        "x": 2,
+        "z": -18,
+        "scale": 0.6,
+        "elevation": 0.1,
+        "entrance": {
+          "x": 2,
+          "z": -14.4
+        },
+        "focus": {
+          "x": 2,
+          "z": -17.7
+        },
+        "duration": 7
+      },
+      {
+        "id": "trishaw",
+        "title": "Trishaw & repairs",
+        "description": "A passenger carriage, a repair bench and well-used tools.",
+        "action": "Watch a repair",
+        "kind": "trishaw",
+        "x": 14,
+        "z": -17,
+        "scale": 0.6,
+        "elevation": 0.1,
+        "entrance": {
+          "x": 14,
+          "z": -13.4
+        },
+        "focus": {
+          "x": 14,
+          "z": -16.7
+        },
+        "duration": 7
+      },
+      {
+        "id": "games",
+        "title": "Games on the ground",
+        "description": "Marbles and a feathered chapteh on a shared patch of ground.",
+        "action": "Join a round",
+        "kind": "games",
+        "x": -1,
+        "z": 18,
+        "scale": 0.6,
+        "elevation": 0.1,
+        "entrance": {
+          "x": -1,
+          "z": 21.6
+        },
+        "focus": {
+          "x": -1,
+          "z": 18.3
+        },
+        "duration": 7
+      },
+      {
+        "id": "hawker",
+        "title": "Roadside supper",
+        "description": "Food at a small counter, coffee and places to sit together.",
+        "action": "Order at the stall",
+        "kind": "hawker",
+        "x": 14,
+        "z": -4,
+        "scale": 0.6,
+        "elevation": 0.1,
+        "entrance": {
+          "x": 14,
+          "z": -0.40000000000000036
+        },
+        "focus": {
+          "x": 14,
+          "z": -3.7
+        },
+        "duration": 7
+      }
+    ],
+    "solids": [
+      {
+        "x": -11.45487588292109,
+        "z": -25.0,
+        "w": 6,
+        "d": 2.4,
+        "padding": 0.28
+      },
+      {
+        "x": -11.595991978566488,
+        "z": -22.75,
+        "w": 6,
+        "d": 2.4,
+        "padding": 0.28
+      },
+      {
+        "x": -11.346353575692635,
+        "z": -20.5,
+        "w": 6,
+        "d": 2.4,
+        "padding": 0.28
+      },
+      {
+        "x": -10.767080861766726,
+        "z": -18.25,
+        "w": 6,
+        "d": 2.4,
+        "padding": 0.28
+      },
+      {
+        "x": -10.0,
+        "z": -16.0,
+        "w": 6,
+        "d": 2.4,
+        "padding": 0.28
+      },
+      {
+        "x": -9.232919138233274,
+        "z": -13.75,
+        "w": 6,
+        "d": 2.4,
+        "padding": 0.28
+      },
+      {
+        "x": -8.653646424307365,
+        "z": -11.5,
+        "w": 6,
+        "d": 2.4,
+        "padding": 0.28
+      },
+      {
+        "x": -8.404008021433512,
+        "z": -9.25,
+        "w": 6,
+        "d": 2.4,
+        "padding": 0.28
+      },
+      {
+        "x": -8.54512411707891,
+        "z": -7.0,
+        "w": 6,
+        "d": 2.4,
+        "padding": 0.28
+      },
+      {
+        "x": -9.04244456943367,
+        "z": -4.75,
+        "w": 6,
+        "d": 2.4,
+        "padding": 0.28
+      },
+      {
+        "x": -9.774207987104212,
+        "z": -2.5,
+        "w": 6,
+        "d": 2.4,
+        "padding": 0.28
+      },
+      {
+        "x": -10.561253164303391,
+        "z": -0.25,
+        "w": 6,
+        "d": 2.4,
+        "padding": 0.28
+      },
+      {
+        "x": -11.210883992492686,
+        "z": 2.0,
+        "w": 6,
+        "d": 2.4,
+        "padding": 0.28
+      },
+      {
+        "x": -11.564048188264156,
+        "z": 4.25,
+        "w": 6,
+        "d": 2.4,
+        "padding": 0.28
+      },
+      {
+        "x": -11.534278839461022,
+        "z": 6.5,
+        "w": 6,
+        "d": 2.4,
+        "padding": 0.28
+      },
+      {
+        "x": -11.128864520912627,
+        "z": 8.75,
+        "w": 6,
+        "d": 2.4,
+        "padding": 0.28
+      },
+      {
+        "x": -10.447064797118282,
+        "z": 11.0,
+        "w": 6,
+        "d": 2.4,
+        "padding": 0.28
+      },
+      {
+        "x": -9.655808019059496,
+        "z": 13.25,
+        "w": 6,
+        "d": 2.4,
+        "padding": 0.28
+      },
+      {
+        "x": -8.948821442049937,
+        "z": 15.5,
+        "w": 6,
+        "d": 2.4,
+        "padding": 0.28
+      },
+      {
+        "x": -8.499200037160417,
+        "z": 17.75,
+        "w": 6,
+        "d": 2.4,
+        "padding": 0.28
+      },
+      {
+        "x": -8.417026805402589,
+        "z": 20.0,
+        "w": 6,
+        "d": 2.4,
+        "padding": 0.28
+      },
+      {
+        "x": -8.722420619802415,
+        "z": 22.25,
+        "w": 6,
+        "d": 2.4,
+        "padding": 0.28
+      },
+      {
+        "x": -9.340610423613189,
+        "z": 24.5,
+        "w": 6,
+        "d": 2.4,
+        "padding": 0.28
+      },
+      {
+        "x": -10,
+        "z": -9,
+        "w": 11,
+        "d": 1.5,
+        "bridge": true
+      },
+      {
+        "x": -10,
+        "z": 7,
+        "w": 11,
+        "d": 1.5,
+        "bridge": true
+      },
+      {
+        "x": 0,
+        "z": -11,
+        "w": 3.5,
+        "d": 3,
+        "padding": 0.28
+      },
+      {
+        "x": 10,
+        "z": -10,
+        "w": 3.5,
+        "d": 3,
+        "padding": 0.28
+      },
+      {
+        "x": -16,
+        "z": -13,
+        "w": 1.9,
+        "d": 2,
+        "padding": 0.28
+      },
+      {
+        "x": -16,
+        "z": -3,
+        "w": 1.9,
+        "d": 2,
+        "padding": 0.28
+      },
+      {
+        "x": -16,
+        "z": 11,
+        "w": 1.9,
+        "d": 2,
+        "padding": 0.28
+      },
+      {
+        "x": 12,
+        "z": 11,
+        "w": 5,
+        "d": 2.5,
+        "padding": 0.28
+      },
+      {
+        "x": 10.5,
+        "z": 14,
+        "w": 2,
+        "d": 1.1,
+        "padding": 0.28
+      },
+      {
+        "x": 13.0,
+        "z": 14,
+        "w": 2,
+        "d": 1.1,
+        "padding": 0.28
+      },
+      {
+        "x": 15.5,
+        "z": 14,
+        "w": 2,
+        "d": 1.1,
+        "padding": 0.28
+      },
+      {
+        "x": -23,
+        "z": -16,
+        "w": 4.8,
+        "d": 2.9,
+        "padding": 0.28
+      },
+      {
+        "x": -23,
+        "z": -4.5,
+        "w": 5.8,
+        "d": 0.2,
+        "padding": 0.28
+      },
+      {
+        "x": -25.8,
+        "z": -3,
+        "w": 0.16,
+        "d": 3,
+        "padding": 0.28
+      },
+      {
+        "x": -20.2,
+        "z": -3,
+        "w": 0.16,
+        "d": 3,
+        "padding": 0.28
+      },
+      {
+        "x": -23,
+        "z": -2.35,
+        "w": 3.7,
+        "d": 0.65,
+        "padding": 0.28
+      },
+      {
+        "x": -23,
+        "z": 13,
+        "w": 5,
+        "d": 3.3,
+        "padding": 0.28
+      },
+      {
+        "x": 22,
+        "z": -16,
+        "w": 4.6,
+        "d": 3.6,
+        "padding": 0.28
+      },
+      {
+        "x": 23,
+        "z": -2,
+        "w": 4.6,
+        "d": 3.6,
+        "padding": 0.28
+      },
+      {
+        "x": 22,
+        "z": 15,
+        "w": 5,
+        "d": 3.3,
+        "padding": 0.28
+      },
+      {
+        "x": 2.35,
+        "z": -22,
+        "w": 0.18,
+        "d": 2.8,
+        "padding": 0.28
+      },
+      {
+        "x": 7.65,
+        "z": -22,
+        "w": 0.18,
+        "d": 2.8,
+        "padding": 0.28
+      },
+      {
+        "x": 5,
+        "z": -23.4,
+        "w": 5.4,
+        "d": 0.18,
+        "padding": 0.28
+      },
+      {
+        "x": 3.5,
+        "z": -22.5,
+        "w": 0.9,
+        "d": 0.55,
+        "padding": 0.04
+      },
+      {
+        "x": 3.5,
+        "z": -21.3,
+        "w": 0.9,
+        "d": 0.55,
+        "padding": 0.04
+      },
+      {
+        "x": 5,
+        "z": -22.5,
+        "w": 0.9,
+        "d": 0.55,
+        "padding": 0.04
+      },
+      {
+        "x": 5,
+        "z": -21.3,
+        "w": 0.9,
+        "d": 0.55,
+        "padding": 0.04
+      },
+      {
+        "x": 6.5,
+        "z": -22.5,
+        "w": 0.9,
+        "d": 0.55,
+        "padding": 0.04
+      },
+      {
+        "x": 6.5,
+        "z": -21.3,
+        "w": 0.9,
+        "d": 0.55,
+        "padding": 0.04
+      },
+      {
+        "x": -10.0,
+        "z": -17.0,
+        "w": 7.199999999999999,
+        "d": 4.8,
+        "padding": 0.12
+      },
+      {
+        "x": 2.0,
+        "z": 10.9,
+        "w": 6.0,
+        "d": 0.15,
+        "padding": 0.12
+      },
+      {
+        "x": -1.0,
+        "z": 12.7,
+        "w": 0.132,
+        "d": 3.5999999999999996,
+        "padding": 0.12
+      },
+      {
+        "x": -1.0,
+        "z": 15.1,
+        "w": 0.108,
+        "d": 0.108,
+        "padding": 0.12
+      },
+      {
+        "x": 5.0,
+        "z": 15.1,
+        "w": 0.108,
+        "d": 0.108,
+        "padding": 0.12
+      },
+      {
+        "x": 2.0,
+        "z": 13.36,
+        "w": 4.2,
+        "d": 0.6,
+        "padding": 0.12
+      },
+      {
+        "x": 15.0,
+        "z": 0.8999999999999999,
+        "w": 6.6,
+        "d": 0.15,
+        "padding": 0.12
+      },
+      {
+        "x": 11.7,
+        "z": 2.7,
+        "w": 0.132,
+        "d": 3.5999999999999996,
+        "padding": 0.12
+      },
+      {
+        "x": 11.7,
+        "z": 5.1,
+        "w": 0.108,
+        "d": 0.108,
+        "padding": 0.12
+      },
+      {
+        "x": 18.3,
+        "z": 5.1,
+        "w": 0.108,
+        "d": 0.108,
+        "padding": 0.12
+      },
+      {
+        "x": 15.0,
+        "z": 2.4,
+        "w": 5.3999999999999995,
+        "d": 2.1,
+        "padding": 0.12
+      },
+      {
+        "x": 2.0,
+        "z": -20.1,
+        "w": 6.0,
+        "d": 0.15,
+        "padding": 0.12
+      },
+      {
+        "x": -1.0,
+        "z": -18.3,
+        "w": 0.132,
+        "d": 3.5999999999999996,
+        "padding": 0.12
+      },
+      {
+        "x": -1.0,
+        "z": -15.9,
+        "w": 0.108,
+        "d": 0.108,
+        "padding": 0.12
+      },
+      {
+        "x": 5.0,
+        "z": -15.9,
+        "w": 0.108,
+        "d": 0.108,
+        "padding": 0.12
+      },
+      {
+        "x": 14.0,
+        "z": -19.1,
+        "w": 6.0,
+        "d": 0.15,
+        "padding": 0.12
+      },
+      {
+        "x": 11.0,
+        "z": -17.3,
+        "w": 0.132,
+        "d": 3.5999999999999996,
+        "padding": 0.12
+      },
+      {
+        "x": 11.0,
+        "z": -14.9,
+        "w": 0.108,
+        "d": 0.108,
+        "padding": 0.12
+      },
+      {
+        "x": 17.0,
+        "z": -14.9,
+        "w": 0.108,
+        "d": 0.108,
+        "padding": 0.12
+      },
+      {
+        "x": 14.0,
+        "z": -17.0,
+        "w": 1.7999999999999998,
+        "d": 2.4,
+        "padding": 0.12
+      },
+      {
+        "x": 14.0,
+        "z": -6.1,
+        "w": 6.6,
+        "d": 0.15,
+        "padding": 0.12
+      },
+      {
+        "x": 10.7,
+        "z": -4.3,
+        "w": 0.132,
+        "d": 3.5999999999999996,
+        "padding": 0.12
+      },
+      {
+        "x": 10.7,
+        "z": -1.9,
+        "w": 0.108,
+        "d": 0.108,
+        "padding": 0.12
+      },
+      {
+        "x": 17.3,
+        "z": -1.9,
+        "w": 0.108,
+        "d": 0.108,
+        "padding": 0.12
+      },
+      {
+        "x": 14.0,
+        "z": -4.96,
+        "w": 4.8,
+        "d": 0.66,
+        "padding": 0.12
+      },
+      {
+        "x": 12.56,
+        "z": -3.2199999999999998,
+        "w": 0.8999999999999999,
+        "d": 0.8999999999999999,
+        "padding": 0.12
+      },
+      {
+        "x": 15.44,
+        "z": -3.2199999999999998,
+        "w": 0.8999999999999999,
+        "d": 0.8999999999999999,
+        "padding": 0.12
+      }
+    ],
+    "spawn": {
+      "x": 5,
+      "z": 2
+    },
+    "center": {
+      "x": 0,
+      "z": 0
+    },
+    "bounds": {
+      "x": 27,
+      "z": 25
+    }
+  },
+  "garden": {
+    "stations": [
+      {
+        "id": "arts",
+        "title": "Open studio",
+        "description": "Easels, paint and making something together after work.",
+        "action": "Watch the brushwork",
+        "kind": "arts",
+        "x": -14,
+        "z": 4.5,
+        "scale": 0.6,
+        "elevation": 0.1,
+        "entrance": {
+          "x": -14,
+          "z": 8.1
+        },
+        "focus": {
+          "x": -14,
+          "z": 4.8
+        },
+        "duration": 7
+      },
+      {
+        "id": "skate",
+        "title": "After-hours skate plaza",
+        "description": "Concrete ramps, a rail and a board in motion.",
+        "action": "Watch the run",
+        "kind": "skate",
+        "x": 0,
+        "z": -7,
+        "scale": 0.5,
+        "elevation": 0.1,
+        "entrance": {
+          "x": 0,
+          "z": -4.0
+        },
+        "focus": {
+          "x": 0,
+          "z": -6.75
+        },
+        "duration": 7
+      },
+      {
+        "id": "stage",
+        "title": "Neighbourhood stage",
+        "description": "A small contemporary performance beneath warm lights.",
+        "action": "Hear the set",
+        "kind": "song",
+        "x": 13,
+        "z": 3.5,
+        "scale": 0.6,
+        "elevation": 0.1,
+        "entrance": {
+          "x": 17.2,
+          "z": 6.5
+        },
+        "focus": {
+          "x": 13,
+          "z": 3.8
+        },
+        "duration": 7
+      },
+      {
+        "id": "badminton",
+        "title": "Evening doubles",
+        "description": "A court, a shuttle and the last rally of the evening.",
+        "action": "Serve the shuttle",
+        "kind": "badminton",
+        "x": -14,
+        "z": 21,
+        "scale": 0.6,
+        "elevation": 0.1,
+        "entrance": {
+          "x": -9.8,
+          "z": 21
+        },
+        "focus": {
+          "x": -14,
+          "z": 21.3
+        },
+        "duration": 7
+      },
+      {
+        "id": "photo",
+        "title": "Listening & little finds",
+        "description": "Music, comics and a keepsake from the photo booth.",
+        "action": "Take a photo",
+        "kind": "photo",
+        "x": 6,
+        "z": -8.5,
+        "scale": 0.6,
+        "elevation": 0.1,
+        "entrance": {
+          "x": 6,
+          "z": -4.9
+        },
+        "focus": {
+          "x": 6,
+          "z": -8.2
+        },
+        "duration": 7
+      },
+      {
+        "id": "steamboat",
+        "title": "Supper together",
+        "description": "A hotpot table beside the evening promenade.",
+        "action": "Share the hotpot",
+        "kind": "steamboat",
+        "x": 11,
+        "z": 21,
+        "scale": 0.6,
+        "elevation": 0.1,
+        "entrance": {
+          "x": 15.2,
+          "z": 21
+        },
+        "focus": {
+          "x": 11,
+          "z": 21.3
+        },
+        "duration": 7
+      },
+      {
+        "id": "kopi",
+        "title": "The familiar counter",
+        "description": "Coffee and toast still bring people to the same table.",
+        "action": "Pour a kopi",
+        "kind": "kopi",
+        "x": 3,
+        "z": 10.5,
+        "scale": 0.6,
+        "elevation": 0.1,
+        "entrance": {
+          "x": 7.2,
+          "z": 10.5
+        },
+        "focus": {
+          "x": 3,
+          "z": 10.8
+        },
+        "duration": 7
+      }
+    ],
+    "solids": [
+      {
+        "x": -16,
+        "z": -13,
+        "w": 0.6,
+        "d": 1,
+        "padding": 0.28
+      },
+      {
+        "x": -12,
+        "z": -13,
+        "w": 0.6,
+        "d": 1,
+        "padding": 0.28
+      },
+      {
+        "x": -8,
+        "z": -13,
+        "w": 0.6,
+        "d": 1,
+        "padding": 0.28
+      },
+      {
+        "x": -4,
+        "z": -13,
+        "w": 0.6,
+        "d": 1,
+        "padding": 0.28
+      },
+      {
+        "x": 0,
+        "z": -13,
+        "w": 0.6,
+        "d": 1,
+        "padding": 0.28
+      },
+      {
+        "x": 4,
+        "z": -13,
+        "w": 0.6,
+        "d": 1,
+        "padding": 0.28
+      },
+      {
+        "x": 8,
+        "z": -13,
+        "w": 0.6,
+        "d": 1,
+        "padding": 0.28
+      },
+      {
+        "x": 12,
+        "z": -13,
+        "w": 0.6,
+        "d": 1,
+        "padding": 0.28
+      },
+      {
+        "x": 16,
+        "z": -13,
+        "w": 0.6,
+        "d": 1,
+        "padding": 0.28
+      },
+      {
+        "x": 0,
+        "z": 15,
+        "w": 40,
+        "d": 6,
+        "padding": 0.28
+      },
+      {
+        "x": -15,
+        "z": -10,
+        "w": 4,
+        "d": 2,
+        "padding": 0.28
+      },
+      {
+        "x": -16,
+        "z": -4,
+        "w": 4,
+        "d": 2,
+        "padding": 0.28
+      },
+      {
+        "x": -12,
+        "z": 1,
+        "w": 2.6,
+        "d": 2,
+        "padding": 0.28
+      },
+      {
+        "x": -9,
+        "z": 5,
+        "w": 2.6,
+        "d": 2,
+        "padding": 0.28
+      },
+      {
+        "x": -4,
+        "z": -6,
+        "w": 2.6,
+        "d": 2,
+        "padding": 0.28
+      },
+      {
+        "x": 10,
+        "z": 7,
+        "w": 2.6,
+        "d": 2,
+        "padding": 0.28
+      },
+      {
+        "x": 14,
+        "z": 7,
+        "w": 2.6,
+        "d": 2,
+        "padding": 0.28
+      },
+      {
+        "x": -9,
+        "z": 10,
+        "w": 5,
+        "d": 2.5,
+        "padding": 0.28
+      },
+      {
+        "x": -5,
+        "z": -17,
+        "w": 18,
+        "d": 4,
+        "padding": 0.28
+      },
+      {
+        "x": 10,
+        "z": -5,
+        "w": 0.8,
+        "d": 0.8,
+        "padding": 0.28
+      },
+      {
+        "x": 15,
+        "z": 0,
+        "w": 0.8,
+        "d": 0.8,
+        "padding": 0.28
+      },
+      {
+        "x": 14,
+        "z": -7,
+        "w": 0.8,
+        "d": 0.8,
+        "padding": 0.28
+      },
+      {
+        "x": 15,
+        "z": -9,
+        "w": 4.5,
+        "d": 4.8,
+        "padding": 0.28
+      },
+      {
+        "x": 15,
+        "z": -14,
+        "w": 4.5,
+        "d": 5.6,
+        "padding": 0.28
+      },
+      {
+        "x": -23,
+        "z": -16,
+        "w": 5,
+        "d": 3.3,
+        "padding": 0.28
+      },
+      {
+        "x": -23,
+        "z": -3.5,
+        "w": 5.8,
+        "d": 0.2,
+        "padding": 0.28
+      },
+      {
+        "x": -25.8,
+        "z": -2,
+        "w": 0.16,
+        "d": 3,
+        "padding": 0.28
+      },
+      {
+        "x": -20.2,
+        "z": -2,
+        "w": 0.16,
+        "d": 3,
+        "padding": 0.28
+      },
+      {
+        "x": -23,
+        "z": -1.35,
+        "w": 3.7,
+        "d": 0.65,
+        "padding": 0.28
+      },
+      {
+        "x": -23,
+        "z": 15,
+        "w": 5,
+        "d": 3.3,
+        "padding": 0.28
+      },
+      {
+        "x": 20.35,
+        "z": -16,
+        "w": 0.18,
+        "d": 2.8,
+        "padding": 0.28
+      },
+      {
+        "x": 25.65,
+        "z": -16,
+        "w": 0.18,
+        "d": 2.8,
+        "padding": 0.28
+      },
+      {
+        "x": 23,
+        "z": -17.4,
+        "w": 5.4,
+        "d": 0.18,
+        "padding": 0.28
+      },
+      {
+        "x": 21.5,
+        "z": -16.5,
+        "w": 0.9,
+        "d": 0.55,
+        "padding": 0.04
+      },
+      {
+        "x": 21.5,
+        "z": -15.3,
+        "w": 0.9,
+        "d": 0.55,
+        "padding": 0.04
+      },
+      {
+        "x": 23,
+        "z": -16.5,
+        "w": 0.9,
+        "d": 0.55,
+        "padding": 0.04
+      },
+      {
+        "x": 23,
+        "z": -15.3,
+        "w": 0.9,
+        "d": 0.55,
+        "padding": 0.04
+      },
+      {
+        "x": 24.5,
+        "z": -16.5,
+        "w": 0.9,
+        "d": 0.55,
+        "padding": 0.04
+      },
+      {
+        "x": 24.5,
+        "z": -15.3,
+        "w": 0.9,
+        "d": 0.55,
+        "padding": 0.04
+      },
+      {
+        "x": 0,
+        "z": -23,
+        "w": 4.8,
+        "d": 2.9,
+        "padding": 0.28
+      },
+      {
+        "x": -14.0,
+        "z": 2.4,
+        "w": 6.6,
+        "d": 0.15,
+        "padding": 0.12
+      },
+      {
+        "x": -17.3,
+        "z": 4.2,
+        "w": 0.132,
+        "d": 3.5999999999999996,
+        "padding": 0.12
+      },
+      {
+        "x": -17.3,
+        "z": 6.6,
+        "w": 0.108,
+        "d": 0.108,
+        "padding": 0.12
+      },
+      {
+        "x": -10.7,
+        "z": 6.6,
+        "w": 0.108,
+        "d": 0.108,
+        "padding": 0.12
+      },
+      {
+        "x": -14.0,
+        "z": 5.7,
+        "w": 0.8999999999999999,
+        "d": 0.8999999999999999,
+        "padding": 0.12
+      },
+      {
+        "x": 13.0,
+        "z": 1.4,
+        "w": 6.6,
+        "d": 0.15,
+        "padding": 0.12
+      },
+      {
+        "x": 9.7,
+        "z": 3.2,
+        "w": 0.132,
+        "d": 3.5999999999999996,
+        "padding": 0.12
+      },
+      {
+        "x": 9.7,
+        "z": 5.6,
+        "w": 0.108,
+        "d": 0.108,
+        "padding": 0.12
+      },
+      {
+        "x": 16.3,
+        "z": 5.6,
+        "w": 0.108,
+        "d": 0.108,
+        "padding": 0.12
+      },
+      {
+        "x": 13.0,
+        "z": 2.9,
+        "w": 5.3999999999999995,
+        "d": 2.1,
+        "padding": 0.12
+      },
+      {
+        "x": 7.5600000000000005,
+        "z": -10.54,
+        "w": 3.9,
+        "d": 0.12,
+        "padding": 0.12
+      },
+      {
+        "x": 4.2,
+        "z": -9.1,
+        "w": 1.7999999999999998,
+        "d": 1.7999999999999998,
+        "padding": 0.12
+      },
+      {
+        "x": 7.5,
+        "z": -8.2,
+        "w": 1.7999999999999998,
+        "d": 0.6,
+        "padding": 0.12
+      },
+      {
+        "x": 11.0,
+        "z": 18.9,
+        "w": 6.6,
+        "d": 0.15,
+        "padding": 0.12
+      },
+      {
+        "x": 7.7,
+        "z": 20.7,
+        "w": 0.132,
+        "d": 3.5999999999999996,
+        "padding": 0.12
+      },
+      {
+        "x": 7.7,
+        "z": 23.1,
+        "w": 0.108,
+        "d": 0.108,
+        "padding": 0.12
+      },
+      {
+        "x": 14.3,
+        "z": 23.1,
+        "w": 0.108,
+        "d": 0.108,
+        "padding": 0.12
+      },
+      {
+        "x": 11.0,
+        "z": 20.04,
+        "w": 4.8,
+        "d": 0.66,
+        "padding": 0.12
+      },
+      {
+        "x": 9.56,
+        "z": 21.78,
+        "w": 0.8999999999999999,
+        "d": 0.8999999999999999,
+        "padding": 0.12
+      },
+      {
+        "x": 12.44,
+        "z": 21.78,
+        "w": 0.8999999999999999,
+        "d": 0.8999999999999999,
+        "padding": 0.12
+      },
+      {
+        "x": 3.0,
+        "z": 8.4,
+        "w": 6.6,
+        "d": 0.15,
+        "padding": 0.12
+      },
+      {
+        "x": -0.2999999999999998,
+        "z": 10.2,
+        "w": 0.132,
+        "d": 3.5999999999999996,
+        "padding": 0.12
+      },
+      {
+        "x": -0.2999999999999998,
+        "z": 12.6,
+        "w": 0.108,
+        "d": 0.108,
+        "padding": 0.12
+      },
+      {
+        "x": 6.3,
+        "z": 12.6,
+        "w": 0.108,
+        "d": 0.108,
+        "padding": 0.12
+      },
+      {
+        "x": 3.0,
+        "z": 9.54,
+        "w": 4.8,
+        "d": 0.66,
+        "padding": 0.12
+      },
+      {
+        "x": 1.56,
+        "z": 11.28,
+        "w": 0.8999999999999999,
+        "d": 0.8999999999999999,
+        "padding": 0.12
+      },
+      {
+        "x": 4.4399999999999995,
+        "z": 11.28,
+        "w": 0.8999999999999999,
+        "d": 0.8999999999999999,
+        "padding": 0.12
+      }
+    ],
+    "spawn": {
+      "x": 3,
+      "z": 3
+    },
+    "center": {
+      "x": 0,
+      "z": 0
+    },
+    "bounds": {
+      "x": 27,
+      "z": 25
+    }
+  }
+}

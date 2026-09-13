@@ -1,0 +1,9 @@
+.asset-download { display: flex; flex-direction: column; align-items: center; gap: 7px; }
+.asset-download .secondary { display: flex; align-items: center; justify-content: center; gap: 8px; }
+.asset-download progress { width: min(280px, 100%); accent-color: #edb654; }
+.asset-download output { font-size: 12px; max-width: 300px; text-align: center; }
+.asset-download output:empty { display: none; }
+.asset-download-gate { min-height: 60vh; display: grid; place-content: center; gap: 20px; text-align: center; }
+.asset-download-gate h1 { font-size: 24px; margin: 0; }
+.lobby-entry .asset-download .secondary { color: #fff9e9; background: #18304fdf; border: 1px solid #fff6df50; border-radius: 12px; }
+.lobby-entry .asset-download output { color: #fff9e9; background: #18304fdf; border-radius: 8px; padding: 4px 8px; }

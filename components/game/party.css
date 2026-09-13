@@ -1,0 +1,2272 @@
+.party-shell {
+  position: relative;
+  min-height: calc(100vh - 100px);
+  color: #fff7e5;
+  background: #182d32;
+  border-radius: 24px;
+  overflow: hidden;
+  isolation: isolate;
+}
+.party-world {
+  position: absolute;
+  inset: 0;
+  z-index: -2;
+}
+.party-world .trip-world {
+  height: 100%;
+  min-height: 760px;
+  border-radius: 0;
+}
+.party-world:after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: #11292b55;
+  pointer-events: none;
+}
+.party-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  padding: 24px 32px;
+  background: #13292cda;
+  font-size: 13px;
+}
+.party-heading > span:first-child {
+  letter-spacing: 0.14em;
+  font-size: 10px;
+  font-weight: 800;
+}
+.party-stage-card {
+  width: min(550px, calc(100% - 32px));
+  margin: 44px auto;
+  padding: 30px 38px;
+  background: #fff8eaf5;
+  color: #203b3d;
+  border: 1px solid #fff3d3;
+  border-radius: 22px;
+  box-shadow: 0 18px 80px #071d2855;
+  text-align: center;
+}
+.party-stage-card > svg {
+  color: #ac6844;
+  margin: 0 auto 14px;
+}
+.party-stage-card small {
+  display: block;
+  font-size: 10px;
+  letter-spacing: 0.12em;
+  font-weight: 800;
+  color: #6e7f75;
+}
+.party-stage-card h1 {
+  font-size: clamp(32px, 4vw, 52px);
+  line-height: 1.05;
+  letter-spacing: -0.045em;
+  margin: 13px 0 20px;
+}
+.party-stage-card h2 {
+  font-size: 22px;
+  margin: 12px;
+}
+.party-stage-card p {
+  font-size: 15px;
+  line-height: 1.65;
+  margin: 18px 0;
+}
+.party-stage-card .primary {
+  margin: 24px auto 0;
+}
+.party-stage-card .primary svg {
+  width: 20px;
+}
+.party-era-faces {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 7px;
+  margin: 26px 0;
+}
+.party-era-faces span {
+  display: grid;
+  gap: 8px;
+  font-size: 11px;
+  color: #6b786e;
+}
+.party-era-faces b {
+  display: grid;
+  place-content: center;
+  font-size: 24px;
+  border: 1px solid #cfb997;
+  border-radius: 12px;
+  aspect-ratio: 1;
+  color: #855135;
+  background: #f5e5ca;
+}
+.party-wait,
+.party-control-hint {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 9px;
+}
+.party-roster {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  padding: 0 22px 28px;
+}
+.party-roster > div {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: #183338ee;
+  border: 1px solid #426064;
+  border-radius: 16px;
+  padding: 7px 20px 7px 8px;
+  min-width: 150px;
+}
+.party-roster .sprite {
+  width: 56px;
+  height: 66px;
+}
+.party-roster b {
+  display: block;
+  font-size: 11px;
+  color: #e7c38a;
+  margin-top: 4px;
+}
+.party-results > div {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  border-top: 1px solid #d8d8c6;
+  padding: 9px 0;
+  text-align: left;
+}
+.party-results .sprite {
+  width: 46px;
+  height: 60px;
+}
+.party-results strong {
+  flex: 1;
+}
+.party-results small {
+  margin-top: 5px;
+}
+.party-results em {
+  font-style: normal;
+  font-size: 24px;
+  color: #9f5d3c;
+}
+.party-ready-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 7px;
+  margin: 18px 0;
+}
+.party-ready-list span {
+  font-size: 11px;
+  background: #e5eadc;
+  padding: 8px 11px;
+  border-radius: 7px;
+}
+.party-timer {
+  font-size: 42px;
+}
+.party-travel-status {
+  display: block;
+  color: #a3633d;
+  font-weight: 800;
+  margin: 28px;
+}
+.party-art {
+  height: 150px;
+  border-radius: 13px;
+  background-image: url('/api/art?file=party/game-worlds.png');
+  background-size: 200% 300%;
+  margin: 20px 0;
+}
+.party-art-0 {
+  background-position: 0 0;
+}
+.party-art-1 {
+  background-position: 100% 0;
+}
+.party-art-2 {
+  background-position: 0 50%;
+}
+.party-art-3 {
+  background-position: 100% 50%;
+}
+.party-art-4 {
+  background-position: 0 100%;
+}
+.party-game-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 25px;
+  background: #173034;
+}
+.party-game-title small {
+  font-size: 10px;
+  letter-spacing: 0.15em;
+  color: #eac89e;
+}
+.party-game-title h1 {
+  font-size: 28px;
+  margin: 3px 0;
+  letter-spacing: -0.025em;
+}
+.party-game-title > strong {
+  font-size: 26px;
+  color: #f2d4a7;
+}
+.party-minigame {
+  position: relative;
+}
+.party-canvas {
+  display: block;
+  width: 100%;
+  height: 55vh;
+  min-height: 300px;
+  max-height: 680px;
+}
+.is-display .party-canvas {
+  height: 72vh;
+  max-height: none;
+}
+.party-countdown {
+  position: absolute;
+  inset: 90px 0 auto;
+  top: 30%;
+  width: 180px;
+  margin: auto;
+  text-align: center;
+  font-size: 90px;
+  font-weight: 800;
+  color: #ffe9b9;
+  text-shadow: 0 4px 25px #163c37;
+}
+.party-countdown small {
+  display: block;
+  font-size: 16px;
+}
+.party-live-scores {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+  padding: 10px;
+  background: #162e32;
+}
+.party-live-scores span {
+  font-size: 12px;
+  border-bottom: 3px solid;
+  padding: 5px 12px;
+}
+.party-live-scores b {
+  margin-right: 6px;
+}
+.party-controller {
+  padding: 18px;
+  text-align: center;
+  background: #fff8e9;
+  color: #233d3d;
+}
+.party-controller p {
+  margin: 0 0 15px;
+  font-size: 13px;
+}
+.party-forest-status {
+  display: block;
+  margin: 0 0 15px;
+  font-size: 13px;
+}
+.party-directions,
+.party-pads {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+.party-directions button,
+.party-pads button {
+  border: 1px solid #bccabd;
+  border-radius: 14px;
+  min-height: 64px;
+  min-width: 65px;
+  padding: 13px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background: #e7eddf;
+  color: #224644;
+  font-weight: 800;
+  font-size: 15px;
+  touch-action: none;
+  user-select: none;
+}
+.party-directions button:active,
+.party-pads button:active {
+  background: #e9b886;
+  transform: translateY(2px);
+}
+.party-directions button:disabled {
+  opacity: 0.4;
+}
+.party-pads {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.party-pads button {
+  border-bottom-width: 5px;
+}
+.party-food-pads button {
+  flex-direction: column;
+  gap: 2px;
+  padding: 5px 5px 10px;
+}
+.party-dish-art {
+  display: block;
+  width: 100%;
+  max-width: 112px;
+  height: auto;
+  aspect-ratio: 4 / 3;
+  pointer-events: none;
+}
+.party-motion {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin: 15px 0 8px;
+}
+.party-motion button {
+  display: flex;
+  gap: 7px;
+  align-items: center;
+  border: 0;
+  background: #dce7d7;
+  padding: 10px 12px;
+  border-radius: 9px;
+  color: #234d48;
+}
+.party-controller small {
+  font-size: 11px;
+}
+.party-order strong {
+  font-size: 21px;
+  margin-left: 7px;
+}
+.party-cards {
+  background: #ecedde;
+  color: #244442;
+  padding: 15px 22px;
+}
+.party-cards summary {
+  cursor: pointer;
+  font-weight: 800;
+}
+.party-cards > div {
+  display: flex;
+  gap: 10px;
+  margin-top: 14px;
+}
+.party-cards button {
+  flex: 1;
+  text-align: left;
+  border: 1px solid #c0c6b7;
+  background: #fff8e9;
+  border-radius: 12px;
+  padding: 15px;
+  max-width: 240px;
+  color: #224644;
+}
+.party-cards button:disabled {
+  opacity: 0.55;
+}
+.party-cards button strong,
+.party-cards button small {
+  display: block;
+  margin-top: 6px;
+}
+.party-cards label {
+  font-size: 12px;
+}
+.party-cards select {
+  margin-left: 10px;
+  padding: 8px;
+  border-radius: 8px;
+}
+.party-notice {
+  padding: 12px 20px;
+  margin: 0;
+  text-align: center;
+  font-size: 12px;
+  background: #203a3f;
+}
+.party-display {
+  border-radius: 0;
+  min-height: 100vh;
+}
+.party-screen-page {
+  background: #173034;
+  min-height: 100vh;
+  padding: 0;
+  color: #fff7e5;
+}
+.party-screen-start {
+  max-width: 620px;
+  margin: auto;
+  padding: 12vh 25px;
+  text-align: center;
+}
+.party-screen-start h1 {
+  font-size: 52px;
+  line-height: 1.05;
+  letter-spacing: -0.04em;
+  margin: 24px 0;
+}
+.party-screen-start p {
+  line-height: 1.7;
+  color: #cad8c8;
+}
+.party-screen-start button {
+  margin: 30px auto;
+}
+.party-screen-status {
+  padding: 10px;
+  text-align: center;
+  background: #663b37;
+  color: #fff7e5;
+}
+.party-screen-page .lobby-panel {
+  margin: 40px auto;
+  background: #fff7e5;
+  color: #243a3d;
+}
+.party-screen-top {
+  padding: 15px 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 800;
+}
+.party-screen-top a {
+  font-size: 12px;
+  color: #e3c795;
+}
+.party-screen-lobby {
+  position: relative;
+  isolation: isolate;
+  min-height: calc(100svh - 54px);
+  padding: 36px clamp(24px, 4vw, 72px) 24px;
+  overflow: hidden;
+  background: #4b584d;
+}
+.party-lobby-still {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.party-lobby-world {
+  position: absolute;
+  inset: 0 0 0 230px;
+  z-index: -2;
+  pointer-events: none;
+}
+.party-lobby-world .trip-world,
+.party-lobby-world .trip-canvas {
+  width: 100%;
+  height: 100%;
+  min-height: 0;
+  border-radius: 0;
+}
+.party-lobby-world .trip-world > :not(.trip-canvas) {
+  display: none;
+}
+.party-screen-lobby:after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background:
+    linear-gradient(90deg, #263e38 0%, #263e38dc 18%, #263e3800 46%),
+    linear-gradient(0deg, #193633e8 0%, #19363300 32%);
+}
+.party-lobby-era {
+  position: absolute;
+  right: clamp(24px, 4vw, 72px);
+  top: 22px;
+  margin: 0;
+  padding: 9px 15px;
+  border-radius: 8px;
+  background: #213932d9;
+  color: #fff5dd;
+  font-size: 13px;
+  font-weight: 800;
+}
+.party-screen-lobby .lobby-panel {
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  padding: 0;
+  background: transparent;
+  border: 0;
+  box-shadow: none;
+  backdrop-filter: none;
+}
+.party-screen-lobby .lobby-heading {
+  text-align: left;
+  color: #fff5dd;
+  margin-bottom: 24px;
+}
+.party-screen-lobby .lobby-layout {
+  grid-template-columns: 240px minmax(0, 1fr);
+  gap: clamp(30px, 5vw, 84px);
+  align-items: end;
+  min-height: calc(100svh - 250px);
+}
+.party-screen-lobby .join-card {
+  align-self: start;
+  margin-top: 12px;
+  background: #fff7e5;
+}
+.party-screen-lobby .lobby-seats {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  background: #fff7e5f0;
+  padding: 12px 18px;
+  border-radius: 20px;
+}
+.party-screen-lobby .lobby-bottom > span,
+.party-screen-lobby .lobby-bottom > p {
+  color: #fff5dd;
+}
+@media (max-width: 800px) {
+  .party-screen-lobby {
+    padding: 72px 20px 24px;
+  }
+  .party-lobby-world {
+    inset: 0;
+    opacity: 0.65;
+  }
+  .party-screen-lobby:after {
+    background: #17303466;
+  }
+  .party-screen-lobby .lobby-heading {
+    text-align: center;
+  }
+  .party-screen-lobby .lobby-layout {
+    grid-template-columns: 1fr;
+    min-height: 0;
+    gap: 24px;
+  }
+  .party-screen-lobby .join-card {
+    margin: 0 auto;
+    width: min(100%, 340px);
+  }
+  .party-screen-lobby .lobby-seats {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+.party-shared-entry {
+  display: block;
+  text-align: center;
+  margin: 16px auto;
+  color: #324f4a;
+  font-weight: 700;
+}
+.party-shell button:focus-visible,
+.party-shell summary:focus-visible {
+  outline: 3px solid #dc8158;
+  outline-offset: 4px;
+}
+@media (max-width: 650px) {
+  .party-shell {
+    border-radius: 15px;
+    min-height: calc(100svh - 75px);
+  }
+  .party-heading {
+    padding: 15px;
+    gap: 8px;
+    font-size: 10px;
+    flex-wrap: wrap;
+  }
+  .party-heading > span:first-child {
+    width: 100%;
+  }
+  .party-stage-card {
+    padding: 25px 20px;
+    margin: 25px auto;
+  }
+  .party-stage-card h1 {
+    font-size: 37px;
+  }
+  .party-stage-card p {
+    font-size: 14px;
+  }
+  .party-roster {
+    gap: 7px;
+    padding: 0 12px 20px;
+  }
+  .party-roster > div {
+    min-width: calc(50% - 8px);
+    padding: 5px 10px;
+  }
+  .party-roster .sprite {
+    width: 38px;
+    height: 46px;
+  }
+  .party-game-title {
+    padding: 13px 17px;
+  }
+  .party-game-title h1 {
+    font-size: 23px;
+  }
+  .party-canvas {
+    height: 38svh;
+    min-height: 240px;
+  }
+  .party-controller {
+    padding: 13px 10px 18px;
+  }
+  .party-directions {
+    gap: 6px;
+  }
+  .party-directions button {
+    min-width: 52px;
+    min-height: 64px;
+    padding: 11px;
+    font-size: 13px;
+    flex: 1;
+  }
+  .party-directions button svg {
+    width: 19px;
+  }
+  .party-pads {
+    gap: 7px;
+  }
+  .party-pads button {
+    min-width: 0;
+    min-height: 68px;
+    padding: 8px;
+    font-size: 12px;
+  }
+  .party-live-scores {
+    gap: 3px;
+    padding: 7px;
+  }
+  .party-live-scores span {
+    font-size: 10px;
+    padding: 4px 6px;
+  }
+  .party-cards {
+    padding: 14px;
+  }
+  .party-cards > div {
+    flex-direction: column;
+  }
+  .party-cards button {
+    max-width: none;
+  }
+  .party-art {
+    height: 130px;
+  }
+  .party-ready-list {
+    gap: 5px;
+  }
+  .party-ready-list span {
+    font-size: 10px;
+    padding: 7px;
+  }
+  .party-screen-start h1 {
+    font-size: 40px;
+  }
+}
+
+.party-notice,
+.party-motion-status {
+  display: block;
+}
+.party-join-url {
+  max-width: 230px;
+  overflow-wrap: anywhere;
+  font-size: 11px;
+}
+.party-world .trip-world {
+  pointer-events: none;
+}
+
+.party-art {
+  height: auto;
+  aspect-ratio: 1.5;
+  max-width: 300px;
+  margin: 18px auto;
+}
+.party-world .trip-map-controls {
+  display: none;
+}
+.party-world {
+  pointer-events: none;
+}
+
+.party-new-room {
+  margin-right: 20px;
+  border: 1px solid #7b9992;
+  border-radius: 8px;
+  background: transparent;
+  padding: 8px 12px;
+  color: #fff7e5;
+  cursor: pointer;
+}
+
+/* Shared teh tarik arena: physical volume and foam-weighted score are distinct. */
+.teh-meters {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 8px;
+  padding: 12px;
+  background: #112923;
+}
+.teh-meter {
+  border: 1px solid #ffffff26;
+  border-top: 3px solid var(--tea-player);
+  padding: 9px 10px;
+  border-radius: 8px;
+  min-width: 0;
+  color: #fff2d7;
+}
+.teh-meter.is-you {
+  background: #ffffff0c;
+  outline: 1px solid #fff1cc66;
+}
+.teh-meter-heading,
+.teh-meter-detail {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5px;
+}
+.teh-meter-heading b {
+  font-size: 13px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.teh-meter-heading > span {
+  font-size: 20px;
+  font-weight: 900;
+  white-space: nowrap;
+  color: var(--tea-player);
+}
+.teh-meter-heading small {
+  font-size: 11px;
+}
+.teh-meter meter {
+  appearance: none;
+  display: block;
+  width: 100%;
+  height: 10px;
+  margin: 7px 0;
+  border: 0;
+  background: #061a15;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.teh-meter meter::-webkit-meter-bar {
+  background: #061a15;
+  border: 0;
+}
+.teh-meter meter::-webkit-meter-optimum-value {
+  background: var(--tea-player);
+}
+.teh-meter meter::-moz-meter-bar {
+  background: var(--tea-player);
+}
+.teh-meter-detail {
+  font-size: 10px;
+  color: #f1e2c8;
+}
+.teh-meter-note {
+  font-size: 10px;
+  color: #bacfc5;
+  margin-top: 4px;
+}
+.party-minigame.is-teh .party-canvas {
+  height: 56svh;
+  min-height: 360px;
+  max-height: 620px;
+}
+.teh-rules {
+  font-size: 12px;
+  max-width: 620px;
+  margin: 0 auto 10px;
+}
+.teh-practice {
+  max-width: 1060px;
+  margin: 0 auto;
+  padding: 16px;
+  min-height: 100dvh;
+}
+.teh-practice-intro {
+  margin-top: 20px;
+  padding: clamp(24px, 5vw, 60px);
+  background: #142c25;
+  color: #fff1d8;
+  border-radius: 20px;
+}
+.teh-practice-intro h1 {
+  font-size: clamp(36px, 7vw, 64px);
+  margin: 0 0 12px;
+}
+.teh-practice-intro p {
+  max-width: 640px;
+  line-height: 1.7;
+}
+.teh-practice button.primary {
+  background: #efc376;
+  color: #1c352c;
+  padding: 15px 22px;
+  border-radius: 12px;
+  border: 0;
+  font-weight: 900;
+}
+.teh-result {
+  padding: 24px;
+  text-align: center;
+}
+@media (max-width: 640px) {
+  .teh-meters {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    padding: 8px;
+    gap: 5px;
+  }
+  .teh-meter {
+    padding: 6px 5px;
+  }
+  .teh-meter-heading {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 0;
+  }
+  .teh-meter-heading b {
+    font-size: 11px;
+  }
+  .teh-meter-detail {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2px;
+    font-size: 9px;
+  }
+  .teh-meter-note {
+    font-size: 9px;
+  }
+  .teh-meter-heading > span {
+    font-size: 17px;
+  }
+  .party-minigame.is-teh .party-canvas {
+    height: 38svh;
+    min-height: 300px;
+  }
+  .teh-practice {
+    padding: 8px;
+  }
+  .teh-meter-note {
+    min-height: 14px;
+  }
+}
+
+.teh-welcome {
+  margin-top: 14px;
+  overflow: hidden;
+  border: 6px solid #795037;
+  border-radius: 20px;
+  background: #fff1ce;
+  box-shadow: 0 8px 0 #432f27;
+  display: grid;
+  grid-template-columns: 1.15fr 1fr;
+}
+.teh-welcome-art {
+  position: relative;
+  min-height: 470px;
+  overflow: hidden;
+  background: #23342d;
+}
+.teh-welcome-art img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 25% center;
+  display: block;
+  image-rendering: pixelated;
+}
+.teh-stall-tag {
+  position: absolute;
+  left: 14px;
+  top: 16px;
+  padding: 8px 10px;
+  color: #23382d;
+  background: #ffdb7f;
+  font-size: 10px;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+}
+.teh-dialogue {
+  position: relative;
+  align-self: center;
+  padding: clamp(24px, 4vw, 48px);
+  color: #293d32;
+}
+.teh-speaker {
+  display: inline-block;
+  background: #7d283a;
+  color: #fff3d1;
+  padding: 7px 11px;
+  font-size: 11px;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+}
+.teh-dialogue h1 {
+  font-size: clamp(34px, 4.5vw, 54px);
+  line-height: 1.08;
+  margin: 18px 0;
+  letter-spacing: -0.035em;
+}
+.teh-dialogue p {
+  font-size: 16px;
+  line-height: 1.55;
+}
+.teh-dialogue .primary {
+  display: flex;
+  justify-content: space-between;
+  gap: 25px;
+  align-items: center;
+  width: 100%;
+  margin: 22px 0 12px;
+  box-shadow: 0 5px 0 #b57145;
+  font-size: 20px;
+}
+.teh-dialogue small {
+  font-size: 12px;
+}
+.teh-calibration {
+  margin-top: 18px;
+  background: #fff5dd;
+  color: #263e32;
+  border: 4px solid #886247;
+  border-radius: 18px;
+  text-align: center;
+  padding: 24px;
+}
+.teh-calibration h1 {
+  font-size: 28px;
+}
+.teh-tilt-test {
+  height: 200px;
+  position: relative;
+  display: grid;
+  place-items: center;
+  background: #1a3b31;
+  border-radius: 14px;
+  overflow: hidden;
+}
+.teh-test-cup {
+  color: #fff4d3;
+  font-size: 56px;
+  will-change: transform;
+}
+.teh-tilt-test > span {
+  position: absolute;
+  bottom: 12px;
+  color: #f8edcf;
+  font-size: 11px;
+}
+.teh-setup-actions {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.teh-setup-actions button,
+.teh-sensor-bar button {
+  padding: 10px 16px;
+  border-radius: 10px;
+}
+.teh-setup-actions button:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+.teh-text-button {
+  margin-top: 18px;
+  background: transparent;
+  border: 0;
+  text-decoration: underline;
+  padding: 12px;
+}
+.teh-sensor-bar {
+  padding: 12px;
+  text-align: center;
+  background: #fff5dd;
+  color: #263e32;
+}
+.teh-sensor-bar p {
+  margin: 0 0 10px;
+  font-size: 12px;
+}
+.teh-meters.teh-meters-solo {
+  grid-template-columns: 1fr;
+}
+.teh-meters-solo .teh-meter-heading,
+.teh-meters-solo .teh-meter-detail {
+  flex-direction: row;
+  align-items: center;
+}
+@media (max-width: 640px) {
+  .teh-welcome {
+    grid-template-columns: 1fr;
+  }
+  .teh-welcome-art {
+    min-height: 0;
+    height: 250px;
+  }
+  .teh-welcome-art img {
+    object-position: center 25%;
+  }
+  .teh-dialogue {
+    padding: 24px;
+  }
+  .teh-dialogue h1 {
+    margin: 12px 0;
+    font-size: 34px;
+  }
+  .teh-dialogue p {
+    font-size: 14px;
+  }
+  .teh-calibration {
+    padding: 18px;
+  }
+}
+
+/* Full-bleed scene: dialogue and controls are overlays, never page cards. */
+.teh-practice.teh-fullscreen {
+  position: relative;
+  max-width: none;
+  width: 100%;
+  min-height: 100dvh;
+  margin: 0;
+  padding: 0;
+  background: #17362f;
+  isolation: isolate;
+}
+.teh-fullscreen > a {
+  position: absolute;
+  top: 14px;
+  left: 16px;
+  z-index: 10;
+  color: #fff4d5;
+  background: #17352bd9;
+  padding: 8px 12px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-size: 13px;
+}
+.teh-fullscreen .teh-welcome {
+  display: block;
+  position: relative;
+  min-height: 100dvh;
+  margin: 0;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+  background: #17352b;
+}
+.teh-fullscreen .teh-welcome-art {
+  position: absolute;
+  inset: 0;
+  height: 100%;
+  min-height: 0;
+}
+.teh-fullscreen .teh-welcome-art img {
+  object-fit: cover;
+  object-position: 38% center;
+}
+.teh-fullscreen .teh-stall-tag {
+  top: 20px;
+  left: auto;
+  right: 20px;
+}
+.teh-fullscreen .teh-dialogue {
+  position: absolute;
+  right: 6vw;
+  bottom: 9vh;
+  width: min(440px, 44vw);
+  padding: 26px 30px;
+  background: #fff2dbef;
+  border: 3px solid #694936;
+  border-radius: 18px;
+  box-shadow: 0 6px 0 #352d2588;
+}
+.teh-fullscreen .teh-dialogue:before {
+  content: '';
+  position: absolute;
+  left: -20px;
+  top: 34px;
+  width: 32px;
+  height: 30px;
+  background: #fff2db;
+  clip-path: polygon(100% 0, 0 50%, 100% 100%);
+}
+.teh-fullscreen .party-shell {
+  min-height: 100dvh;
+  border-radius: 0;
+  overflow: hidden;
+  background: #17362f;
+}
+.teh-fullscreen .party-game-title {
+  position: absolute;
+  z-index: 3;
+  top: 50px;
+  left: 16px;
+  right: 16px;
+  padding: 8px 12px;
+  background: #102b22bf;
+  border-radius: 12px;
+  pointer-events: none;
+}
+.teh-fullscreen .party-game-title h1 {
+  font-size: 22px;
+}
+.teh-fullscreen .party-game-title small {
+  display: none;
+}
+.teh-fullscreen .party-minigame.is-teh .party-canvas {
+  height: 100dvh;
+  min-height: 100dvh;
+  max-height: none;
+}
+.teh-fullscreen .teh-meters-solo {
+  position: absolute;
+  z-index: 3;
+  left: 16px;
+  top: 118px;
+  width: 200px;
+  padding: 0;
+  background: transparent;
+}
+.teh-fullscreen .teh-meters-solo .teh-meter {
+  background: #102b22d9;
+}
+.teh-fullscreen .party-controller {
+  position: absolute;
+  z-index: 3;
+  bottom: 72px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 0;
+  background: transparent;
+  width: min(460px, calc(100% - 32px));
+}
+.teh-fullscreen .teh-rules {
+  color: #fff4d5;
+  text-shadow: 0 2px 4px #000;
+  background: #102b2299;
+  border-radius: 12px;
+  padding: 5px 10px;
+}
+.teh-fullscreen .party-directions button {
+  background: #fff3d9e6;
+  min-height: 54px;
+}
+.teh-fullscreen .teh-sensor-bar {
+  position: absolute;
+  z-index: 4;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 9px;
+  background: #102b22e6;
+  color: #fff1d5;
+}
+.teh-fullscreen .teh-sensor-bar p {
+  display: inline;
+  margin-right: 12px;
+}
+.teh-fullscreen .teh-sensor-bar button {
+  padding: 7px 12px;
+  background: #fff1d5;
+}
+.teh-fullscreen .teh-result {
+  position: absolute;
+  z-index: 5;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: min(400px, 90%);
+  background: #173b2ff2;
+  border: 2px solid #dfbb72;
+  border-radius: 18px;
+}
+.teh-stage-calibrate {
+  display: grid;
+  place-items: center;
+  background: url('/api/media?path=assets/party/teh-tarik-empty-stall.png') center/cover !important;
+}
+.teh-fullscreen .teh-calibration {
+  width: min(470px, calc(100% - 30px));
+  margin: 70px 0 25px;
+  background: #fff4dcef;
+}
+@media (max-width: 640px) {
+  .teh-fullscreen .teh-welcome-art img {
+    object-position: 28% center;
+  }
+  .teh-fullscreen .teh-dialogue {
+    left: 16px;
+    right: 16px;
+    bottom: 28px;
+    width: auto;
+    padding: 19px 23px;
+  }
+  .teh-fullscreen .teh-dialogue h1 {
+    font-size: 32px;
+  }
+  .teh-fullscreen .teh-dialogue p {
+    margin: 8px 0;
+  }
+  .teh-fullscreen .teh-dialogue .primary {
+    margin: 16px 0 10px;
+  }
+  .teh-fullscreen .teh-dialogue:before {
+    left: 30px;
+    top: -22px;
+    transform: rotate(90deg);
+  }
+  .teh-fullscreen .teh-stall-tag {
+    top: 62px;
+    right: 12px;
+    font-size: 9px;
+  }
+  .teh-fullscreen .teh-meters-solo {
+    width: 145px;
+    top: 111px;
+    left: 12px;
+  }
+  .teh-fullscreen .party-controller {
+    bottom: 95px;
+  }
+  .teh-fullscreen .teh-sensor-bar p {
+    display: block;
+  }
+}
+.teh-fullscreen .teh-dialogue {
+  width: 290px;
+  right: 7vw;
+  bottom: 8vh;
+  padding: 17px 20px;
+}
+.teh-fullscreen .teh-dialogue h1 {
+  font-size: 27px;
+  line-height: 1.12;
+  margin: 10px 0;
+}
+.teh-fullscreen .teh-dialogue p,
+.teh-fullscreen .teh-dialogue small {
+  display: none;
+}
+.teh-fullscreen .teh-dialogue .primary {
+  font-size: 16px;
+  margin: 12px 0 3px;
+  padding: 11px 16px;
+}
+.teh-fullscreen .teh-dialogue .teh-speaker {
+  font-size: 9px;
+  padding: 4px 7px;
+}
+.teh-sensor-bar output {
+  display: inline-block;
+  font-size: 12px;
+  margin-right: 10px;
+}
+.teh-calibration output {
+  display: block;
+  margin: 16px 0;
+}
+@media (max-width: 640px) {
+  .teh-fullscreen .teh-dialogue {
+    left: auto;
+    right: 16px;
+    bottom: 28px;
+    width: 240px;
+    padding: 14px 17px;
+  }
+  .teh-fullscreen .teh-dialogue h1 {
+    font-size: 24px;
+  }
+  .teh-sensor-bar output {
+    display: block;
+    margin: 0 0 7px;
+  }
+}
+.teh-mode-tilt .party-directions {
+  display: none;
+}
+.teh-fullscreen .teh-sensor-bar button {
+  color: #203a2d;
+}
+.teh-fullscreen .teh-sensor-bar {
+  padding-bottom: max(10px, env(safe-area-inset-bottom));
+}
+@media (max-width: 640px) {
+  .teh-fullscreen .teh-welcome-art img {
+    object-position: 15% center;
+  }
+}
+
+.party-game-tools {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.party-game-tools .music-popover {
+  z-index: 30;
+}
+
+.party-game-tools .music-controls {
+  color: #233d3d;
+}
+.party-game-tools .music-toggle {
+  color: #233d3d;
+}
+
+/* Forest playfield: the world fills the viewport; only working HUD controls overlay it. */
+.party-minigame.is-forest {
+  position: fixed;
+  inset: 0;
+  z-index: 40;
+  width: 100%;
+  height: 100dvh;
+  max-width: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  color: #fff;
+  background: #bad1aa;
+}
+.is-forest .party-canvas {
+  width: 100%;
+  height: 100%;
+  min-height: 0;
+  max-height: none;
+}
+.is-forest .party-game-title {
+  position: absolute;
+  z-index: 2;
+  top: 14px;
+  left: 14px;
+  padding: 9px 12px;
+  gap: 22px;
+  border: 1px solid #e7e5ce;
+  border-radius: 5px;
+  background: #384838e8;
+  box-shadow:
+    0 2px 0 #1b291b88,
+    inset 0 0 0 2px #62725c;
+}
+.is-forest .party-game-title small {
+  font-size: 9px;
+  color: #dfdfb8;
+}
+.is-forest .party-game-title h1 {
+  font-size: 15px;
+  color: white;
+  margin: 0;
+}
+.is-forest .party-game-tools {
+  gap: 10px;
+}
+.is-forest .party-game-tools strong {
+  color: #fff3b4;
+  font: bold 16px monospace;
+}
+.is-forest .forest-fullscreen {
+  min-height: 30px;
+  padding: 5px;
+  border-radius: 3px;
+}
+.forest-minimap {
+  position: absolute;
+  top: 88px;
+  left: 14px;
+  width: 122px;
+  border: 1px solid #e3e6d0;
+  border-radius: 4px;
+  background: #314633b8;
+  box-shadow: 0 2px 3px #14241544;
+  pointer-events: none;
+}
+.forest-minimap > span {
+  display: block;
+  padding: 5px 8px;
+  font-size: 10px;
+  background: #dde3cbe8;
+  color: #354632;
+}
+.forest-minimap svg {
+  display: block;
+  width: 100%;
+  height: 150px;
+}
+.is-forest .party-live-scores {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  justify-content: flex-start;
+  min-height: 45px;
+  padding: 7px 16px;
+  background: linear-gradient(#f5f1df, #cccbb9);
+  border-top: 3px solid #7c8771;
+  color: #32422e;
+}
+.is-forest .party-live-scores span {
+  padding: 3px 12px;
+  font-size: 11px;
+}
+.is-forest .party-controller {
+  position: absolute;
+  bottom: 58px;
+  left: 16px;
+  right: 16px;
+  padding: 0;
+  background: transparent;
+  pointer-events: none;
+  color: white;
+}
+.is-forest .party-forest-status {
+  margin: 0 0 10px;
+  font-size: 11px;
+  text-shadow: 0 1px 3px #152812;
+}
+.is-forest .party-directions {
+  justify-content: flex-end;
+  gap: 6px;
+}
+.is-forest .party-directions button {
+  pointer-events: auto;
+  min-height: 42px;
+  min-width: 48px;
+  border-radius: 5px;
+  padding: 8px 13px;
+  background: #edeedce8;
+  border: 1px solid #6d8065;
+  box-shadow:
+    inset 0 0 0 2px #ffffffa6,
+    0 2px 2px #18301444;
+  color: #34472c;
+  font-size: 12px;
+}
+@media (max-width: 640px) {
+  .is-forest .party-game-title {
+    top: 8px;
+    left: 8px;
+    gap: 12px;
+    padding: 7px 9px;
+  }
+  .is-forest .party-game-title h1 {
+    font-size: 13px;
+  }
+  .forest-minimap {
+    top: 78px;
+    left: 8px;
+    width: 76px;
+  }
+  .forest-minimap svg {
+    height: 104px;
+  }
+  .forest-minimap > span {
+    font-size: 8px;
+    padding: 4px;
+  }
+  .is-forest .party-controller {
+    left: 8px;
+    right: 8px;
+    bottom: 62px;
+  }
+  .is-forest .party-directions button {
+    min-height: 48px;
+  }
+  .is-forest .party-live-scores {
+    padding-bottom: max(7px, env(safe-area-inset-bottom));
+  }
+}
+.is-forest .party-directions button:disabled {
+  display: none;
+}
+@media (max-width: 640px) {
+  .is-forest .party-directions {
+    gap: 4px;
+  }
+  .is-forest .party-directions button {
+    min-width: 42px;
+    padding: 8px;
+    font-size: 11px;
+  }
+}
+
+/* Getai Groove — a neighbourhood stage at dusk. */
+.party-minigame.is-getai {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 340px;
+  grid-template-areas: 'title songs' 'stage songs' 'scores songs' 'pads songs';
+  overflow: hidden;
+  border-radius: 18px;
+  border: 1px solid #e9bc793b;
+  background: #101f2e;
+  color: #fff2d9;
+  box-shadow: 0 18px 60px #07131d33;
+}
+.is-getai .party-game-title {
+  grid-area: title;
+  padding: 21px 28px;
+  background: #982d2c;
+  border-bottom: 1px solid #e7bc7155;
+}
+.is-getai .party-game-title h1 {
+  font-family: Georgia, serif;
+  font-size: 34px;
+  font-weight: 500;
+  margin: 4px 0 0;
+}
+.is-getai .party-game-title small {
+  color: #ffe0ba;
+  letter-spacing: 0.2em;
+  font-size: 10px;
+}
+.is-getai .party-game-tools strong {
+  font-size: 23px;
+  font-variant-numeric: tabular-nums;
+  color: #ffe9b9;
+}
+.is-getai .party-canvas {
+  grid-area: stage;
+  height: 49vh;
+  min-height: 320px;
+  max-height: 650px;
+}
+.is-getai .party-live-scores {
+  grid-area: scores;
+  background: #101f2e;
+  padding: 12px;
+}
+.is-getai .party-live-scores span {
+  font-size: 13px;
+}
+.is-getai .party-controller {
+  grid-area: pads;
+  background: #101f2e;
+  color: #c7c9cd;
+  padding: 12px 28px 22px;
+}
+.is-getai .party-controller p {
+  font-size: 11px;
+  margin-bottom: 12px;
+}
+.is-getai .party-pads {
+  max-width: 480px;
+  margin: auto;
+  gap: 12px;
+}
+.is-getai .party-pads button {
+  flex: 1;
+  min-width: 0;
+  min-height: 56px;
+  padding: 10px;
+  background: #233344;
+  color: #fff4db;
+  font-size: 22px;
+  border-radius: 12px;
+  border-width: 1px 1px 4px;
+  box-shadow: none;
+  touch-action: manipulation;
+}
+.is-getai .party-pads button:active {
+  background: #725642;
+  transform: translateY(2px);
+}
+.is-getai .party-countdown {
+  right: 340px;
+  top: 30%;
+  pointer-events: none;
+}
+.getai-songbook {
+  grid-area: songs;
+  padding: 28px 22px;
+  background: #fbf3e6;
+  color: #3c302b;
+  min-width: 0;
+}
+.getai-songbook-heading {
+  display: flex;
+  gap: 9px;
+  align-items: center;
+  color: #9c3730;
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.09em;
+}
+.getai-songbook h2 {
+  font-family: Georgia, serif;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1.14;
+  margin: 18px 0 26px;
+}
+.getai-songs {
+  display: grid;
+  gap: 5px;
+}
+.getai-song {
+  display: grid;
+  grid-template-columns: 22px minmax(0, 1fr);
+  position: relative;
+  align-items: center;
+  text-align: left;
+  gap: 10px;
+  width: 100%;
+  min-height: 76px;
+  padding: 13px 10px;
+  border: 1px solid transparent;
+  border-radius: 9px;
+  background: transparent;
+  color: #42332b;
+  box-shadow: none;
+}
+.getai-song:hover {
+  background: #efe3d0;
+}
+.getai-song[aria-pressed='true'] {
+  background: #eee0cb;
+  border-color: #cfb494;
+}
+.getai-song-number {
+  font-size: 11px;
+  color: #a23f33;
+  font-variant-numeric: tabular-nums;
+}
+.getai-song strong {
+  display: block;
+  font-size: 15px;
+  line-height: 1.4;
+}
+.getai-song small {
+  display: block;
+  font-size: 10px;
+  line-height: 1.5;
+  color: #786a5b;
+  margin-top: 4px;
+}
+.getai-song-category {
+  grid-column: 2;
+  font-size: 9px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #98714c;
+  margin-top: -6px;
+}
+.getai-recording {
+  border-top: 1px solid #d7cbb7;
+  margin-top: 22px;
+  padding-top: 14px;
+}
+.getai-recording-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 27px;
+  font-size: 10px;
+  color: #80694e;
+  margin-bottom: 9px;
+}
+.getai-recording-title button {
+  padding: 4px;
+  min-height: 26px;
+  background: transparent;
+  border: 0;
+  color: #6f4a3c;
+  box-shadow: none;
+}
+.getai-recording iframe {
+  display: block;
+  width: 100%;
+  height: 200px;
+  border: 0;
+  border-radius: 8px;
+  background: #132231;
+}
+.getai-recording .getai-listen {
+  display: flex;
+  width: 100%;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  background: #9b332d;
+  color: #fff6e5;
+  padding: 15px 12px;
+  border: 0;
+  border-radius: 8px;
+  box-shadow: none;
+  font-size: 13px;
+}
+.getai-recording > a {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  margin-top: 10px;
+  font-size: 10px;
+  color: #856244;
+}
+.getai-music-note {
+  font-size: 10px;
+  line-height: 1.6;
+  color: #8b7860;
+  margin: 17px 0 0;
+}
+.is-getai.is-display .party-canvas {
+  height: 65vh;
+}
+.getai-song:focus-visible,
+.getai-listen:focus-visible {
+  outline: 3px solid #bd7138;
+  outline-offset: 2px;
+}
+@media (max-width: 800px) {
+  .party-minigame.is-getai {
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-areas: 'title' 'stage' 'scores' 'pads' 'songs';
+    border-radius: 12px;
+  }
+  .is-getai .party-game-title {
+    padding: 15px 18px;
+  }
+  .is-getai .party-game-title h1 {
+    font-size: 28px;
+  }
+  .is-getai .party-canvas {
+    height: 43vh;
+    min-height: 290px;
+  }
+  .is-getai .party-controller {
+    padding: 8px 20px 18px;
+  }
+  .is-getai .party-countdown {
+    right: 0;
+    top: 150px;
+  }
+  .getai-songbook {
+    padding: 22px 20px;
+  }
+  .getai-songbook h2 {
+    font-size: 25px;
+    margin: 12px 0 18px;
+  }
+  .getai-songs {
+    grid-template-columns: 1fr 1fr;
+    gap: 6px;
+  }
+  .getai-song {
+    min-height: 106px;
+    grid-template-columns: 17px minmax(0, 1fr);
+    padding: 10px 6px;
+    gap: 5px;
+  }
+  .getai-song strong {
+    font-size: 13px;
+  }
+  .getai-recording iframe {
+    max-width: 460px;
+    height: 240px;
+  }
+}
+.getai-session {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 340px;
+  border-radius: 18px;
+  overflow: hidden;
+  border: 1px solid #dcb58166;
+  background: #101f2e;
+}
+.getai-session > .getai-songbook {
+  grid-area: auto;
+}
+.getai-session-stage {
+  min-width: 0;
+}
+.getai-session .getai-no-songbook {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  grid-template-areas: 'title' 'stage' 'scores' 'pads';
+  border: 0;
+  border-radius: 0;
+}
+.getai-no-songbook .party-countdown {
+  right: 0;
+}
+.getai-encore {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  padding: 0 20px 20px;
+}
+.getai-encore button {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 11px;
+  color: #e3c795;
+  border: 1px solid #e3c79540;
+  border-radius: 6px;
+  background: transparent;
+  box-shadow: none;
+  min-height: 36px;
+  padding: 8px 14px;
+}
+@media (max-width: 800px) {
+  .getai-session {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+.getai-recording audio {
+  display: block;
+  width: 100%;
+  height: 40px;
+  margin: 8px 0;
+}
+.getai-recording audio:not([controls]) {
+  display: none;
+}
+.getai-local-file {
+  display: block;
+  color: #786a5b;
+  font-size: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.getai-mp3-picker {
+  margin-top: 14px;
+}
+.getai-mp3-picker button {
+  background: transparent;
+  color: #8a4936;
+  border: 1px solid #c6ad90;
+  border-radius: 6px;
+  font-size: 11px;
+  min-height: 36px;
+  padding: 8px 12px;
+  box-shadow: none;
+}
+.getai-mp3-picker p {
+  font-size: 11px;
+  color: #9b332d;
+  line-height: 1.5;
+}
+
+.getai-singalong {
+  grid-area: stage;
+  z-index: 2;
+  align-self: center;
+  justify-self: center;
+  width: min(90%, 520px);
+  padding: 28px 20px;
+  border: 1px solid #ffd58c88;
+  border-radius: 18px;
+  background: #101f2ef5;
+  color: #fff2d9;
+  text-align: center;
+  box-shadow: 0 12px 60px #0007;
+}
+.getai-singalong small {
+  color: #ffd58c;
+  letter-spacing: 0.14em;
+  font-size: 11px;
+}
+.getai-singalong h2 {
+  margin: 12px 0;
+  font-size: clamp(24px, 4vw, 36px);
+}
+.getai-singalong p {
+  font-size: 14px;
+}
+.getai-singalong div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  margin: 20px 0;
+  color: #8dddd2;
+}
+.getai-singalong strong {
+  font-size: 13px;
+  color: #ffd58c;
+}
+.getai-songbook.is-compact {
+  justify-content: center;
+}
+.getai-songbook.is-compact h2 {
+  font-size: 30px;
+}
+.getai-songbook.is-compact .getai-recording iframe {
+  min-height: 190px;
+}
+.party-pads[aria-disabled='true'] {
+  opacity: 0.35;
+  pointer-events: none;
+}
+
+/* Getai fills the play surface; the four pads are the note receivers. */
+.party-minigame.is-getai {
+  position: fixed;
+  inset: 0;
+  z-index: 30;
+  display: block;
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  height: 100dvh;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  overflow: hidden;
+  background: #08121d url('/api/media?path=assets/party/getai-singapore.png') center / cover;
+}
+.god-mode .party-minigame.is-getai {
+  position: absolute;
+  height: 100%;
+  z-index: 1;
+}
+.god-mode:has(.is-getai) > div {
+  overflow: hidden;
+}
+.is-getai .party-canvas,
+.is-getai.is-display .party-canvas {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  min-height: 0;
+  max-height: none;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  z-index: 2;
+  pointer-events: none;
+}
+.getai-video {
+  position: absolute;
+  inset: 0;
+  background: #08121d;
+}
+.getai-video iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  pointer-events: none;
+}
+.is-getai .party-game-title {
+  position: absolute;
+  z-index: 4;
+  top: 20px;
+  left: 24px;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  background: transparent;
+  text-shadow: 0 2px 8px #000;
+}
+.is-getai .party-game-title small,
+.is-getai .party-game-tools {
+  display: none;
+}
+.is-getai .party-game-title h1 {
+  font-size: clamp(20px, 3vw, 30px);
+  margin: 0;
+}
+.is-getai .party-live-scores {
+  position: absolute;
+  z-index: 4;
+  top: 64px;
+  left: 24px;
+  padding: 0;
+  gap: 12px;
+  justify-content: start;
+  background: transparent;
+  text-shadow: 0 2px 6px #000;
+}
+.is-getai .party-live-scores span {
+  padding: 5px 0;
+  font-size: 12px;
+}
+.is-getai .party-controller {
+  position: absolute;
+  z-index: 4;
+  bottom: 24px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: min(76%, 560px);
+  padding: 0;
+  margin: 0;
+  border: 0;
+  background: transparent;
+}
+.is-getai .party-controller p {
+  display: none;
+}
+.is-getai .party-pads {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 100%;
+  max-width: none;
+  gap: 8px;
+  margin: 0;
+}
+.is-getai .party-pads button {
+  height: 64px;
+  min-height: 0;
+  padding: 0;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 12px;
+  background: #122539d9;
+  font-size: 25px;
+  backdrop-filter: blur(8px);
+  box-shadow:
+    0 3px 0 currentColor,
+    0 0 24px #08162255;
+}
+.is-getai .party-pads button[data-active='true'],
+.is-getai .party-pads button:active {
+  background: #fff1bc;
+  color: #182435;
+  transform: translateY(3px);
+  box-shadow: 0 0 32px #ffdd8a;
+}
+.is-getai .party-countdown {
+  position: absolute;
+  z-index: 5;
+  inset: 0;
+  width: 100%;
+  display: grid;
+  place-content: center;
+  font-size: clamp(100px, 18vw, 180px);
+  background: #08162266;
+}
+.is-getai .getai-singalong {
+  position: absolute;
+  z-index: 6;
+  top: 48%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+}
+.getai-playback-notice {
+  position: absolute;
+  z-index: 10;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 18px 24px;
+  border: 1px solid #ffe3a6;
+  border-radius: 16px;
+  background: #14263cf5;
+  color: #fff3d5;
+}
+@media (max-width: 600px) {
+  .is-getai .party-game-title {
+    top: 16px;
+    left: 16px;
+  }
+  .is-getai .party-live-scores {
+    top: 48px;
+    left: 16px;
+  }
+  .is-getai .getai-singalong {
+    padding: 18px 14px;
+  }
+}
+
+.is-getai .getai-video {
+  opacity: 0;
+  pointer-events: none;
+}
+.is-getai .party-game-title,
+.is-getai .party-live-scores {
+  display: none;
+}
+
+.getai-standings {
+  position: absolute;
+  z-index: 5;
+  inset: 16px 16px auto;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  pointer-events: none;
+}
+.getai-standings li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-width: 0;
+  padding: 10px 14px;
+  border: 1px solid #fff3;
+  border-radius: 14px;
+  background: #091b2de0;
+  color: #fff3d5;
+  backdrop-filter: blur(10px);
+}
+.getai-standings li[data-self='true'] {
+  border-color: #ffd58c99;
+}
+.getai-rank {
+  color: #99acba;
+  font-size: 12px;
+}
+.getai-standings li > div {
+  min-width: 0;
+}
+.getai-standings strong {
+  display: block;
+  max-width: 110px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 14px;
+}
+.getai-standings small {
+  display: block;
+  color: #b2c4d0;
+  font-size: 10px;
+  margin-top: 3px;
+}
+.getai-multiplier {
+  font-size: 24px;
+  color: #ffd58c;
+}
+.getai-score {
+  text-align: right;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+.getai-singalong .getai-microphone {
+  margin: 16px 0 10px;
+}
+.getai-singalong .getai-mic-status {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 9px;
+  margin: 0 0 8px;
+  color: #8dddd2;
+}
+.getai-microphone button {
+  background: transparent;
+  border: 1px solid #8dddd277;
+  color: #fff3d5;
+  border-radius: 8px;
+  padding: 6px 10px;
+  font-size: 12px;
+}
+.getai-microphone output {
+  font-size: 14px;
+}
+.getai-microphone meter {
+  width: min(100%, 280px);
+  height: 14px;
+  accent-color: #8dddd2;
+}
+.getai-microphone p {
+  font-size: 12px;
+  color: #ffd58c;
+}
+.getai-singalong .getai-singers {
+  margin: 16px 0;
+  gap: 12px;
+}
+.getai-singers > span {
+  display: grid;
+  gap: 5px;
+  color: #b2c4d0;
+}
+.getai-singers > span[data-heard='true'] {
+  color: #8dddd2;
+}
+.getai-singers small {
+  font-size: 10px;
+  letter-spacing: 0;
+  color: inherit;
+}
+@media (max-width: 600px) {
+  .getai-standings {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    inset: 10px 10px auto;
+    gap: 6px;
+  }
+  .getai-standings li:only-child {
+    grid-column: 1 / -1;
+    justify-self: center;
+  }
+  .getai-standings li {
+    gap: 8px;
+    padding: 8px 10px;
+  }
+  .getai-standings strong {
+    max-width: 74px;
+    font-size: 12px;
+  }
+  .getai-multiplier {
+    font-size: 21px;
+  }
+  .getai-score {
+    margin-left: auto;
+    font-size: 13px;
+  }
+  .getai-singalong .getai-mic-status {
+    gap: 6px;
+  }
+}
+
+/* Keep the default computer round inside the full-screen stall. */
+.teh-fullscreen .teh-meters:not(.teh-meters-solo) {
+  position: absolute;
+  z-index: 3;
+  top: 118px;
+  left: 12px;
+  right: 12px;
+  max-width: 540px;
+  padding: 0;
+  gap: 6px;
+  background: transparent;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+.teh-fullscreen .teh-meters:not(.teh-meters-solo) .teh-meter {
+  padding: 7px;
+  background: #102b22d9;
+}
+.teh-fullscreen .teh-meters:not(.teh-meters-solo) .teh-meter-heading,
+.teh-fullscreen .teh-meters:not(.teh-meters-solo) .teh-meter-detail {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1px;
+}

@@ -1,0 +1,732 @@
+{
+  "id": "estate",
+  "bounds": {
+    "x": 27,
+    "z": 25
+  },
+  "groundSize": {
+    "x": 56,
+    "z": 52
+  },
+  "spawn": {
+    "x": 0,
+    "z": 0
+  },
+  "board": [
+    {
+      "x": 5.8,
+      "z": 0.0
+    },
+    {
+      "x": 5.5650592469640845,
+      "z": 1.1973633665760761
+    },
+    {
+      "x": 4.879270490420851,
+      "z": 2.2977234741862897
+    },
+    {
+      "x": 3.7981922568826536,
+      "z": 3.2119356910055976
+    },
+    {
+      "x": 2.4094070754109413,
+      "z": 3.865935980256703
+    },
+    {
+      "x": 0.8254260619850536,
+      "z": 4.206741127993964
+    },
+    {
+      "x": -0.825426061985053,
+      "z": 4.206741127993965
+    },
+    {
+      "x": -2.4094070754109405,
+      "z": 3.8659359802567033
+    },
+    {
+      "x": -3.7981922568826527,
+      "z": 3.2119356910055976
+    },
+    {
+      "x": -4.879270490420851,
+      "z": 2.2977234741862906
+    },
+    {
+      "x": -5.5650592469640845,
+      "z": 1.1973633665760761
+    },
+    {
+      "x": -5.8,
+      "z": 2.4078540315003913e-15
+    },
+    {
+      "x": -5.565059246964085,
+      "z": -1.197363366576075
+    },
+    {
+      "x": -4.879270490420851,
+      "z": -2.2977234741862897
+    },
+    {
+      "x": -3.798192256882654,
+      "z": -3.211935691005597
+    },
+    {
+      "x": -2.4094070754109453,
+      "z": -3.8659359802567015
+    },
+    {
+      "x": -0.8254260619850543,
+      "z": -4.206741127993964
+    },
+    {
+      "x": 0.8254260619850522,
+      "z": -4.206741127993965
+    },
+    {
+      "x": 2.409407075410939,
+      "z": -3.8659359802567037
+    },
+    {
+      "x": 3.79819225688265,
+      "z": -3.2119356910055994
+    },
+    {
+      "x": 4.879270490420851,
+      "z": -2.2977234741862893
+    },
+    {
+      "x": 5.5650592469640845,
+      "z": -1.1973633665760766
+    }
+  ],
+  "npcs": [
+    {
+      "x": -11,
+      "z": 8
+    },
+    {
+      "x": 10,
+      "z": -2
+    },
+    {
+      "x": 9,
+      "z": 6
+    },
+    {
+      "x": -3,
+      "z": 8
+    }
+  ],
+  "solids": [
+    {
+      "x": -12,
+      "z": -9,
+      "w": 4,
+      "d": 2,
+      "padding": 0.28
+    },
+    {
+      "x": -6,
+      "z": -12,
+      "w": 4,
+      "d": 2,
+      "padding": 0.28
+    },
+    {
+      "x": -14,
+      "z": 5,
+      "w": 4,
+      "d": 2,
+      "padding": 0.28
+    },
+    {
+      "x": -16,
+      "z": -16,
+      "w": 0.6,
+      "d": 1,
+      "padding": 0.28
+    },
+    {
+      "x": -12,
+      "z": -16,
+      "w": 0.6,
+      "d": 1,
+      "padding": 0.28
+    },
+    {
+      "x": -8,
+      "z": -16,
+      "w": 0.6,
+      "d": 1,
+      "padding": 0.28
+    },
+    {
+      "x": -4,
+      "z": -16,
+      "w": 0.6,
+      "d": 1,
+      "padding": 0.28
+    },
+    {
+      "x": 0,
+      "z": -16,
+      "w": 0.6,
+      "d": 1,
+      "padding": 0.28
+    },
+    {
+      "x": 4,
+      "z": -16,
+      "w": 0.6,
+      "d": 1,
+      "padding": 0.28
+    },
+    {
+      "x": 8,
+      "z": -16,
+      "w": 0.6,
+      "d": 1,
+      "padding": 0.28
+    },
+    {
+      "x": 12,
+      "z": -16,
+      "w": 0.6,
+      "d": 1,
+      "padding": 0.28
+    },
+    {
+      "x": 16,
+      "z": -16,
+      "w": 0.6,
+      "d": 1,
+      "padding": 0.28
+    },
+    {
+      "x": 11,
+      "z": 6,
+      "w": 3,
+      "d": 2,
+      "padding": 0.28
+    },
+    {
+      "x": -3,
+      "z": 11,
+      "w": 5,
+      "d": 2.5,
+      "padding": 0.28
+    },
+    {
+      "x": -12,
+      "z": 11,
+      "w": 1.9,
+      "d": 2,
+      "padding": 0.28
+    },
+    {
+      "x": 10,
+      "z": -5,
+      "w": 2,
+      "d": 1,
+      "padding": 0.28
+    },
+    {
+      "x": -2.5,
+      "z": -7,
+      "w": 2,
+      "d": 1.1,
+      "padding": 0.28
+    },
+    {
+      "x": 0.0,
+      "z": -7,
+      "w": 2,
+      "d": 1.1,
+      "padding": 0.28
+    },
+    {
+      "x": 2.5,
+      "z": -7,
+      "w": 2,
+      "d": 1.1,
+      "padding": 0.28
+    },
+    {
+      "x": -25.65,
+      "z": -16,
+      "w": 0.18,
+      "d": 2.8,
+      "padding": 0.28
+    },
+    {
+      "x": -20.35,
+      "z": -16,
+      "w": 0.18,
+      "d": 2.8,
+      "padding": 0.28
+    },
+    {
+      "x": -23,
+      "z": -17.4,
+      "w": 5.4,
+      "d": 0.18,
+      "padding": 0.28
+    },
+    {
+      "x": -24.5,
+      "z": -16.5,
+      "w": 0.9,
+      "d": 0.55,
+      "padding": 0.04
+    },
+    {
+      "x": -24.5,
+      "z": -15.3,
+      "w": 0.9,
+      "d": 0.55,
+      "padding": 0.04
+    },
+    {
+      "x": -23,
+      "z": -16.5,
+      "w": 0.9,
+      "d": 0.55,
+      "padding": 0.04
+    },
+    {
+      "x": -23,
+      "z": -15.3,
+      "w": 0.9,
+      "d": 0.55,
+      "padding": 0.04
+    },
+    {
+      "x": -21.5,
+      "z": -16.5,
+      "w": 0.9,
+      "d": 0.55,
+      "padding": 0.04
+    },
+    {
+      "x": -21.5,
+      "z": -15.3,
+      "w": 0.9,
+      "d": 0.55,
+      "padding": 0.04
+    },
+    {
+      "x": -23,
+      "z": -2,
+      "w": 5,
+      "d": 3.3,
+      "padding": 0.28
+    },
+    {
+      "x": 23,
+      "z": -17.5,
+      "w": 5.8,
+      "d": 0.2,
+      "padding": 0.28
+    },
+    {
+      "x": 20.2,
+      "z": -16,
+      "w": 0.16,
+      "d": 3,
+      "padding": 0.28
+    },
+    {
+      "x": 25.8,
+      "z": -16,
+      "w": 0.16,
+      "d": 3,
+      "padding": 0.28
+    },
+    {
+      "x": 23,
+      "z": -15.35,
+      "w": 3.7,
+      "d": 0.65,
+      "padding": 0.28
+    },
+    {
+      "x": 23,
+      "z": 15,
+      "w": 5,
+      "d": 3.3,
+      "padding": 0.28
+    },
+    {
+      "x": 0,
+      "z": -22,
+      "w": 4.8,
+      "d": 2.9,
+      "padding": 0.28
+    },
+    {
+      "x": -15.0,
+      "z": -3.6,
+      "w": 0.24,
+      "d": 3.0,
+      "padding": 0.12
+    },
+    {
+      "x": -12.0,
+      "z": -3.6,
+      "w": 0.24,
+      "d": 3.0,
+      "padding": 0.12
+    },
+    {
+      "x": -9.0,
+      "z": -3.6,
+      "w": 0.24,
+      "d": 3.0,
+      "padding": 0.12
+    },
+    {
+      "x": -10.379999999999999,
+      "z": -3.0,
+      "w": 0.8999999999999999,
+      "d": 0.8999999999999999,
+      "padding": 0.12
+    },
+    {
+      "x": 2.0,
+      "z": -14.1,
+      "w": 6.0,
+      "d": 0.15,
+      "padding": 0.12
+    },
+    {
+      "x": -1.0,
+      "z": -12.3,
+      "w": 0.132,
+      "d": 3.5999999999999996,
+      "padding": 0.12
+    },
+    {
+      "x": -1.0,
+      "z": -9.9,
+      "w": 0.108,
+      "d": 0.108,
+      "padding": 0.12
+    },
+    {
+      "x": 5.0,
+      "z": -9.9,
+      "w": 0.108,
+      "d": 0.108,
+      "padding": 0.12
+    },
+    {
+      "x": 2.0,
+      "z": -11.64,
+      "w": 4.2,
+      "d": 0.6,
+      "padding": 0.12
+    },
+    {
+      "x": 12.0,
+      "z": -12.0,
+      "w": 7.199999999999999,
+      "d": 3.0,
+      "padding": 0.12
+    },
+    {
+      "x": 0.12,
+      "z": 1.82,
+      "w": 5.3999999999999995,
+      "d": 1.2,
+      "padding": 0.12
+    },
+    {
+      "x": 13.0,
+      "z": 10.9,
+      "w": 6.6,
+      "d": 0.15,
+      "padding": 0.12
+    },
+    {
+      "x": 9.7,
+      "z": 12.7,
+      "w": 0.132,
+      "d": 3.5999999999999996,
+      "padding": 0.12
+    },
+    {
+      "x": 9.7,
+      "z": 15.1,
+      "w": 0.108,
+      "d": 0.108,
+      "padding": 0.12
+    },
+    {
+      "x": 16.3,
+      "z": 15.1,
+      "w": 0.108,
+      "d": 0.108,
+      "padding": 0.12
+    },
+    {
+      "x": 14.5,
+      "z": 12.4,
+      "w": 1.7999999999999998,
+      "d": 0.8999999999999999,
+      "padding": 0.12
+    },
+    {
+      "x": 2.0,
+      "z": 13.9,
+      "w": 6.6,
+      "d": 0.15,
+      "padding": 0.12
+    },
+    {
+      "x": -1.2999999999999998,
+      "z": 15.7,
+      "w": 0.132,
+      "d": 3.5999999999999996,
+      "padding": 0.12
+    },
+    {
+      "x": -1.2999999999999998,
+      "z": 18.1,
+      "w": 0.108,
+      "d": 0.108,
+      "padding": 0.12
+    },
+    {
+      "x": 5.3,
+      "z": 18.1,
+      "w": 0.108,
+      "d": 0.108,
+      "padding": 0.12
+    },
+    {
+      "x": 2.0,
+      "z": 15.04,
+      "w": 4.8,
+      "d": 0.66,
+      "padding": 0.12
+    },
+    {
+      "x": 0.56,
+      "z": 16.78,
+      "w": 0.8999999999999999,
+      "d": 0.8999999999999999,
+      "padding": 0.12
+    },
+    {
+      "x": 3.44,
+      "z": 16.78,
+      "w": 0.8999999999999999,
+      "d": 0.8999999999999999,
+      "padding": 0.12
+    }
+  ],
+  "animated": [
+    "anim_train",
+    "anim_kopi_pot",
+    "anim_kopi_stream"
+  ],
+  "activities": [
+    {
+      "kind": "play",
+      "x": 0,
+      "z": 0,
+      "count": 5
+    },
+    {
+      "kind": "market",
+      "x": 0,
+      "z": -5.2,
+      "count": 6
+    },
+    {
+      "kind": "tv",
+      "x": 10,
+      "z": -1.7,
+      "count": 5
+    },
+    {
+      "kind": "slide",
+      "x": 10,
+      "z": 6,
+      "count": 4
+    },
+    {
+      "kind": "district_read",
+      "x": -19.6,
+      "z": -13.5,
+      "count": 4,
+      "name": "Neighbourhood school",
+      "dialogue": [
+        "School is out. We are waiting for our friends before walking home.",
+        "Someone always wants a detour past the playground."
+      ],
+      "center": {
+        "x": -23,
+        "z": -16
+      }
+    },
+    {
+      "kind": "district_browse",
+      "x": -19.6,
+      "z": 0.5,
+      "count": 4,
+      "name": "Morning wet market",
+      "dialogue": [
+        "Come early for the vegetables. I am sorting today's delivery.",
+        "Everyone has a favourite stall, and every stallholder knows somebody's auntie."
+      ],
+      "center": {
+        "x": -23,
+        "z": -2
+      }
+    },
+    {
+      "kind": "district_chat",
+      "x": -19.6,
+      "z": 17.5,
+      "count": 4,
+      "name": "Void-deck tables",
+      "dialogue": [
+        "This move needs a little thought. Stay and watch our game.",
+        "The table is never empty for long; somebody always brings a new story."
+      ],
+      "center": {
+        "x": -23,
+        "z": 15
+      }
+    },
+    {
+      "kind": "district_work",
+      "x": 19.6,
+      "z": -13.5,
+      "count": 4,
+      "name": "Light-industry workshop",
+      "dialogue": [
+        "The delivery is here. Help me check the boxes before our kopi break.",
+        "We work as a team: prepare the goods, check the order, then pass it to dispatch."
+      ],
+      "center": {
+        "x": 23,
+        "z": -16
+      }
+    },
+    {
+      "kind": "district_exercise",
+      "x": 19.6,
+      "z": 1.5,
+      "count": 4,
+      "name": "Community court",
+      "dialogue": [
+        "Your side serves next! Watch out for the breeze.",
+        "We share the court and change teams when another neighbour arrives."
+      ],
+      "center": {
+        "x": 23,
+        "z": -1
+      }
+    },
+    {
+      "kind": "district_serve",
+      "x": 19.6,
+      "z": 17.5,
+      "count": 4,
+      "name": "Supper downstairs",
+      "dialogue": [
+        "Dinner is nearly ready. Take a seat while I finish the order.",
+        "Afterwards we might join the neighbours watching television."
+      ],
+      "center": {
+        "x": 23,
+        "z": 15
+      }
+    },
+    {
+      "kind": "district_chat",
+      "x": 0,
+      "z": -19,
+      "count": 4,
+      "name": "Banking district",
+      "dialogue": [
+        "Lunch break! Shall we meet the others at the hawker stalls?",
+        "The morning was busy. A walk and a meal with friends makes a good break."
+      ],
+      "center": {
+        "x": 0,
+        "z": -22
+      }
+    },
+    {
+      "kind": "district_exercise",
+      "x": 0,
+      "z": 19,
+      "count": 4,
+      "name": "Playground lane",
+      "dialogue": [
+        "Last one across the chalk squares has to start the next round!",
+        "We meet downstairs when the afternoon gets cooler."
+      ],
+      "center": {
+        "x": 0,
+        "z": 22
+      }
+    }
+  ],
+  "districts": [
+    {
+      "name": "Neighbourhood school",
+      "role": "school",
+      "x": -19.6,
+      "z": -13.5
+    },
+    {
+      "name": "Morning wet market",
+      "role": "market",
+      "x": -19.6,
+      "z": 0.5
+    },
+    {
+      "name": "Void-deck tables",
+      "role": "chess",
+      "x": -19.6,
+      "z": 17.5
+    },
+    {
+      "name": "Light-industry workshop",
+      "role": "industry",
+      "x": 19.6,
+      "z": -13.5
+    },
+    {
+      "name": "Community court",
+      "role": "badminton",
+      "x": 19.6,
+      "z": 1.5
+    },
+    {
+      "name": "Supper downstairs",
+      "role": "serve",
+      "x": 19.6,
+      "z": 17.5
+    },
+    {
+      "name": "Banking district",
+      "role": "office",
+      "x": 0,
+      "z": -19
+    },
+    {
+      "name": "Playground lane",
+      "role": "game",
+      "x": 0,
+      "z": 19
+    }
+  ]
+}
